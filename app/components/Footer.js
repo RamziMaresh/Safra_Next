@@ -3,15 +3,17 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaMailBulk } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
+import { FaLocationDot, FaRegMessage  } from "react-icons/fa6";
 
 function Footer() {
     return (
         <>
-            <div className="bg-gradient-to-r from-yellow-500 to-teal-900 h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20">
+            <div className="bg-gradient-to-r from-yellow-600 to-yellow-700 h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20">
                 <div className="p-5 ">
                     <ul>
-                        <p className="text-black font-bold text-3xl pb-1 tracking-wider">
-                            SAFRA <span className="text-gray-100">Co. Ltd.</span>
+                        <p className="text-white font-bold text-3xl pb-1 tracking-wider">
+                            Safra<span className="text-xl text-white"> Co. Ltd.</span>
                         </p>
                         <p className="text-sm tracking-wider pb-6">Solutions For Better Living 1989</p>
 
@@ -64,20 +66,22 @@ function Footer() {
                     <ul>
                         <p className="text-gray-200 font-bold text-2xl pb-4">Support</p>
                         <li className="text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            Contact
+                            Contact us
                         </li>
-                        <li className="text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            Support Portals
+                        <li className="flex text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                            <FaLocationDot /> &nbsp;  Location : 
+                            
                         </li>
-                        <li className="text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            List Of Charges
+                        <li className="flex text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                        <FaPhone className=" " /> &nbsp; +12 XXXX XXX
                         </li>
-                        <li className="text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            Downloads & Resources
+                        <li className="flex text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                            <FaPhone className=" " /> &nbsp; +12 XXXX XXX
                         </li>
-                        <li className="text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            Videos
+                        <li className=" flex text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                            <FaPhone className=" " /> &nbsp; +12 XXXX XXX
                         </li>
+
                     </ul>
                 </div>
             </div>
