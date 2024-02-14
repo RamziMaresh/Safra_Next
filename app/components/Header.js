@@ -22,16 +22,15 @@ const Header = () => {
       className={"container mx-auto flex item-center border-b-2 px-6 py-6 h-24"}
     >
 
-      <div className="">
+      <Link href="/" className="">
         <Image
           src="/assets/logoOnlyB.png"
           alt="safra"
           width={50}
           height={50}
-          href="/"
           className="cursor-pointer"
         />
-      </div>
+      </Link>
       <h1 className="font-bold text-gray-700 px-1 py-6 tracking-wider">Safra</h1>
 
       <div className="grow">
@@ -70,14 +69,14 @@ const Header = () => {
         <div className="rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50">
           <div className="px-5 pt-5 pb-6">
             <div className="flex items-center justify-between">
-              <div>
+              <Link href="/" className="">
                 <Image
                   src="/assets/logoOnlyB.png"
                   alt="safra"
                   width={50}
                   height={50}
                 />
-              </div>
+              </Link>
 
               <div className="-mt-2">
                 <Popover.Button
