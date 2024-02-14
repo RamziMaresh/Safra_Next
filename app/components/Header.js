@@ -38,7 +38,7 @@ const Header = () => {
           <Link className="flex tracking-wider" href="/">
             <HomeIcon className="h-5 w-4 mr-1 text-teal-800" /> Home
           </Link>
-          <Link href="/pages" className="flex tracking-wider">
+          <Link href="/pages/about" className="flex tracking-wider">
             <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800" /> About
           </Link>
           <Link className="flex tracking-wider" href="/About">
@@ -47,7 +47,7 @@ const Header = () => {
           <Link className="flex tracking-wider" href="/">
             <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800" /> Products
           </Link>
-          <Link className="flex tracking-wider" href="/">
+          <Link className="flex tracking-wider" href="/pages/contact">
             <ChatBubbleBottomCenterTextIcon className="h-5 w-4 mr-1 text-teal-800" /> Contact
           </Link>
         </div>
