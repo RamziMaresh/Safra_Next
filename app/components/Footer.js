@@ -13,7 +13,7 @@ function Footer() {
                 <div className="p-5 ">
                     <ul>
                         <p className="text-white font-bold text-3xl pb-1 tracking-wider">
-                            SAFRA <span className="text-white">CO. LTD.</span>
+                            SAFRA <span className="text-white">Co. Ltd.</span>
                         </p>
                         <p className="text-sm tracking-wider pb-6">Solutions For Better Living 1989</p>
 
