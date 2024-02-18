@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from 'next/navigation';
 
 import Image from 'next/image'
 import { Popover } from "@headlessui/react"
@@ -16,7 +17,8 @@ import {
 //
 
 const Header = () => {
-  
+  const currentRoute = usePathname();
+
 
   return (
     <Popover
@@ -36,20 +38,34 @@ const Header = () => {
 
       <div className="grow">
         <div className="hidden sm:md:flex items-center justify-center gap-2 md:gap-8">
-          <Link className="flex tracking-wider" href="/">
-            <HomeIcon className="h-5 w-4 mr-1 text-teal-800" /> Home
+
+          <Link href="/"
+            className={"flex tracking-wider" +
+              (currentRoute === "/" ? " border-b-2 border-teal-700" : " text-black")}
+          >
+            <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800" />Home
           </Link>
-          <Link href="/pages/about" className="flex tracking-wider">
-            <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800" /> About
+
+          <Link href="/pages/about"
+            className={"flex tracking-wider" +
+              (currentRoute === "/pages/about" ? " border-b-2 border-teal-700 border-width" : " text-black")}
+          >
+            <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800" />About
           </Link>
+
           <Link className="flex tracking-wider" href="/About">
             <BookOpenIcon className="h-5 w-4 mr-1 text-teal-800" /> History
           </Link>
+
           <Link className="flex tracking-wider" href="/">
             <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800" /> Products
           </Link>
-          <Link className="flex tracking-wider" href="/pages/contact">
-            <ChatBubbleBottomCenterTextIcon className="h-5 w-4 mr-1 text-teal-800" /> Contact
+
+          <Link href="/pages/contact"
+            className={"flex tracking-wider" +
+              (currentRoute === "/pages/contact" ? " border-b-2 border-teal-700" : " text-black")}
+          >
+            <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800" />Contact
           </Link>
         </div>
       </div>
@@ -92,12 +108,18 @@ const Header = () => {
             <div className="mt-6">
               <nav className="grid gap-y-8">
 
-                <Link className="flex" href="/">
-                  <HomeIcon className="h-5 w-4 mr-1 text-teal-800 " /> Home
+                <Link href="/"
+                  className={"flex" +
+                    (currentRoute === "/" ? " border-b-2 border-teal-700" : " text-black")}
+                >
+                  <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800 " /> Home
                 </Link>
 
-                <Link className="flex" href="/pages">
-                  <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800 " /> About Us
+                <Link href="/pages/about"
+                  className={"flex" +
+                    (currentRoute === "/pages/about" ? " border-b-2 border-teal-700" : " text-black")}
+                >
+                  <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800 " /> About
                 </Link>
 
                 <Link className="flex" href="/">
@@ -108,9 +130,13 @@ const Header = () => {
                   <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800 " /> Products
                 </Link>
 
-                <Link className="flex" href="/">
-                  <ChatBubbleBottomCenterTextIcon className="h-5 w-4 mr-1 text-teal-800 " /> Contact Us
+                <Link href="/pages/contact"
+                  className={"flex" +
+                    (currentRoute === "/pages/contact" ? " border-b-2 border-teal-700" : " text-black")}
+                >
+                  <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800 " /> Contact
                 </Link>
+
               </nav>
             </div>
 
