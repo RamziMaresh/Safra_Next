@@ -1,23 +1,23 @@
 "use client";
-
+// https://nextjstemplates.com/templates/startup 
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
-
 import Image from 'next/image'
 import { Popover } from "@headlessui/react"
+// Icons
 import {
   Bars3Icon,
   XMarkIcon,
-  HomeIcon,
-  ChatBubbleBottomCenterTextIcon,
   Square3Stack3DIcon,
   BookOpenIcon,
   GlobeAltIcon
 } from "@heroicons/react/24/solid";
+import ThemeSwitch from "./ThemeSwitch";
 //
 
 const Header = () => {
   const currentRoute = usePathname();
+  //
 
 
   return (
@@ -34,45 +34,52 @@ const Header = () => {
           className="cursor-pointer"
         />
       </Link>
-      <h1 className="font-bold text-gray-700 px-1 py-6 tracking-wider">Safra</h1>
+      <h1 className="font-bold text-gray-600 px-1 py-6 tracking-wider">Safra</h1>
 
-      <div className="grow">
+      <nav className="grow">
         <div className="hidden sm:md:flex items-center justify-center gap-2 md:gap-8">
 
           <Link href="/"
             className={"flex tracking-wider" +
-              (currentRoute === "/" ? " border-b-2 border-teal-700" : " text-black")}
+              (currentRoute === "/" ? " border-b-2 border-teal-600" : "")}
           >
-            <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800" />Home
+            <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-700" />Home
           </Link>
 
           <Link href="/pages/about"
             className={"flex tracking-wider" +
-              (currentRoute === "/pages/about" ? " border-b-2 border-teal-700 border-width" : " text-black")}
+              (currentRoute === "/pages/about" ? " border-b-2 border-teal-600" : "")}
           >
-            <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800" />About
-          </Link>
-
-          <Link className="flex tracking-wider" href="/About">
-            <BookOpenIcon className="h-5 w-4 mr-1 text-teal-800" /> History
+            <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-700" />About
           </Link>
 
           <Link className="flex tracking-wider" href="/">
-            <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800" /> Products
+            <BookOpenIcon className="h-5 w-4 mr-1 text-teal-700" /> History
+          </Link>
+
+          <Link href="/pages/products"
+            className={"flex tracking-wider" +
+              (currentRoute === "/pages/products" ? " border-b-2 border-teal-600" : "")}
+          >
+            <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-700" /> Products
           </Link>
 
           <Link href="/pages/contact"
             className={"flex tracking-wider" +
-              (currentRoute === "/pages/contact" ? " border-b-2 border-teal-700" : " text-black")}
+              (currentRoute === "/pages/contact" ? " border-b-2 border-teal-600" : "")}
           >
-            <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800" />Contact
+            <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-700" />Contact
           </Link>
         </div>
-      </div>
+      </nav>
 
+      {/** */}
       <div className="flex grow items-center justify-end sm:md:hidden">
+        <div className=" sm:md:block">
+          <ThemeSwitch />
+        </div>
         <Popover.Button
-          className="inline-flex items-center justify-center rounded-md bg-white p-2 
+          className="inline-flex items-center justify-center rounded-md bg-transform p-2 
         text-gry-400 hover:bg-gray-200 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
         >
           <span className="sr-only">Open Menu</span>
@@ -81,8 +88,8 @@ const Header = () => {
       </div>
 
       <Popover.Panel
-        focus
-        className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden">
+        className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden"
+      >
         <div className="rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50">
           <div className="px-5 pt-5 pb-6">
             <div className="flex items-center justify-between">
@@ -95,18 +102,20 @@ const Header = () => {
                 />
               </Link>
 
+              {/** */}
               <div className="-mt-2">
                 <Popover.Button
-                  className="inline-flex items-center justify-center rounded-md bg-white p-2 
-        text-gry-400 hover:bg-gray-200 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                  className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gry-400 hover:bg-gray-200 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                 >
                   <span className="sr-only">Close Menu</span>
                   <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                 </Popover.Button>
               </div>
             </div>
+
+            {/** */}
             <div className="mt-6">
-              <nav className="grid gap-y-8">
+              <div className="grid gap-y-8">
 
                 <Link href="/"
                   className={"flex" +
@@ -115,7 +124,8 @@ const Header = () => {
                   <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800 " /> Home
                 </Link>
 
-                <Link href="/pages/about"
+                <Link
+                  href="/pages/about"
                   className={"flex" +
                     (currentRoute === "/pages/about" ? " border-b-2 border-teal-700" : " text-black")}
                 >
@@ -137,7 +147,7 @@ const Header = () => {
                   <Square3Stack3DIcon className="h-5 w-4 mr-1 text-teal-800 " /> Contact
                 </Link>
 
-              </nav>
+              </div>
             </div>
 
             <div className="mt-6 flex flex-col item-center gap-2">
@@ -149,10 +159,12 @@ const Header = () => {
           </div>
         </div>
       </Popover.Panel>
-
+      <div className="hidden sm:md:block">
+        <ThemeSwitch />
+      </div>
       <div className="hidden sm:md:block">
         <Link className="flex" href="/">
-          <GlobeAltIcon className="mr-0 text-teal-800 w-6 h-5 text-lg" />AR
+          <GlobeAltIcon className="mr-0 text-teal-700 w-6 h-5" />
         </Link>
       </div>
     </Popover>

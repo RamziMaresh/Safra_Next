@@ -6,6 +6,11 @@ body{
   font-family:'Times New Roman', Times, serif;
 }
 
+@layer base{
+  body {
+      @apply dark:bg-gradient-to-r from-teal-800 to-teal-950 bg-white
+  }
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
