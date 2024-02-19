@@ -85,8 +85,8 @@ function Footer() {
                     </ul>
                 </div>
             </div>
-            <div className="flex flex-col justify-center items-center text-center p-5 bg-white">
-                <h1 className=" text-gray-800 font-semibold">
+            <div className="flex flex-col justify-center items-center text-center p-5 ">
+                <h1 className="font-semibold tracking-wider">
                     © 2023-2024 All rights reserved | Safra Co.Ltd.
 
                 </h1>
