@@ -8,7 +8,7 @@ body{
 
 @layer base{
   body {
-      @apply dark:bg-gradient-to-r from-teal-800 to-teal-950 bg-white
+      @apply dark:bg-gradient-to-r from-teal-700 to-teal-800 bg-white
   }
 }
 :root {

@@ -25,7 +25,7 @@ export default function ThemeSwitch() {
     )
 
     if (resolvedTheme === 'dark') {
-        return <FiSun className="ml-2 text-teal-700 w-6 h-5 cursor-pointer" onClick={() => setTheme('light')} />
+        return <FiSun className="ml-2 text-gray-100 w-6 h-5 cursor-pointer" onClick={() => setTheme('light')} />
     }
 
     if (resolvedTheme === 'light') {

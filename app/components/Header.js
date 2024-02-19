@@ -34,7 +34,7 @@ const Header = () => {
           className="cursor-pointer"
         />
       </Link>
-      <h1 className="font-bold text-gray-600 px-1 py-6 tracking-wider">Safra</h1>
+      <h1 className="font-bold text-gray-500 px-1 py-6 tracking-wider">Safra</h1>
 
       <nav className="grow">
         <div className="hidden sm:md:flex items-center justify-center gap-2 md:gap-8">
@@ -108,7 +108,7 @@ const Header = () => {
                   className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gry-400 hover:bg-gray-200 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                 >
                   <span className="sr-only">Close Menu</span>
-                  <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                  <XMarkIcon className="h-6 w-6 text-black" aria-hidden="true" />
                 </Popover.Button>
               </div>
             </div>
