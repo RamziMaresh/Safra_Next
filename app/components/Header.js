@@ -34,7 +34,7 @@ const Header = () => {
           className="cursor-pointer"
         />
       </Link>
-      <h1 className="font-bold text-gray-500 px-1 py-6 tracking-wider">Safra</h1>
+      <h1 className="font-bold text-gray-600 px-1 py-6 tracking-wider">Safra</h1>
 
       <nav className="grow">
         <div className="hidden sm:md:flex items-center justify-center gap-2 md:gap-8">
@@ -163,8 +163,8 @@ const Header = () => {
         <ThemeSwitch />
       </div>
       <div className="hidden sm:md:block">
-        <Link className="flex" href="/">
-          <GlobeAltIcon className="mr-0 text-teal-700 w-6 h-5" />
+        <Link className="flex " href="/">
+          <GlobeAltIcon className="mr-0 text-black w-6 h-5" /> 
         </Link>
       </div>
     </Popover>

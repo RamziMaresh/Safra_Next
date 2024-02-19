@@ -29,7 +29,7 @@ export default function ThemeSwitch() {
     }
 
     if (resolvedTheme === 'light') {
-        return <FiMoon className="ml-2 text-teal-800 w-6 h-5 " onClick={() => setTheme('dark')} />
+        return <FiMoon className="ml-2 text-black w-6 h-5 " onClick={() => setTheme('dark')} />
     }
 
 }
