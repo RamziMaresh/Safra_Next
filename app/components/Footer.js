@@ -4,7 +4,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaMailBulk } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
-import { FaLocationDot, FaRegMessage  } from "react-icons/fa6";
+import { FaLocationDot } from "react-icons/fa6";
 
 function Footer() {
     return (
@@ -69,11 +69,11 @@ function Footer() {
                             Contact us
                         </li>
                         <li className="flex text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            <FaLocationDot /> &nbsp;  Location : 
-                            
+                            <FaLocationDot /> &nbsp;  Location :
+
                         </li>
                         <li className="flex text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                        <FaPhone className=" " /> &nbsp; +12 XXXX XXX
+                            <FaPhone className=" " /> &nbsp; +12 XXXX XXX
                         </li>
                         <li className="flex text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
                             <FaPhone className=" " /> &nbsp; +12 XXXX XXX
@@ -86,7 +86,7 @@ function Footer() {
                 </div>
             </div>
             <div className="flex flex-col justify-center items-center text-center p-5 ">
-                <h1 className="font-semibold tracking-wider">
+                <h1 className="tracking-wider">
                     © 2023-2024 All rights reserved | Safra Co.Ltd.
 
                 </h1>
