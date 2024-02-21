@@ -4,14 +4,8 @@
 
 body{
   font-family:'Times New Roman', Times, serif;
-  @apply bg-white dark:bg-gradient-to-r from-teal-900 to-teal-700 
 }
 
-
-[data-theme='light'] {
-  --background: white;
-  --foreground: white;
-}
 
 
 

@@ -18,26 +18,26 @@ function Footer() {
                         <p className="text-sm tracking-wider pb-6">Solutions For Better Living 1989</p>
 
                         <div className="flex gap-6 pb-5">
-                            <FaFacebook className="text-2xl cursor-pointer hover:text-yellow-600" />
-                            <FaTwitter className="text-2xl cursor-pointer hover:text-blue-600" />
-                            <FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600" />
-                            <FaMailBulk className="text-2xl cursor-pointer hover:text-red-600" />
+                            <FaFacebook className="text-2xl cursor-pointer hover:text-teal-400" />
+                            <FaTwitter className="text-2xl cursor-pointer hover:text-teal-400" />
+                            <FaLinkedin className="text-2xl cursor-pointer hover:text-teal-400" />
+                            <FaMailBulk className="text-2xl cursor-pointer hover:text-teal-400" />
                         </div>
                     </ul>
                 </div>
                 <div className="p-5">
                     <ul>
                         <p className="text-gray-200 font-bold text-2xl pb-4">Product</p>
-                        <li className="text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
                             Stocks
                         </li>
-                        <li className="text-blacktext-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
                             Futures & Options
                         </li>
-                        <li className="text-blacktext-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
                             Mutual Funds
                         </li>
-                        <li className="text-blacktext-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
                             Fixed deposits
                         </li>
                     </ul>
@@ -45,19 +45,19 @@ function Footer() {
                 <div className="p-5">
                     <ul>
                         <p className="text-gray-200 font-bold text-2xl pb-4">Company</p>
-                        <li className="text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
                             About
                         </li>
-                        <li className="text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
                             Products
                         </li>
-                        <li className="text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
                             History
                         </li>
-                        <li className="text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
                             Careers
                         </li>
-                        <li className="text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
                             News & Media
                         </li>
                     </ul>
@@ -65,20 +65,20 @@ function Footer() {
                 <div className="p-5">
                     <ul>
                         <p className="text-gray-200 font-bold text-2xl pb-4">Support</p>
-                        <li className="text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
                             Contact us
                         </li>
-                        <li className="flex text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                        <li className="flex text-md pb-2 hover:text-gray-400 cursor-pointer">
                             <FaLocationDot /> &nbsp;  Location :
 
                         </li>
-                        <li className="flex text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                        <li className="flex text-md pb-2  hover:text-gray-400 cursor-pointer">
                             <FaPhone className=" " /> &nbsp; +12 XXXX XXX
                         </li>
-                        <li className="flex text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                        <li className="flex text-md pb-2 hover:text-gray-400 cursor-pointer">
                             <FaPhone className=" " /> &nbsp; +12 XXXX XXX
                         </li>
-                        <li className=" flex text-black text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                        <li className=" flex text-md pb-2 hover:text-gray-400 cursor-pointer">
                             <FaPhone className=" " /> &nbsp; +12 XXXX XXX
                         </li>
 
