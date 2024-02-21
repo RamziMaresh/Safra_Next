@@ -1,5 +1,6 @@
+import { Menu } from "@/app/types/menu";
 
-const menuData = [
+const menuData: Menu[] = [
   {
     id: 1,
     title: "Home",
@@ -24,7 +25,7 @@ const menuData = [
     path: "/contact",
     newTab: false,
   },
-
+  
   {
     id: 4,
     title: "Solutions",
@@ -48,7 +49,7 @@ const menuData = [
         path: "/blog",
         newTab: false,
       },
-
+      
     ],
   },
 ];

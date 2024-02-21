@@ -29,7 +29,7 @@ const Hero = () => {
                   </Link>
                   <Link
                     href="/"
-                    className="inline-block rounded-sm bg-gradient-to-r from-yellow-600 to-teal-700 px-6 py-2 tracking-wider text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                    className="inline-block rounded-sm bg-gradient-to-r from-yellow-600 to-teal-800 px-6 py-2 tracking-wider text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
                     Contact Us !
                   </Link>
