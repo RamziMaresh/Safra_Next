@@ -44,7 +44,7 @@ const Hero = () => {
             height="556"
             viewBox="0 0 450 556"
             fill="none"
-            //xmlns="http://www.w3.org/2000/svg"
+          //xmlns="http://www.w3.org/2000/svg"
           >
             <circle
               cx="277"
@@ -58,12 +58,7 @@ const Hero = () => {
               r="18"
               fill="url(#paint1_radial_25:217)"
             />
-            <circle
-              cx="76.9997"
-              cy="288"
-              r="34"
-              fill="url(#paint2_radial_25:217)"
-            />
+
             <circle
               cx="325.486"
               cy="302.87"
@@ -107,18 +102,18 @@ const Hero = () => {
                 <stop stopColor="rgb(45 212 191)" />
                 <stop offset="1" stopColor="rgb(45 212 191)" stopOpacity="0" />
               </linearGradient>
-
-              {/**<radialGradient
-                id="paint2_radial_25:217"
+              <radialGradient
+                id="paint1_radial_25:217"
                 cx="0"
                 cy="0"
                 r="1"
                 gradientUnits="userSpaceOnUse"
-                gradientTransform="translate(76.9997 288) rotate(90) scale(34)"
+                gradientTransform="translate(17.9997 182) rotate(90) scale(18)"
               >
-                <stop offset="0.145833" stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0.08" />
-  </radialGradient>**/}
+                <stop offset="0.145833" stopColor="rgb(45 212 191)" stopOpacity="0" />
+                <stop offset="1" stopColor="rgb(45 212 191)" stopOpacity="0.08" />
+              </radialGradient>
+
               <linearGradient
                 id="paint3_linear_25:217"
                 x1="226.775"
@@ -172,7 +167,7 @@ const Hero = () => {
             height="201"
             viewBox="0 0 364 201"
             fill="none"
-            //xmlns="http://www.w3.org/2000/svg"
+          //xmlns="http://www.w3.org/2000/svg"
           >
             <path
               d="M5.88928 72.3303C33.6599 66.4798 101.397 64.9086 150.178 105.427C211.155 156.076 229.59 162.093 264.333 166.607C299.076 171.12 337.718 183.657 362.889 212.24"
