@@ -1,11 +1,10 @@
 import Hero from "./components/hero/Hero";
-
-export default function page() {
+import About from "./pages/about/page";
+export default function Home() {
   return (
     <>
-      <div>
         <Hero />
-      </div>
+        <About />
     </>
   )
 }

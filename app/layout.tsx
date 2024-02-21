@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/header/Header";
@@ -16,8 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>
+    <html suppressHydrationWarning lang="en">
+      <body >
         <Providers>
           <Header />
           {children}

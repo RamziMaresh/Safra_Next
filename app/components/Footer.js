@@ -9,7 +9,7 @@ import { FaLocationDot } from "react-icons/fa6";
 function Footer() {
     return (
         <>
-            <div className="bg-gradient-to-r from-yellow-500 to-teal-700 h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20">
+            <div className="bg-gradient-to-r from-yellow-600 to-teal-700 h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20">
                 <div className="p-5 ">
                     <ul>
                         <p className="text-white font-bold text-3xl pb-1 tracking-wider">
@@ -85,7 +85,7 @@ function Footer() {
                     </ul>
                 </div>
             </div>
-            <div className="flex flex-col justify-center items-center text-center p-5 ">
+            <div className="flex flex-col justify-center items-center text-center p-5 dark:bg-teal-800">
                 <h1 className="tracking-wider">
                     © 2023-2024 All rights reserved | Safra Co.Ltd.
 
