@@ -26,37 +26,30 @@ const AboutSectionTwo = () => {
           </div>
           <div className="w-full px-6 lg:w-1/2 tracking-wide">
             <div className="max-w-[470px]">
+
               <div className="mb-9">
                 <h3 className="mb-4 text-xl tracking-wider text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Safra Vision
-                </h3>
-                <p className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  To be a multi-region market leader providing environmentally acceptable quality solvents and chemicals
-                  and the services thereof, globally to various end users.
-                </p>
-              </div>
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl tracking-wider text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Safra Mission
+                  Business Philosophy
                 </h3>
                 <li className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Meeting market requirements by providing value added products and services to all our
-                  customers globally so they can contribute positively towards end consumers’ lifestyle.
+                  Proactively deal with all our partners with confidence and pride in a spirit of mutual respect, trust and
+                  openness maintaining highest standards of integrity.
                 </li>
                 <li className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Introducing Safe, effective and environment-friendly products that satisfy
-                  a wide spectrum of market segments and consumer needs.
+                  Think of safety and act safely at all the times in all our endeavors.
                 </li>
                 <li className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Sustain excellence in all that we do and provide added value to all our stakeholders
-                  resulting in double-digit growth and investor security of future.
+                  Improve customer focus through better understanding and anticipating of the priorities of
+                  existing and emerging customers.
                 </li>
                 <li className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Create and maintain a culture committed to excellence and learning to attract and grow our intellectual
-                  capital by empowering and equitably rewarding key players.
+                  Serve our customers with accuracy, speed, flexibility, efficiency and effectiveness-based on agreed priorities.
                 </li>
                 <li className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Creating a work culture that puts our employees as our biggest asset helping provide a promising future.
+                  Introduce innovative quality products and services at competitive cost leading to added economic benefits to all the stakeholders.
+                </li>
+                <li className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                  Be responsible and active corporate player respecting communities and environments in which we operate.
                 </li>
               </div>
             </div>

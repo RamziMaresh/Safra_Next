@@ -1,5 +1,7 @@
+import AboutSectionThree from "@/app/components/about/AboutSectionThree";
 import AboutSectionOne from "../../components/about/AboutSectionOne";
 import AboutSectionTwo from "../../components/about/AboutSectionTwo";
+import AboutSectionFour from "../../components/about/AboutSectionFour";
 
 import { Metadata } from "next";
 
@@ -14,6 +16,9 @@ const AboutPage = () => {
     <>
       <AboutSectionOne />
       <AboutSectionTwo />
+      <AboutSectionThree />
+      <AboutSectionFour />
+
     </>
   );
 };

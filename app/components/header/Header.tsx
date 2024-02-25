@@ -71,7 +71,7 @@ const Header = () => {
                   height={30}
                   className="hidden dark:block"
                 />
-                <h1 className="text-gray-900 px-1 mt-8 tracking-wider font-medium	dark:text-white">Safra</h1>
+                <h1 className="text-gray-900 px-1 mt-8 tracking-wider font-medium	dark:text-white">Safra Co</h1>
 
               </Link>
 
