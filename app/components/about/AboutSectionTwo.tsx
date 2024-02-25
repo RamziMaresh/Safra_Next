@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutSectionTwo = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28 bg-slate-100 dark:bg-gray-dark">
+    <section className="py-16 md:py-20 lg:py-12 bg-zinc-200 dark:bg-gray-dark">
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-6 lg:w-1/2 hidden lg:block">
@@ -26,18 +26,10 @@ const AboutSectionTwo = () => {
           </div>
           <div className="w-full px-6 lg:w-1/2 tracking-wide">
             <div className="max-w-[470px]">
+
               <div className="mb-9">
                 <h3 className="mb-4 mt-6 tracking-wider text-2xl !leading-tight text-black dark:text-white sm:text-4xl md:text-[30px]">
-                  Safra Vision
-                </h3>
-                <p className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  To be a multi-region market leader providing environmentally acceptable quality solvents and chemicals
-                  and the services thereof, globally to various end users.
-                </p>
-              </div>
-              <div className="mb-9">
-                <h3 className="mb-4 mt-6 tracking-wider text-2xl !leading-tight text-black dark:text-white sm:text-4xl md:text-[30px]">
-                  Safra Mission
+                  Safra Vision & Mission
                 </h3>
                 <li className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Meeting market requirements by providing value added products and services to all our
@@ -58,7 +50,23 @@ const AboutSectionTwo = () => {
                 <li className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Creating a work culture that puts our employees as our biggest asset helping provide a promising future.
                 </li>
+                <p className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                  <br></br>
+                  <b>Safra Vision :</b> To be a multi-region market leader providing environmentally acceptable quality solvents and chemicals
+                  and the services thereof, globally to various end users.
+                </p>
               </div>
+              {/**
+              <div className="mb-9">
+                <h3 className="mb-4 mt-6 tracking-wider text-2xl !leading-tight text-black dark:text-white sm:text-4xl md:text-[30px]">
+                  Safra Vision
+                </h3>
+                <p className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                  To be a multi-region market leader providing environmentally acceptable quality solvents and chemicals
+                  and the services thereof, globally to various end users.
+                </p>
+              </div>
+               */}
             </div>
           </div>
         </div>
