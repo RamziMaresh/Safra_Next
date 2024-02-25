@@ -5,7 +5,7 @@ const AboutSectionTwo = () => {
     <section className="py-16 md:py-20 lg:py-28 bg-gray-100 dark:bg-gray-dark">
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
-          <div className="w-full px-4 lg:w-1/2">
+          <div className="w-full px-4 lg:w-1/2 hidden lg:block">
             <div
               className="relative mx-auto mb-12 aspect-[25/24] max-w-[400px] text-center lg:m-0"
               data-wow-delay=".15s"
@@ -27,7 +27,7 @@ const AboutSectionTwo = () => {
           <div className="w-full px-4 lg:w-1/2 tracking-wider">
             <div className="max-w-[470px]">
               <div className="mb-9">
-                <h3 className="mb-4 text-xl tracking-wider font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                <h3 className="mb-4 text-xl tracking-wider text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Safra Vision
                 </h3>
                 <p className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
@@ -36,7 +36,7 @@ const AboutSectionTwo = () => {
                 </p>
               </div>
               <div className="mb-9">
-                <h3 className="mb-4 text-xl tracking-wider font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                <h3 className="mb-4 text-xl tracking-wider text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Safra Mission
                 </h3>
                 <li className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
