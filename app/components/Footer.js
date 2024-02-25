@@ -11,7 +11,7 @@ function Footer() {
 
     return (
         <>
-            <div className="dark:bg-gray-dark bg-teal-700 to-teal-600 
+            <div className="dark:bg-gray-dark bg-teal-800 to-teal-600 
             h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20"
             >
                 <div className="p-5 ">
