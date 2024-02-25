@@ -6,7 +6,7 @@ const AboutSectionThree = () => {
 
     return (
         <section
-            className="dark:bg-gray-dark">
+            className="dark:bg-gray-dark lg:pt-[50px]">
 
             <div className="container">
                 <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-12">
