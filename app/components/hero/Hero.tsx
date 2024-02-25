@@ -21,7 +21,7 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="/"
+                    href="/pages/about"
                     className="rounded-sm bg-gradient-to-r from-teal-500 to-teal-800 px-6 py-2 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 tracking-wider"
                   >
                     More About Safra
