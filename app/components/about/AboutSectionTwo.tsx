@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutSectionTwo = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28 bg-gray-100 dark:bg-gray-dark">
+    <section className="py-16 md:py-20 lg:py-28 bg-gray-200 dark:bg-gray-dark">
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">
@@ -24,38 +24,38 @@ const AboutSectionTwo = () => {
               />
             </div>
           </div>
-          <div className="w-full px-4 lg:w-1/2">
+          <div className="w-full px-4 lg:w-1/2 tracking-wider">
             <div className="max-w-[470px]">
               <div className="mb-9">
-                <h3 className="mb-4 text-xl tracking-wider text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                <h3 className="mb-4 text-xl tracking-wider font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Safra Vision
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                <p className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   To be a multi-region market leader providing environmentally acceptable quality solvents and chemicals
                   and the services thereof, globally to various end users.
                 </p>
               </div>
               <div className="mb-9">
-                <h3 className="mb-4 text-xl tracking-wider text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                <h3 className="mb-4 text-xl tracking-wider font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Safra Mission
                 </h3>
-                <li className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                <li className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Meeting market requirements by providing value added products and services to all our
                   customers globally so they can contribute positively towards end consumers’ lifestyle.
                 </li>
-                <li className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                <li className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Introducing Safe, effective and environment-friendly products that satisfy
                   a wide spectrum of market segments and consumer needs.
                 </li>
-                <li className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                <li className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Sustain excellence in all that we do and provide added value to all our stakeholders
                   resulting in double-digit growth and investor security of future.
                 </li>
-                <li className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                <li className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Create and maintain a culture committed to excellence and learning to attract and grow our intellectual
                   capital by empowering and equitably rewarding key players.
                 </li>
-                <li className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                <li className="text-base text-justify leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Creating a work culture that puts our employees as our biggest asset helping provide a promising future.
                 </li>
               </div>

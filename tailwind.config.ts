@@ -54,7 +54,7 @@ const config: Config = {
         gray: {
           ...colors.gray,
           dark: "rgb(15 118 110)",
-          light: "#F0F2F9",
+          light: "red",
         },
       },
 
