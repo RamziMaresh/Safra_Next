@@ -1,6 +1,6 @@
-import { Menu } from "@/app/types/menu";
+import { Menu } from "../../types/menu";
 
-const menuData: Menu[] = [
+const MenuData: Menu[] = [
   {
     id: 1,
     title: "Home",
@@ -15,7 +15,7 @@ const menuData: Menu[] = [
   },
   {
     id: 33,
-    title: "Products",
+    title: "History",
     path: "/pages/products",
     newTab: false,
   },
@@ -25,32 +25,45 @@ const menuData: Menu[] = [
     path: "/contact",
     newTab: false,
   },
-  
+
   {
     id: 4,
-    title: "Solutions",
+    title: "Products",
     newTab: false,
     submenu: [
       {
         id: 41,
-        title: "About Page",
-        path: "/about",
+        title: "Aliphatic Solvents",
+        path: "/pages/products",
         newTab: false,
       },
       {
         id: 42,
-        title: "Contact Page",
-        path: "/contact",
+        title: "Aromatic Solvents",
+        path: "/pages/products",
         newTab: false,
       },
       {
         id: 43,
-        title: "Blog Grid Page",
-        path: "/blog",
+        title: "Packaged Products",
+        path: "/pages/products",
         newTab: false,
       },
-      
+      {
+        id: 43,
+        title: "Customized Products",
+        path: "/pages/products",
+        newTab: false,
+      },
+      {
+        id: 43,
+        title: "Trading Products",
+        path: "/pages/products",
+        newTab: false,
+      },
+
+
     ],
   },
 ];
-export default menuData;
+export default MenuData;

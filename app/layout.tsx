@@ -5,6 +5,7 @@ import Header from "./components/header/Header";
 import Footer from "./components/Footer"
 //
 import { Providers } from './providers';
+import ScrollToTop from "./components/scrollToTop/Stt";
 
 export const metadata: Metadata = {
   title: "Safra | Solutions For Better Living",
@@ -23,6 +24,7 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
+          <ScrollToTop />
         </Providers>
       </body>
     </html>

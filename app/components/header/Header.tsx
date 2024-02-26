@@ -1,10 +1,11 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
-import menuData from "./menuData";
+import MenuData from "../../components/header/menuData";
 //
 import { FaGlobe } from "react-icons/fa6";
 
@@ -39,7 +40,6 @@ const Header = () => {
   };
 
   const usePathName = usePathname();
-
   return (
     <>
       <header
@@ -109,7 +109,7 @@ const Header = () => {
                     }`}
                 >
                   <ul className="block lg:flex lg:space-x-12">
-                    {menuData.map((menuItem, index) => (
+                    {MenuData.map((menuItem: any, index: any) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
                           <Link
@@ -142,12 +142,11 @@ const Header = () => {
                               </span>
                             </p>
 
-                            {/** 
                             <div
                               className={`submenu relative left-0 top-full rounded-sm bg-white transition-[top] duration-300 group-hover:opacity-100 dark:bg-dark lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full ${openIndex === index ? "block" : "hidden"
                                 }`}
                             >
-                              {menuItem.submenu.map((submenuItem:any, index:any) => (
+                              {menuItem.submenu.map((submenuItem: any, index: any) => (
                                 <Link
                                   href={submenuItem.path}
                                   key={index}
@@ -157,7 +156,6 @@ const Header = () => {
                                 </Link>
                               ))}
                             </div>
-                            */}
                           </>
                         )}
                       </li>
