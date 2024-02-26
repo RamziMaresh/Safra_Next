@@ -1,4 +1,8 @@
-{/** 
+
+import RelatedPost from "../../../components/products/RelatedPost";
+import TagButton from "../../../components/products/TagButton";
+import Image from "next/image";
+
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -7,49 +11,92 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const Products = () => {
-  return (
-    <>
-      <section
-        id="products"
-        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
-
-      >
-        <h1 className="text-2xl text-center p-10">Product Page</h1>
-        <h4 className="text-2xl text-center pb-5 text-red-500 font-bold">Under Processing...</h4>
-      </section>
-    </>
-  )
-}
-
-export default Products
-*/}
-
-
-import RelatedPost from "../../components/products/RelatedPost";
-import TagButton from "../../components/products/TagButton";
-import Image from "next/image";
-
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "SPP's Products | Safra Co. Ltd.",
-  description: "",
-  // other metadata
-};
-
-const BlogSidebarPage = () => {
+const Aliphatic = () => {
   return (
     <>
       <section
         id="product-alipa"
-        className="overflow-hidden pb-[120px] pt-[180px] dark:bg-gray-dark">
+        className="pb-[120px] pt-[180px] relative z-10 overflow-hidden  dark:bg-gray-dark"
+      >
+            <div>
+                <span className="absolute left-0 top-0 z-[-1]">
+                    <svg
+                        width="287"
+                        height="254"
+                        viewBox="0 0 287 254"
+                        fill="none"
+                    >
+                        <path
+                            opacity="0.2"
+                            d="M286.5 0.5L-14.5 254.5V69.5L286.5 0.5Z"
+                            fill="url(#paint0_linear_111:578)"
+                        />
+                        <defs>
+                            <linearGradient
+                                id="paint0_linear_111:578"
+                                x1="-40.5"
+                                y1="117"
+                                x2="301.926"
+                                y2="-97.1485"
+                                gradientUnits="userSpaceOnUse"
+                            >
+                                <stop stopColor="rgb(45 212 191)" />
+                                <stop offset="1" stopColor="rgb(94 234 212)" stopOpacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </span>
+                <span className="absolute right-0 top-0 z-[-1]">
+                    <svg
+                        width="628"
+                        height="258"
+                        viewBox="0 0 628 258"
+                        fill="none"
+                    //xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            opacity="0.3"
+                            d="M669.125 257.002L345.875 31.9983L524.571 -15.8832L669.125 257.002Z"
+                            fill="url(#paint0_linear_0:1)"
+                        />
+                        <path
+                            opacity="0.2"
+                            d="M0.0716344 182.78L101.988 -15.0769L142.154 81.4093L0.0716344 182.78Z"
+                            fill="url(#paint1_linear_0:1)"
+                        />
+                        <defs>
+                            <linearGradient
+                                id="paint0_linear_0:1"
+                                x1="644"
+                                y1="221"
+                                x2="429.946"
+                                y2="37.0429"
+                                gradientUnits="userSpaceOnUse"
+                            >
+                                <stop stopColor="rgb(45 212 191)" />
+                                <stop offset="1" stopColor="rgb(94 234 212)" stopOpacity="0" />
+                            </linearGradient>
+                            <linearGradient
+                                id="paint1_linear_0:1"
+                                x1="18.3648"
+                                y1="166.016"
+                                x2="105.377"
+                                y2="32.3398"
+                                gradientUnits="userSpaceOnUse"
+                            >
+                                <stop stopColor="rgb(45 212 191)" />
+                                <stop offset="1" stopColor="rgb(94 234 212)" stopOpacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </span>
+            </div>
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h1 className="mb-4 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight tracking-wide">
-                  Aliphatic Solvents |
+                  Aliphatic Solvents | SPP'S
                 </h1>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
@@ -136,6 +183,37 @@ const BlogSidebarPage = () => {
                       Cost effective.
                     </li>
                   </ul>
+
+
+                  <h3 className="tracking-wide font-xl mb-4 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                    2 - Safranorm 15™ (Aliphatic Solvent with 15% Vol.)
+                  </h3>
+                  <p className="mb-8 text-base font-medium italic text-body-color">PDF Download: Specs and MSDS </p>
+                  <ul className="mb-10 list-inside list-disc text-body-color">
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                      Optimum Solution viscosities for long-oil alkyd resins & varnishes.
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                      Good cleaning of tar spots. Excellent for care care, Polishes and Waxes.
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                      Milder Odor.
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                      More refined than kerosene.
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                      Good cleaning power for metal and equipment degreasing and preserve wood.
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                      Good impregnation.
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                      Cost effective.
+                    </li>
+                  </ul>
+
+
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -284,11 +362,7 @@ const BlogSidebarPage = () => {
                       </svg>
                     </span>
                   </div>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
-                  </p>
+
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5">
                       <h4 className="mb-3 text-sm font-medium text-body-color">
@@ -333,14 +407,14 @@ const BlogSidebarPage = () => {
                 </div>
               </div>
               <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
-                <h3 className="border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
-                  Related Links
+                <h3 className="tracking-wider border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
+                  News & Media
                 </h3>
                 <ul className="p-8">
                   <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
                     <RelatedPost
                       title="Best way to boost your online sales."
-                      image="/assets/about/background.jpeg"
+                      image="/assets/about/operation.gif"
                       slug="#"
                       date="12 Feb 2025"
                     />
@@ -348,7 +422,7 @@ const BlogSidebarPage = () => {
                   <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
                     <RelatedPost
                       title="50 Best web design tips & tricks that will help you."
-                      image="/assets/about/background.jpeg"
+                      image="/assets/logoOnlyB.png"
                       slug="#"
                       date="15 Feb, 2024"
                     />
@@ -356,7 +430,7 @@ const BlogSidebarPage = () => {
                   <li>
                     <RelatedPost
                       title="The 8 best landing page builders, reviewed"
-                      image="/assets/about/background.jpeg"
+                      image="/assets/logoOnlyB.png"
                       slug="#"
                       date="05 Jun, 2024"
                     />
@@ -364,7 +438,7 @@ const BlogSidebarPage = () => {
                 </ul>
               </div>
               <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
-                <h3 className="border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
+                <h3 className="tracking-wider border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
                   Popular Category
                 </h3>
                 <ul className="px-8 py-6">
@@ -423,4 +497,4 @@ const BlogSidebarPage = () => {
   );
 };
 
-export default BlogSidebarPage;
+export default Aliphatic;

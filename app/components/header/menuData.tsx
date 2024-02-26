@@ -28,7 +28,7 @@ const MenuData: Menu[] = [
       {
         id: 41,
         title: "Aliphatic Solvents",
-        path: "/pages/products",
+        path: "/pages/products/aliphatic",
         newTab: false,
       },
       {
