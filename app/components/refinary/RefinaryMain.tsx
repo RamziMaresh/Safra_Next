@@ -122,7 +122,8 @@ const RefinaryMain = () => {
                                         developments and simultaneously meeting stringent International standards for manufacturing solvents.
                                     </p>
                                     <p className="tracking-wide text-justify mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                                        All the segments of refinery fulfill complete requirements of health and safety standards and in 1996 awarded ISO-9002 certification
+                                        All the segments of refinery fulfill complete requirements of health and safety standards and in 1996 awarded 
+                                        ISO-9002 certification
                                         for sticking to total quality. The plant is equipped with necessary technological flexibility and pool of
                                         technical experts to produce innovative tailor made products conforming to the customer specifications.
                                         The plant is very well equipped with high capacity solvent filling facility in drums and tankers for road deliveries.
@@ -425,7 +426,7 @@ const RefinaryMain = () => {
 
                             <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
                                 <h3 className="tracking-wider border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
-                                    Related Links | SPP's Products
+                                    Related Links | SPP Products
                                 </h3>
                                 <div className="flex flex-wrap px-8 py-6 ">
                                     <TagButton text="Aliphatic Solvents" />
