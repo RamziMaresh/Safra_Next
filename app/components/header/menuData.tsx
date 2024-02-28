@@ -10,54 +10,34 @@ const MenuData: Menu[] = [
   {
     id: 2,
     title: "About",
-    path: "/pages/about",
     newTab: false,
-  },
-  {
-    id: 33,
-    title: "History",
-    path: "/",
-    newTab: false,
+    submenu: [
+      {
+        id: 51,
+        title: "Safra Profile",
+        path: "/pages/about",
+        newTab: false,
+      },
+      {
+        id: 52,
+        title: "History",
+        path: "/pages/about",
+        newTab: false,
+      },
+    ]
   },
 
   {
     id: 4,
-    title: "Products",
+    title: "Refinary",
+    path: "/pages/refinary",
     newTab: false,
-    submenu: [
-      {
-        id: 41,
-        title: "Aliphatic Solvents",
-        path: "/pages/products/aliphatic",
-        newTab: false,
-      },
-      {
-        id: 42,
-        title: "Aromatic Solvents",
-        path: "/pages/products",
-        newTab: false,
-      },
-      {
-        id: 43,
-        title: "Packaged Products",
-        path: "/pages/products",
-        newTab: false,
-      },
-      {
-        id: 43,
-        title: "Customized Products",
-        path: "/pages/products",
-        newTab: false,
-      },
-      {
-        id: 43,
-        title: "Trading Products",
-        path: "/pages/products",
-        newTab: false,
-      },
-
-
-    ],
+  },
+  {
+    id: 6,
+    title: "SPP Products",
+    path: "/pages/products/spp",
+    newTab: false,
   },
   {
     id: 3,

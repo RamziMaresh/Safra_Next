@@ -50,7 +50,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-4/5	max-w-full px-4 xl:mr-12">
+            <div className="w-1/2	max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
                 className={`flex header-logo block w-full ${sticky ? "py-5 lg:py-2" : "py-8"
@@ -71,7 +71,7 @@ const Header = () => {
                   height={30}
                   className="hidden dark:block"
                 />
-                <h1 className="text-gray-900 px-1 mt-8 tracking-wider font-medium	dark:text-white">Safra Co</h1>
+                <h1 className="text-gray-900 px-1 mt-8 tracking-wider font-medium	dark:text-white">Safra </h1>
 
               </Link>
 
