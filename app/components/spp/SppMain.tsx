@@ -55,11 +55,7 @@ const Spp = () => {
                                 d="M669.125 257.002L345.875 31.9983L524.571 -15.8832L669.125 257.002Z"
                                 fill="url(#paint0_linear_0:1)"
                             />
-                            <path
-                                opacity="0.2"
-                                d="M0.0716344 182.78L101.988 -15.0769L142.154 81.4093L0.0716344 182.78Z"
-                                fill="url(#paint1_linear_0:1)"
-                            />
+
                             <defs>
                                 <linearGradient
                                     id="paint0_linear_0:1"
@@ -67,17 +63,6 @@ const Spp = () => {
                                     y1="221"
                                     x2="429.946"
                                     y2="37.0429"
-                                    gradientUnits="userSpaceOnUse"
-                                >
-                                    <stop stopColor="rgb(45 212 191)" />
-                                    <stop offset="1" stopColor="rgb(94 234 212)" stopOpacity="0" />
-                                </linearGradient>
-                                <linearGradient
-                                    id="paint1_linear_0:1"
-                                    x1="18.3648"
-                                    y1="166.016"
-                                    x2="105.377"
-                                    y2="32.3398"
                                     gradientUnits="userSpaceOnUse"
                                 >
                                     <stop stopColor="rgb(45 212 191)" />
@@ -97,7 +82,7 @@ const Spp = () => {
                                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                                     <div className="flex flex-wrap items-center">
                                         <div className="mb-2 flex items-center">
-                                            <p className="mr-5 flex items-center text-base italic font-medium text-body-color tracking-wide">
+                                            <p className="mr-5 flex items-center text-base italic font-medium text-body-color tracking-wide text-yellow-700 dark:text-white">
                                                 Add More Quality Into Your Life
                                             </p>
                                         </div>
@@ -246,7 +231,7 @@ const Spp = () => {
                                     </div>
 
                                     <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                                        D- Safra Prime™ (Acrylic Thinner)	
+                                        D- Safra Prime™ (Acrylic Thinner)
                                     </h3>
                                     <p className="mb-8 text-base font-medium italic text-body-color">PDF Download: Specs and MSDS </p>
                                     <div className="grid-container grid grid-cols-5 mb-10">

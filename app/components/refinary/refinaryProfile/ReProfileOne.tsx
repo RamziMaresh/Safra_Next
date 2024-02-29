@@ -90,13 +90,13 @@ const ReProfileOne = () => {
                                 <div className="relative mx-auto aspect-[25/24] max-w-[400px] lg:mr-0">
                                     <Image
                                         src="/assets/refinarylight.png"
-                                        alt="safra-refinary-01-l-image"
+                                        alt="safra-refinary-01-l"
                                         fill
                                         className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0 rounded-lg"
                                     />
                                     <Image
                                         src="/assets/refinarydark.png"
-                                        alt="safra-refinary-01-d-image"
+                                        alt="safra-refinary-01-d"
                                         fill
                                         className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0 rounded-lg"
                                     />
@@ -119,7 +119,7 @@ const ReProfileOne = () => {
                             <div className="w-full px-4 lg:w-1/2  hidden lg:block">
                                 <div className="relative mx-auto aspect-[25/24] max-w-[400px] ml-0">
                                     <Image
-                                        src="/assets/refinarylightTwo.png"
+                                        src="/assets/refinarylightT.png"
                                         alt="safra-refinary-02-l"
                                         fill
                                         className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0 rounded-lg"
