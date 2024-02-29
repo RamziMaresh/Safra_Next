@@ -30,8 +30,22 @@ const MenuData: Menu[] = [
   {
     id: 4,
     title: "Refinary",
-    path: "/pages/refinary",
+    path: "",
     newTab: false,
+    submenu: [
+      {
+        id: 71,
+        title: "Refinary Profile",
+        path: "/pages/refinary",
+        newTab: false,
+      },
+      {
+        id: 72,
+        title: "Refinary Products",
+        path: "",
+        newTab: false,
+      },
+    ]
   },
   {
     id: 6,

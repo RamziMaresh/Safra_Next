@@ -4,8 +4,6 @@ import RelatedPost from "../products/RelatedPost";
 import TagButton from "../products/TagButton";
 import Image from "next/image";
 
-import { Metadata } from "next";
-import NewsLatterBox from "@/app/components/contact/NewsLatterBox";
 
 
 const RefinaryMain = () => {

@@ -1,7 +1,7 @@
 
 import { Metadata } from "next";
 //
-import RefinaryMain from "@/app/components/refinary/RefinaryMain";
+import ReProfileOne from "@/app/components/refinary/refinaryProfile/ReProfileOne";
 
 export const metadata: Metadata = {
     title: "Refinary | Safra Co. Ltd.",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const Refinary = () => {
     return (
         <>
-            <RefinaryMain />
+            <ReProfileOne />
         </>
     );
 };

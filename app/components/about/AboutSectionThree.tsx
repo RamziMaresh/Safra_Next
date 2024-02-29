@@ -13,7 +13,7 @@ const AboutSectionThree = () => {
                     <div className="-mx-4 flex flex-wrap items-center">
                         <div className="w-full px-6 lg:w-1/2">
                             <SectionTitle
-                                title="Safra Refinary"
+                                title="President Message                                "
                                 paragraph="Safra established its fully automated plant at Yanbu, Saudi Arabia on the Red sea coast. 
                                 It is the biggest and most modern hydrocarbon plant in the Middle East producing Aliphatic 
                                 and Aromatic solvents with huge storage capacities making ready availability of the products.
@@ -21,16 +21,8 @@ const AboutSectionThree = () => {
                                 for products while keeping pace with the latest technological developments and simultaneously meeting 
                                 stringent International standards for manufacturing solvents. 
                                 "
-                                
-                                paragraphTwo="All the segments of refinery fulfill complete requirements of health and safety standards and in 1996 
-                                awarded ISO-9002 certification for sticking to total quality.
-                                The plant is equipped with necessary technological flexibility and pool of technical experts to produce innovative 
-                                tailor made products conforming to the customer specifications.
-                                The plant is very well equipped with high capacity solvent filling facility in drums and tankers for road deliveries. 
-                                It also has a pipeline linked to the sea-terminal facilitating excellent freight economics
-                                to our esteemed customers owing to the efficient port facilities for shipment of products in large vessels, 
-                                ISO tanks and containers.
-                                "
+
+                                paragraphTwo=""
                                 mb="44px"
                             />
                         </div>
