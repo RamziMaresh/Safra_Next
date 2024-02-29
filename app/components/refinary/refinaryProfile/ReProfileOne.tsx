@@ -86,17 +86,17 @@ const ReProfileOne = () => {
                                     mb="44px"
                                 />
                             </div>
-                            <div className="w-full px-4 lg:w-1/2">
+                            <div className="w-full px-4 lg:w-1/2 ">
                                 <div className="relative mx-auto aspect-[25/24] max-w-[400px] lg:mr-0">
                                     <Image
                                         src="/assets/refinarylight.png"
-                                        alt="about-image"
+                                        alt="safra-refinary-01-l-image"
                                         fill
                                         className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0 rounded-lg"
                                     />
                                     <Image
                                         src="/assets/refinarydark.png"
-                                        alt="about-image"
+                                        alt="safra-refinary-01-d-image"
                                         fill
                                         className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0 rounded-lg"
                                     />
@@ -116,17 +116,17 @@ const ReProfileOne = () => {
                     <div className="mb-12">
                         <div className="-mx-4 flex flex-wrap items-center">
 
-                            <div className="w-full px-4 lg:w-1/2 ">
+                            <div className="w-full px-4 lg:w-1/2  hidden lg:block">
                                 <div className="relative mx-auto aspect-[25/24] max-w-[400px] ml-0">
                                     <Image
                                         src="/assets/refinarylightTwo.png"
-                                        alt="about-image"
+                                        alt="safra-refinary-02-l"
                                         fill
                                         className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0 rounded-lg"
                                     />
                                     <Image
-                                        src="/assets/refinaryDarkTwo.png"
-                                        alt="about-image"
+                                        src="/assets/refinaryDarktwo.png"
+                                        alt="safra-refinary-01-d"
                                         fill
                                         className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0 rounded-lg"
                                     />
