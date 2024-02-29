@@ -4,7 +4,6 @@ import RelatedPost from "../products/RelatedPost";
 import TagButton from "../products/TagButton";
 import Image from "next/image";
 //
-import Pagination from '@etchteam/next-pagination'
 
 
 
