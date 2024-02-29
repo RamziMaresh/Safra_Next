@@ -15,7 +15,7 @@ const ReProfileOne = () => {
                         <svg
                             width="287"
                             height="254"
-                            viewBox="0 0 287 254"
+                            viewBox="0 50 250 254"
                             fill="none"
                         >
                             <path
@@ -51,11 +51,7 @@ const ReProfileOne = () => {
                                 d="M669.125 257.002L345.875 31.9983L524.571 -15.8832L669.125 257.002Z"
                                 fill="url(#paint0_linear_0:1)"
                             />
-                            <path
-                                opacity="0.2"
-                                d="M0.0716344 182.78L101.988 -15.0769L142.154 81.4093L0.0716344 182.78Z"
-                                fill="url(#paint1_linear_0:1)"
-                            />
+
                             <defs>
                                 <linearGradient
                                     id="paint0_linear_0:1"
