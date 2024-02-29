@@ -107,7 +107,7 @@ const Spp = () => {
                                     <div className="mb-2">
                                         <a
                                             href="#0"
-                                            className="tracking-wider inline-flex items-center justify-center rounded-xl bg-gray-400 px-4 py-1 text-sm text-black"
+                                            className="tracking-wider inline-flex items-center justify-center rounded-xl bg-gray-300 px-4 py-1 text-sm text-black"
                                         >
                                             Download SPP Pdf File
                                         </a>
@@ -141,8 +141,6 @@ const Spp = () => {
                                             />
                                         </div>
                                     </div>
-
-
 
 
                                     <h3 className="tracking-wide font-xl mb-4 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
@@ -179,42 +177,45 @@ const Spp = () => {
                                                 </li>
                                             </ul>
                                         </div>
-
                                     </div>
 
 
-
-
-
-
-
                                     <h3 className="tracking-wide font-xl mb-4 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                                        2 - Safranorm 15™ (Aliphatic Solvent with 15% Vol.)
+                                        2 - Safra Pure™ (Odorless Paint Thinner)
                                     </h3>
                                     <p className="mb-8 text-base font-medium italic text-body-color">PDF Download: Specs and MSDS </p>
-                                    <ul className="mb-10 list-inside list-disc text-body-color">
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Optimum Solution viscosities for long-oil alkyd resins & varnishes.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Good cleaning of tar spots. Excellent for care care, Polishes and Waxes.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Milder Odor.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            More refined than kerosene.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Good cleaning power for metal and equipment degreasing and preserve wood.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Good impregnation.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Cost effective.
-                                        </li>
-                                    </ul>
+
+
+                                    <div className="grid-container grid grid-cols-5 mb-10">
+                                        <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
+                                            <Image
+                                                src="/assets/spp/pure.gif"
+                                                alt="image"
+                                                fill
+                                                className="h-full w-1/2 object-contain object-center p-6"
+                                            />
+                                        </div>
+                                        <div className="item1 col-span-3">
+
+                                            <ul className="list-inside list-disc text-body-color">
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Optimum Solution viscosities for long-oil alkyd resins & varnishes.
+                                                </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Good cleaning of tar spots. Excellent for care care, Polishes and Waxes.
+                                                </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Milder Odor.
+                                                </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    More refined than kerosene.
+                                                </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Good cleaning power for metal and equipment degreasing and preserve wood.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
 
 
                                     <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
@@ -409,7 +410,7 @@ const Spp = () => {
                                     </button>
                                 </div>
                             </div>
-                            <div className="shadow-three dark:bg-gray-dark mb-10 rounded-lg bg-gradient-to-r from-teal-600 to-teal-800 dark:shadow-none">
+                            <div className="shadow-three dark:bg-gray-dark mb-10 rounded-lg bg-gradient-to-r from-teal-600 to-teal-700 dark:shadow-none">
                                 <h3 className="tracking-wider border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-white dark:border-white dark:border-opacity-10 dark:text-white">
                                     News & Awards
                                 </h3>
