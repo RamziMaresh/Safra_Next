@@ -107,7 +107,7 @@ const Spp = () => {
                                     <div className="mb-2">
                                         <a
                                             href="#0"
-                                            className="tracking-wider inline-flex items-center justify-center rounded-xl bg-gray-300 px-4 py-1 text-sm text-black"
+                                            className="tracking-wide inline-flex items-center justify-center rounded-xl bg-gray-200 px-4 py-1 text-sm text-black"
                                         >
                                             Download SPP Pdf File
                                         </a>
@@ -410,12 +410,12 @@ const Spp = () => {
                                     </button>
                                 </div>
                             </div>
-                            <div className="shadow-three dark:bg-gray-dark mb-10 rounded-lg bg-gradient-to-r from-teal-600 to-teal-700 dark:shadow-none">
-                                <h3 className="tracking-wider border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-white dark:border-white dark:border-opacity-10 dark:text-white">
+                            <div className="shadow-three dark:bg-gray-dark mb-10 rounded-lg bg-gray-100 dark:shadow-none rounded-lg">
+                                <h3 className="border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
                                     News & Awards
                                 </h3>
-                                <ul className="p-8 text-white">
-                                    <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10 text-white">
+                                <ul className="p-8">
+                                    <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
                                         <RelatedPost
                                             title="Best way to boost your online sales."
                                             image="/assets/about/operation.gif"
