@@ -257,7 +257,7 @@ const Spp = () => {
                                                     Film of automotive lacquer dries without blushing, resin blush, pin holing and other surface defects.
                                                 </li>
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    No "orange peel" is developed after the evaporation of Safra Prime™, and therefore increases the tensile strength of the film along with its gloss.
+                                                    No [orange peel] is developed after the evaporation of Safra Prime™, and therefore increases the tensile strength of the film along with its gloss.
                                                 </li>
                                             </ul>
                                         </div>
