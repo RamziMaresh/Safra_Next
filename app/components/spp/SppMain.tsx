@@ -138,7 +138,7 @@ const Spp = () => {
                                     <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                         A- Safra Pine™ (Normal Paint Thinner)
                                     </h3>
-                                    <p className="mb-8 text-base font-medium italic text-body-color">PDF Download: Specs and MSDS </p>
+                                    <p className="mb-8 text-base font-medium text-body-color text-yellow-800">PDF Download: Specs and MSDS </p>
                                     <div className="grid-container grid grid-cols-5 mb-10">
                                         <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
                                             <Image
@@ -151,19 +151,19 @@ const Spp = () => {
                                         <div className="item1 col-span-3">
                                             <ul className="list-inside list-disc text-body-color">
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    Optimum Solution viscosities for long-oil alkyd resins & varnishes.
+                                                    Minimizes health hazards caused by vapors with irritating smell.
                                                 </li>
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    Good cleaning of tar spots. Excellent for care care, Polishes and Waxes.
+                                                    Improves paint properties not obtained with conventional thinners such as gloss, flow, durability etc.
                                                 </li>
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    Milder Odor.
+                                                    Reduces ventilation requirements unlike when ordinary paint thinners are used.
                                                 </li>
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    More refined than kerosene.
+                                                    Completely lead free. Therefore, safe without danger of blood cancer, asthma & chest disease.
                                                 </li>
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    Good cleaning power for metal and equipment degreasing and preserve wood.
+                                                    Aesthetically very much acceptable compared to other available products.
                                                 </li>
                                             </ul>
                                         </div>
@@ -173,7 +173,7 @@ const Spp = () => {
                                     <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                         B- Safra Pure™ (Odorless Paint Thinner)
                                     </h3>
-                                    <p className="mb-8 text-base font-medium italic text-body-color">PDF Download: Specs and MSDS </p>
+                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color">PDF Download: Specs and MSDS </p>
                                     <div className="grid-container grid grid-cols-5 mb-10">
                                         <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
                                             <Image
@@ -186,19 +186,13 @@ const Spp = () => {
                                         <div className="item1 col-span-3">
                                             <ul className="list-inside list-disc text-body-color">
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    Optimum Solution viscosities for long-oil alkyd resins & varnishes.
+                                                    Minimizes health hazards caused by vapors with irritating smell/odor.
                                                 </li>
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    Good cleaning of tar spots. Excellent for care care, Polishes and Waxes.
+                                                    Improves paint properties not obtained with other thinners or Kerosene, such as gloss, flow, durability etc.
                                                 </li>
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    Milder Odor.
-                                                </li>
-                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    More refined than kerosene.
-                                                </li>
-                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    Good cleaning power for metal and equipment degreasing and preserve wood.
+                                                    Reduces ventilation requirements to minimum unlike when ordinary paint thinners or Kerosene are used.
                                                 </li>
                                             </ul>
                                         </div>
@@ -207,7 +201,7 @@ const Spp = () => {
                                     <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                         C- Safra Cryl™ (Lacquer Thinner)
                                     </h3>
-                                    <p className="mb-8 text-base font-medium italic text-body-color">PDF Download: Specs and MSDS </p>
+                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color">PDF Download: Specs and MSDS </p>
                                     <div className="grid-container grid grid-cols-5 mb-10">
                                         <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
                                             <Image
@@ -220,19 +214,19 @@ const Spp = () => {
                                         <div className="item1 col-span-3">
                                             <ul className="list-inside list-disc text-body-color">
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    Optimum Solution viscosities for long-oil alkyd resins & varnishes.
+                                                    Quickly reduces the consistency of the lacquers to the required degree.
                                                 </li>
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    Good cleaning of tar spots. Excellent for care care, Polishes and Waxes.
+                                                    Improves film smoothness of the lacquers when applied either by spray or dipping.
                                                 </li>
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    Milder Odor.
+                                                    Film of lacquer dries without blushing, pin holing and other surface defects.
                                                 </li>
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    More refined than kerosene.
+                                                    Due to splitting capabilities effectively cleans all metallic surfaces by dissolving adhered oil, grease, wax, etc.
                                                 </li>
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    Good cleaning power for metal and equipment degreasing and preserve wood.
+                                                    Helps drying lacquers quicker than when they are dissolved in conventional paint thinner.
                                                 </li>
                                             </ul>
                                         </div>
@@ -241,7 +235,7 @@ const Spp = () => {
                                     <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                         D- Safra Prime™ (Acrylic Thinner)
                                     </h3>
-                                    <p className="mb-8 text-base font-medium italic text-body-color">PDF Download: Specs and MSDS </p>
+                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color">PDF Download: Specs and MSDS </p>
                                     <div className="grid-container grid grid-cols-5 mb-10">
                                         <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
                                             <Image
@@ -254,24 +248,154 @@ const Spp = () => {
                                         <div className="item1 col-span-3">
                                             <ul className="list-inside list-disc text-body-color">
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    Optimum Solution viscosities for long-oil alkyd resins & varnishes.
+                                                    Quickly reduces the consistency of the automotive lacquers to the required degree.
                                                 </li>
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    Good cleaning of tar spots. Excellent for care care, Polishes and Waxes.
+                                                    Improves film smoothness of the automotive lacquers when applied either by spray or dipping thus extending excellent finish.
                                                 </li>
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    Milder Odor.
+                                                    Film of automotive lacquer dries without blushing, resin blush, pin holing and other surface defects.
                                                 </li>
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    More refined than kerosene.
-                                                </li>
-                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    Good cleaning power for metal and equipment degreasing and preserve wood.
+                                                    No "orange peel" is developed after the evaporation of Safra Prime™, and therefore increases the tensile strength of the film along with its gloss.
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
 
+                                    <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                                        E- Safra Pro™ (Slow Dryness)
+                                    </h3>
+                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color">PDF Download: Specs and MSDS </p>
+                                    <div className="grid-container grid grid-cols-5 mb-10">
+                                        <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
+                                            <Image
+                                                src="/assets/spp/prime.gif"
+                                                alt="image"
+                                                fill
+                                                className="h-auto w-1/2 object-contain object-center p-6"
+                                            />
+                                        </div>
+                                        <div className="item1 col-span-3">
+                                            <ul className="list-inside list-disc text-body-color">
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Quickly reduces the consistency of the automotive lacquers to the required degree.
+                                                </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Improves film smoothness of the automotive lacquers when applied either by spray or dipping thus extending excellent finish.
+                                                </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Film of diluted automotive lacquer dries without blushing, resin blush, pinholing and other surface defects.
+                                                </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    No "orange peel" effect is developed after the evaporation of Safra Pro TM Thinner, and therefore increases the tensile strength of the film alongwith its gloss.
+                                                </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Additional quantity of retarder present in Safra Pro ™ results in very durable lacquer films.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                                        F- Safra Shine™
+                                    </h3>
+                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color">PDF Download: Specs and MSDS </p>
+                                    <div className="grid-container grid grid-cols-5 mb-10">
+                                        <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
+                                            <Image
+                                                src="/assets/spp/shine.gif"
+                                                alt="image"
+                                                fill
+                                                className="h-auto w-1/2 object-contain object-center p-6"
+                                            />
+                                        </div>
+                                        <div className="item1 col-span-3">
+                                            <ul className="list-inside list-disc text-body-color">
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Transparent as well as available in different colors.
+                                                </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Gives Surfaces distinguished shining look.                                                </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Controls water vapor diffusion.                                                </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Prevents mold growth.                                                </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Weather resistant.
+                                                </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Contains no lead in any form.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                                        G- Safra Bond™ (Cement)
+                                    </h3>
+                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color">PDF Download: Specs and MSDS </p>
+                                    <div className="grid-container grid grid-cols-5 mb-10">
+                                        <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
+                                            <Image
+                                                src="/assets/spp/bond.gif"
+                                                alt="image"
+                                                fill
+                                                className="h-auto w-1/2 object-contain object-center p-6"
+                                            />
+                                        </div>
+                                        <div className="item1 col-span-3">
+                                            <ul className="list-inside list-disc text-body-color">
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Emits less VOC'c than many conventional products.
+                                                </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Fast evaporating than other products to dry faster.                                         </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Work with both cold & hot water.                                             </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Can be used for household & industry as well.                                          </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Stable between 40°F & 110°F at storage.
+                                                </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Provide shelf life of 3 years.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                                        H- Safra Bond™ (Cleaner)
+                                    </h3>
+                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color">PDF Download: Specs and MSDS </p>
+                                    <div className="grid-container grid grid-cols-5 mb-10">
+                                        <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
+                                            <Image
+                                                src="/assets/spp/bond-c.gif"
+                                                alt="image"
+                                                fill
+                                                className="h-auto w-1/2 object-contain object-center p-6"
+                                            />
+                                        </div>
+                                        <div className="item1 col-span-3">
+                                            <ul className="list-inside list-disc text-body-color">
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Fast affective on plastic surfaces.
+                                                </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Does not react with container surface.                                              </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Evaporates fast without any blushing.                                            </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Cleans the surface taking all extraneous material.                                              </li>
+                                                <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                                    Long shelf life storage up to 3 years if kept under shed.
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
 
 
 
