@@ -9,7 +9,7 @@ const Aliphatic = () => {
           <div className="w-full">
             <div>
               <h3 className="font-xl mb-8 text-yellow-700 tracking-wide font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                Aliphatic Solvents Products :
+                Aliphatic Solvents Are :
               </h3>
               <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                 1- Safranorm™ (Aliphatic Solvent with 20% Vol.)
