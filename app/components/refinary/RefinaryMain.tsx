@@ -103,7 +103,7 @@ const RefinaryMain = () => {
                                 </p>
                                 <div>
                                     <div className="py-4 p-2rounded-md mb-6">
-                                        <button onClick={aliphaticHandler} className="dark:bg-teal-600 mr-2 tracking-wide bg-gray-100 p-1 rounded-md px-2 active:bg-blue-500">
+                                        <button onClick={aliphaticHandler} className="dark:bg-teal-600 mr-2 tracking-wide bg-gray-200 p-1 rounded-md px-2 active:bg-blue-500">
                                             Aliphatic Solvents
                                         </button>
                                         <button onClick={aromaticHandler} className="dark:bg-teal-600 tracking-wide bg-gray-100 p-1 rounded-md px-2 active:bg-blue-500">
