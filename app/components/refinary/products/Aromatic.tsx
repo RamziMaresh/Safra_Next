@@ -8,7 +8,7 @@ const Aromatic = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full">
             <div>
-              <h3 className="font-xl mb-12 text-yellow-700 tracking-wider font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+              <h3 className="font-xl mb-12 text-yellow-700 tracking-wide font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                 Aromatic Solvents Products
               </h3>
               <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">

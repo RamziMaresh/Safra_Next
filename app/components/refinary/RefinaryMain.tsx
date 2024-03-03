@@ -94,20 +94,11 @@ const RefinaryMain = () => {
                                 <h1 className="mb-4 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight tracking-wide">
                                     Refinary Products |
                                 </h1>
-                                <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
-                                    <div className="flex flex-wrap items-center">
-                                        <div className="mb-2 flex items-center">
-                                            <p className="mr-5 flex items-center text-base italic font-medium text-body-color tracking-wide text-yellow-700 dark:text-white">
-                                                Solutions For Better Living
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
 
                                 {/*** */}
 
                                 <p className="tracking-wide text-justify mb-2 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                                    Beside its main activity of producing aliphatic and aromatic hydrocarbon solvents in Yanbu,
+                                    The Refinary Products are divided into two main types <b>Aliphatic</b> & <b>Aromatic</b> Solvents.
                                 </p>
                                 <div>
                                     <div className="py-4 p-2rounded-md mb-6">
