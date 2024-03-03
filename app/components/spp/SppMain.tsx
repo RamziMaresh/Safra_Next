@@ -288,7 +288,7 @@ const Spp = () => {
                                                     Film of diluted automotive lacquer dries without blushing, resin blush, pinholing and other surface defects.
                                                 </li>
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    No "orange peel" effect is developed after the evaporation of Safra Pro TM Thinner, and therefore increases the tensile strength of the film alongwith its gloss.
+                                                    No [orange peel] effect is developed after the evaporation of Safra Pro TM Thinner, and therefore increases the tensile strength of the film alongwith its gloss.
                                                 </li>
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
                                                     Additional quantity of retarder present in Safra Pro ™ results in very durable lacquer films.
@@ -347,7 +347,7 @@ const Spp = () => {
                                         <div className="item1 col-span-3">
                                             <ul className="list-inside list-disc text-body-color">
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                                    Emits less VOC'c than many conventional products.
+                                                    Emits less VOCc than many conventional products.
                                                 </li>
                                                 <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
                                                     Fast evaporating than other products to dry faster.                                         </li>
