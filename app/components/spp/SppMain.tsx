@@ -48,7 +48,7 @@ const Spp = () => {
                             height="258"
                             viewBox="0 0 628 258"
                             fill="none"
-                        
+
                         >
                             <path
                                 opacity="0.3"
@@ -117,13 +117,19 @@ const Spp = () => {
                                         To provide best and consistent quality products, up to date high-tech semi-automatic machines
                                         are utilized for production & filling of various products in operation.
                                     </p>
-                                    <div className="mb-10 w-full overflow-hidden rounded">
+                                    <div className="mb-10 w-full overflow-hidden rounded-lg">
                                         <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                                             <Image
                                                 src="/assets/about/sppProfile.png"
                                                 alt="image"
                                                 fill
-                                                className="h-full w-full object-cover object-center"
+                                                className="h-full w-full object-cover object-center  dark:hidden dark:drop-shadow-none"
+                                            />
+                                            <Image
+                                                src="/assets/about/sppProfileDark.png"
+                                                alt="image"
+                                                fill
+                                                className="h-full w-full object-cover object-center hidden drop-shadow-three dark:block dark:drop-shadow-none"
                                             />
                                         </div>
                                     </div>
