@@ -91,7 +91,7 @@ const RefinaryMain = () => {
                     <div className="-mx-4 flex flex-wrap">
                         <div className="w-full px-4 lg:w-8/12">
                             <div>
-                                <h1 className="mb-4 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight tracking-wide">
+                                <h1 className="mb-4 text-3xl uppercase font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
                                     Refinary Products |
                                 </h1>
 
