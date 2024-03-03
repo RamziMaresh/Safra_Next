@@ -48,7 +48,7 @@ const Spp = () => {
                             height="258"
                             viewBox="0 0 628 258"
                             fill="none"
-                        //xmlns="http://www.w3.org/2000/svg"
+                        
                         >
                             <path
                                 opacity="0.3"
@@ -72,6 +72,8 @@ const Spp = () => {
                         </svg>
                     </span>
                 </div>
+
+                {/** */}
                 <div className="container">
                     <div className="-mx-4 flex flex-wrap">
                         <div className="w-full px-4 lg:w-8/12">

@@ -1,12 +1,27 @@
-
+"use client";
 
 import RelatedPost from "../products/RelatedPost";
 import TagButton from "../products/TagButton";
 import Image from "next/image";
-
-
+import { useState } from "react";
+//
+import Aliphatic from "./products/Aliphatic";
+import Aromatic from "./products/Aromatic";
 
 const RefinaryMain = () => {
+    const [aliphatic, setAliphatic] = useState(true);
+    const [aromatic, setAromatic] = useState(false);
+    //
+    const aliphaticHandler = () => {
+        setAliphatic(true);
+        setAromatic(false);
+    };
+    const aromaticHandler = () => {
+        setAliphatic(false);
+        setAromatic(true);
+    };
+
+
     return (
         <>
             <section
@@ -47,18 +62,13 @@ const RefinaryMain = () => {
                             height="258"
                             viewBox="0 0 628 258"
                             fill="none"
-                        //xmlns="http://www.w3.org/2000/svg"
                         >
                             <path
                                 opacity="0.3"
                                 d="M669.125 257.002L345.875 31.9983L524.571 -15.8832L669.125 257.002Z"
                                 fill="url(#paint0_linear_0:1)"
                             />
-                            <path
-                                opacity="0.2"
-                                d="M0.0716344 182.78L101.988 -15.0769L142.154 81.4093L0.0716344 182.78Z"
-                                fill="url(#paint1_linear_0:1)"
-                            />
+
                             <defs>
                                 <linearGradient
                                     id="paint0_linear_0:1"
@@ -71,132 +81,56 @@ const RefinaryMain = () => {
                                     <stop stopColor="rgb(45 212 191)" />
                                     <stop offset="1" stopColor="rgb(94 234 212)" stopOpacity="0" />
                                 </linearGradient>
-                                <linearGradient
-                                    id="paint1_linear_0:1"
-                                    x1="18.3648"
-                                    y1="166.016"
-                                    x2="105.377"
-                                    y2="32.3398"
-                                    gradientUnits="userSpaceOnUse"
-                                >
-                                    <stop stopColor="rgb(45 212 191)" />
-                                    <stop offset="1" stopColor="rgb(94 234 212)" stopOpacity="0" />
-                                </linearGradient>
                             </defs>
                         </svg>
                     </span>
                 </div>
+
+                {/** */}
                 <div className="container">
                     <div className="-mx-4 flex flex-wrap">
                         <div className="w-full px-4 lg:w-8/12">
                             <div>
                                 <h1 className="mb-4 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight tracking-wide">
-                                    Refinary |
+                                    Refinary Products |
                                 </h1>
                                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                                     <div className="flex flex-wrap items-center">
-                                        <div className="mb-5 flex items-center">
-                                            <p className="mr-5 flex items-center text-base font-medium text-body-color">
-                                                Safra | Solution for Better Living
+                                        <div className="mb-2 flex items-center">
+                                            <p className="mr-5 flex items-center text-base italic font-medium text-body-color tracking-wide text-yellow-700 dark:text-white">
+                                                Solutions For Better Living
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="mb-2">
-                                        <a
-                                            href="#0"
-                                            className="tracking-wide inline-flex items-center justify-center rounded-full bg-gradient-to-r from-teal-600 to-teal-800 px-3 py-1 text-sm text-white"
-                                        >
-                                            Download Full Safra Refinary ......
-                                        </a>
-                                    </div>
                                 </div>
+
+                                {/*** */}
+
+                                <p className="tracking-wide text-justify mb-2 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                                    Beside its main activity of producing aliphatic and aromatic hydrocarbon solvents in Yanbu,
+                                </p>
                                 <div>
-                                    <p className="tracking-wide text-justify mb-6 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                                        Safra established its fully automated plant at Yanbu, Saudi Arabia on the Red sea coast.
-                                        It is the biggest and most modern hydrocarbon plant in the Middle East producing Aliphatic
-                                        and Aromatic solvents with huge storage capacities making ready availability of the products.
-                                        The production capacity of Safra refinery is continuously expanding to meet increasing demand
-                                        for products while keeping pace with the latest technological
-                                        developments and simultaneously meeting stringent International standards for manufacturing solvents.
-                                    </p>
-                                    <p className="tracking-wide text-justify mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                                        All the segments of refinery fulfill complete requirements of health and safety standards and in 1996 awarded 
-                                        ISO-9002 certification
-                                        for sticking to total quality. The plant is equipped with necessary technological flexibility and pool of
-                                        technical experts to produce innovative tailor made products conforming to the customer specifications.
-                                        The plant is very well equipped with high capacity solvent filling facility in drums and tankers for road deliveries.
-                                        It also has a pipeline linked to the sea-terminal facilitating excellent freight economics to our esteemed customers
-                                        owing to the efficient port facilities for shipment of products in large vessels, ISO tanks and containers.
-                                    </p>
-                                    <div className="mb-10 w-full overflow-hidden rounded">
-                                        <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
-                                            <Image
-                                                src="/assets/about/background.jpeg"
-                                                alt="image"
-                                                fill
-                                                className="h-full w-full object-cover object-center"
-                                            />
-                                        </div>
+                                    <div className="py-4 p-2rounded-md mb-6">
+                                        <button onClick={aliphaticHandler} className="mr-2 tracking-wide bg-gray-200 p-1 rounded-md px-2 active:bg-blue-500">
+                                            Aliphatic Solvents
+                                        </button>
+                                        <button onClick={aromaticHandler} className="tracking-wide bg-gray-100 p-1 rounded-md px-2 active:bg-blue-500">
+                                            Aromatic Solvents
+                                        </button>
                                     </div>
 
-
-                                    <h3 className="tracking-wide font-xl mb-4 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                                        1 - Safranorm™ (Aliphatic Solvent with 20% Vol.)
-                                    </h3>
-                                    <p className="mb-8 text-base font-medium italic text-body-color">PDF Download: Specs and MSDS </p>
-                                    <ul className="mb-10 list-inside list-disc text-body-color">
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Optimum Solution viscosities for long-oil alkyd resins & varnishes.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Good cleaning of tar spots. Excellent for care care, Polishes and Waxes.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Milder Odor.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            More refined than kerosene.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Good cleaning power for metal and equipment degreasing and preserve wood.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Good impregnation.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Cost effective.
-                                        </li>
-                                    </ul>
-
-
-                                    <h3 className="tracking-wide font-xl mb-4 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                                        2 - Safranorm 15™ (Aliphatic Solvent with 15% Vol.)
-                                    </h3>
-                                    <p className="mb-8 text-base font-medium italic text-body-color">PDF Download: Specs and MSDS </p>
-                                    <ul className="mb-10 list-inside list-disc text-body-color">
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Optimum Solution viscosities for long-oil alkyd resins & varnishes.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Good cleaning of tar spots. Excellent for care care, Polishes and Waxes.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Milder Odor.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            More refined than kerosene.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Good cleaning power for metal and equipment degreasing and preserve wood.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Good impregnation.
-                                        </li>
-                                        <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Cost effective.
-                                        </li>
-                                    </ul>
-
+                                    <div className="">
+                                        {aliphatic && (
+                                            <div>
+                                                <Aliphatic />
+                                            </div>
+                                        )}
+                                        {aromatic && (
+                                            <div>
+                                                <Aromatic />
+                                            </div>
+                                        )}
+                                    </div>
 
                                     <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                                         <p className="text-center text-base font-medium italic text-body-color">
@@ -369,11 +303,11 @@ const RefinaryMain = () => {
                                     <input
                                         type="text"
                                         placeholder="Search here..."
-                                        className="border-stroke dark:text-body-color-dark dark:shadow-two mr-4 w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none transition-all duration-300 focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
+                                        className="border-stroke dark:text-body-color-dark dark:shadow-two mr-4 w-full rounded-lg border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none transition-all duration-300 focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
                                     />
                                     <button
                                         aria-label="search button"
-                                        className="flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-sm bg-primary text-white"
+                                        className="flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-lg bg-primary text-white"
                                     >
                                         <svg
                                             width="20"
@@ -390,7 +324,7 @@ const RefinaryMain = () => {
                                     </button>
                                 </div>
                             </div>
-                            <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-gray-300 dark:shadow-none">
+                            <div className="shadow-three dark:bg-gray-dark mb-10 rounded-lg bg-gray-100 dark:shadow-none">
                                 <h3 className="tracking-wider border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
                                     Safra - Refinary Products
                                 </h3>
