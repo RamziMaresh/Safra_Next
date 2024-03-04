@@ -130,6 +130,12 @@ const ReProducts = () => {
                                                 fill
                                                 className="object-cover object-center"
                                             />
+                                            <Image
+                                                src="/assets/refinary/mainDark.png"
+                                                alt="image"
+                                                fill
+                                                className="h-full w-full object-cover object-center hidden drop-shadow-three dark:block dark:drop-shadow-none"
+                                            />
                                         </div>
                                     </div>
 
