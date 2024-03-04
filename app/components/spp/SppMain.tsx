@@ -593,7 +593,7 @@ const Spp = () => {
                             </div>
                             <div className="shadow-three dark:bg-gray-dark mb-10 rounded-lg bg-gray-100 dark:shadow-none rounded-lg">
                                 <h3 className="border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
-                                    News & Awards
+                                    News And Media
                                 </h3>
                                 <ul className="p-8">
                                     <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
@@ -606,16 +606,16 @@ const Spp = () => {
                                     </li>
                                     <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10 ">
                                         <RelatedPost
-                                            title="50 Best web design tips & tricks that will help you."
-                                            image="/assets/logoOnlyB.png"
+                                            title="What is Aliphatic & Aromatic Solvents Products?"
+                                            image="/assets/news/newstwolight.png"
                                             slug="#"
                                             date="15 Feb, 2024"
                                         />
                                     </li>
                                     <li>
                                         <RelatedPost
-                                            title="The 8 best landing page builders, reviewed"
-                                            image="/assets/logoOnlyB.png"
+                                            title="Read About Safra History"
+                                            image="/assets/news/newsthreelight.png"
                                             slug="#"
                                             date="05 Jun, 2024"
                                         />
