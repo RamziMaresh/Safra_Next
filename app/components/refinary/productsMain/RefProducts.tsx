@@ -6,6 +6,7 @@ import { Metadata } from "next";
 //
 import Aliphatic from "../products/Aliphatic";
 import Aromatic from "../products/Aromatic";
+import TagButton from "../../products/TagButton";
 
 export const metadata: Metadata = {
     title: "Blog Details Page | Free Next.js Template for Startup and SaaS",
@@ -177,27 +178,19 @@ const ReProducts = () => {
                                     <div className="items-center justify-between sm:flex">
                                         <div className="mb-5">
                                             <h4 className="mb-3 text-sm font-medium text-body-color">
-                                                Popular Tags :
+                                                Other Links:
                                             </h4>
 
-                                            {/** 
+                                        
                                             <div className="flex items-center">
-                                                <TagButton text="Design" />
-                                                <TagButton text="Development" />
-                                                <TagButton text="Info" />
+                                                <TagButton text="Contact Info" />
+                                                <TagButton text="SPP Products" />
+                                                <TagButton text="Careers" />
+                                                <TagButton text="News & Media" />
                                             </div>
-                                            */}
+                                          
                                         </div>
-                                        <div className="mb-5">
-                                            <h5 className="mb-3 text-sm font-medium text-body-color sm:text-right">
-                                                Share this post :
-                                            </h5>
-                                            {/**
-                      <div className="flex items-center sm:justify-end">
-                        <SharePost />
-                                        </div>
-                                           */}
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
