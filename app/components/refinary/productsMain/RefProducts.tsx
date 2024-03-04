@@ -185,7 +185,7 @@ const ReProducts = () => {
                                             <div className="flex items-center">
                                                 <TagButton text="Contact Info" />
                                                 <TagButton text="SPP Products" />
-                                                <TagButton text="Careers" />
+                                                <TagButton text="Marketing & Sales" />
                                                 <TagButton text="News & Media" />
                                             </div>
                                           
