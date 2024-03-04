@@ -110,9 +110,9 @@ const ReProducts = () => {
                                     <div className="mb-5">
                                         <a
                                             href="/"
-                                            className="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm tracking-wide text-white"
+                                            className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-teal-500 to-teal-800 px-4 py-2 text-sm tracking-wide text-white"
                                         >
-                                            Refinary Profile
+                                            Refinary Profile Page
                                         </a>
                                     </div>
                                 </div>

@@ -7,7 +7,7 @@ const Aliphatic = () => {
         <div className="-mx-4 flex flex-wrap ">
           <div className="w-full">
             
-          <h3 className="font-xl mb-8 uppercase	tracking-wide text-center text-yellow-700 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+          <h3 className="font-xl mb-8 uppercase	tracking-wider text-yellow-700 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-3xl xl:leading-tight">
                 Aliphatic Solvents
               </h3>
 
@@ -153,7 +153,7 @@ const Aliphatic = () => {
             <p className="mb-8 text-base font-medium leading-relaxed italic text-body-color text-yellow-900 dark:text-yellow-400 sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed  xl:leading-relaxed">
               Download Specs and MSDS PDF
             </p>
-            <ul className="mb-2 list-inside list-disc text-body-color">
+            <ul className="mb-8 list-inside list-disc text-body-color">
               <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
                 Consectetur adipiscing elit in voluptate velit.
               </li>
