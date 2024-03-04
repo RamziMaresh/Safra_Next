@@ -1,7 +1,7 @@
 
 import { Metadata } from "next";
 //
-import RefinaryMain from "../../../components/refinary/RefinaryMain"
+import ReProducts from "@/app/components/refinary/productsMain/RefProducts";
 export const metadata: Metadata = {
     title: "Refinary Products | Safra Co. Ltd.",
     description: "",
@@ -12,7 +12,7 @@ const RefinaryProducts = () => {
     return (
 
         <>
-            <RefinaryMain />
+            <ReProducts/>
         </>
 
 
