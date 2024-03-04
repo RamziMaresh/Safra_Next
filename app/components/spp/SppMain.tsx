@@ -598,8 +598,8 @@ const Spp = () => {
                                 <ul className="p-8">
                                     <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
                                         <RelatedPost
-                                            title="Best way to boost your online sales."
-                                            image="/assets/about/operation.gif"
+                                            title="Best Industry In the chemical industries 1414/1993"
+                                            image="/assets/news/newsonelight.png"
                                             slug="#"
                                             date="12 Feb 2025"
                                         />
