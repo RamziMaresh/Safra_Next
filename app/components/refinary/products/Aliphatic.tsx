@@ -146,7 +146,7 @@ const Aliphatic = () => {
             <div className="mb-6 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
             </div>
 
-            <div className="w-full bg-gray-100 rounded p-4 dark:bg-gray-dark">
+            <div className="w-full bg-gray-100 rounded p-4 dark:bg-gray-dark mb-8">
             <h3 className="font-xl mb-1 tracking-wide leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
               6- Safrasol 80™<span className="text-lg"> [Heavy White Spirit]</span>
             </h3>
