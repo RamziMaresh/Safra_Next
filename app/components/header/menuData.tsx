@@ -14,14 +14,20 @@ const MenuData: Menu[] = [
     submenu: [
       {
         id: 51,
-        title: "Safra Profile",
+        title: " - Safra Profile",
         path: "/pages/about",
         newTab: false,
       },
       {
         id: 52,
-        title: "History",
-        path: "/pages/about",
+        title: " - Safra Solutions For: ",
+        path: "/pages/about/solutionsFor",
+        newTab: false,
+      },
+      {
+        id: 52,
+        title: " - Safra History",
+        path: "/pages/about/history",
         newTab: false,
       },
     ]
@@ -35,13 +41,13 @@ const MenuData: Menu[] = [
     submenu: [
       {
         id: 71,
-        title: "Refinary Profile",
+        title: " - Refinary Profile",
         path: "/pages/refinary",
         newTab: false,
       },
       {
         id: 72,
-        title: "Refinary Products",
+        title: " - Refinary Products",
         path: "/pages/refinary/reProducts",
         newTab: false,
       },
