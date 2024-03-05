@@ -100,10 +100,10 @@ const ReProducts = () => {
                                 <h2 className="mb-2 text-3xl tracking-wide font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
                                     Refinary Products Page |
                                 </h2>
-                                <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
+                                <div className="flex flex-wrap items-center justify-between">
                                     <div className="flex flex-wrap items-center">
                                         <div className="mb-5 flex items-center">
-                                            <p className="mr-5 flex items-center text-yellow-700 italic text-base font-medium text-body-color">
+                                            <p className="mr-5 flex items-center text-yellow-700 dark:text-yellow-500 italic text-base font-medium text-body-color">
                                                 Solutions For Better Living Science 1990
                                             </p>
                                         </div>
@@ -116,7 +116,27 @@ const ReProducts = () => {
                                             Refinary Profile Page
                                         </a>
                                     </div>
-                                </div>
+
+                                <div className="mb-8">
+                                        <Image
+                                            src=
+                                            {"/assets/safralines.png"}
+                                            width={500}
+                                            height={500}
+                                            alt="safra-colors-image-light"
+                                            className="dark:hidden "
+                                        />
+
+                                        <Image
+                                            src="/assets/safralinesdark.png"
+                                            alt="safra-colors-image-dark"
+                                            width={500}
+                                            height={500}
+                                            className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                                        />
+                                    </div>
+                                    </div>
+
                                 <div>
                                     <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                                         Duis aute irure dolor in reprehenderit in voluptate velit
@@ -181,14 +201,14 @@ const ReProducts = () => {
                                                 Other Links:
                                             </h4>
 
-                                        
+
                                             <div className="flex items-center">
                                                 <TagButton text="Contact Info" />
                                                 <TagButton text="SPP Products" />
                                                 <TagButton text="Marketing & Sales" />
                                                 <TagButton text="News & Media" />
                                             </div>
-                                          
+
                                         </div>
 
                                     </div>

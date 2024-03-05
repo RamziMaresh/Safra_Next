@@ -81,10 +81,10 @@ const Spp = () => {
                                 <h1 className="mb-2 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight tracking-wide">
                                     Safra Packaged Products (SPP)
                                 </h1>
-                                <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
+                                <div className="flex flex-wrap items-center justify-between">
                                     <div className="flex flex-wrap items-center">
                                         <div className="mb-2 flex items-center">
-                                            <p className="mr-5 flex items-center text-base italic font-medium text-body-color tracking-wide text-yellow-700 dark:text-white">
+                                            <p className="mr-5 dark:text-yellow-500 flex items-center text-base italic font-medium text-body-color tracking-wide text-yellow-700 dark:text-white">
                                                 Add More Quality Into Your Life
                                             </p>
                                         </div>
@@ -93,10 +93,29 @@ const Spp = () => {
                                     <div className="mb-2">
                                         <a
                                             href="#0"
-                                            className="tracking-wide inline-flex items-center justify-center rounded-xl bg-gray-200 px-4 py-1 text-sm text-black"
+                                            className="tracking-wide inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-teal-500 to-teal-800 px-4 py-1 text-sm text-white"
                                         >
-                                            Download SPP Pdf File
+                                            Contact SPP Department !
                                         </a>
+                                    </div>
+
+                                    <div className="mb-8">
+                                        <Image
+                                            src=
+                                            {"/assets/safralines.png"}
+                                            width={500}
+                                            height={500}
+                                            alt="safra-colors-image-light"
+                                            className="dark:hidden "
+                                        />
+
+                                        <Image
+                                            src="/assets/safralinesdark.png"
+                                            alt="safra-colors-image-dark"
+                                            width={500}
+                                            height={500}
+                                            className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                                        />
                                     </div>
                                 </div>
                                 <div>
@@ -138,7 +157,7 @@ const Spp = () => {
                                     <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                         A- Safra Pine™ (Normal Paint Thinner)
                                     </h3>
-                                    <p className="mb-8 text-base font-medium text-body-color text-yellow-800">PDF Download: Specs & Msds</p>
+                                    <p className="mb-8 text-base font-medium text-body-color text-yellow-800 dark:text-yellow-500">PDF Download: Specs & Msds</p>
                                     <div className="grid-container grid grid-cols-5 mb-10">
                                         <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
                                             <Image
@@ -173,7 +192,7 @@ const Spp = () => {
                                     <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                         B- Safra Pure™ (Odorless Paint Thinner)
                                     </h3>
-                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color">PDF Download: Specs & Msds</p>
+                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color dark:text-yellow-500">PDF Download: Specs & Msds</p>
                                     <div className="grid-container grid grid-cols-5 mb-10">
                                         <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
                                             <Image
@@ -201,7 +220,7 @@ const Spp = () => {
                                     <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                         C- Safra Cryl™ (Lacquer Thinner)
                                     </h3>
-                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color">PDF Download: Specs & Msds</p>
+                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color dark:text-yellow-500">PDF Download: Specs & Msds</p>
                                     <div className="grid-container grid grid-cols-5 mb-10">
                                         <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
                                             <Image
@@ -235,7 +254,7 @@ const Spp = () => {
                                     <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                         D- Safra Prime™ (Acrylic Thinner)
                                     </h3>
-                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color">PDF Download: Specs & Msds</p>
+                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color dark:text-yellow-500">PDF Download: Specs & Msds</p>
                                     <div className="grid-container grid grid-cols-5 mb-10">
                                         <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
                                             <Image
@@ -266,7 +285,7 @@ const Spp = () => {
                                     <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                         E- Safra Pro™ (Slow Dryness)
                                     </h3>
-                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color">PDF Download: Specs & Msds</p>
+                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color dark:text-yellow-500">PDF Download: Specs & Msds</p>
                                     <div className="grid-container grid grid-cols-5 mb-10">
                                         <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
                                             <Image
@@ -300,7 +319,7 @@ const Spp = () => {
                                     <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                         F- Safra Shine™
                                     </h3>
-                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color">PDF Download: Specs & Msds</p>
+                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color dark:text-yellow-500">PDF Download: Specs & Msds</p>
                                     <div className="grid-container grid grid-cols-5 mb-10">
                                         <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
                                             <Image
@@ -334,7 +353,7 @@ const Spp = () => {
                                     <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                         G- Safra Bond™ (Cement)
                                     </h3>
-                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color">PDF Download: Specs & Msds</p>
+                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color dark:text-yellow-500">PDF Download: Specs & Msds</p>
                                     <div className="grid-container grid grid-cols-5 mb-10">
                                         <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
                                             <Image
@@ -368,7 +387,7 @@ const Spp = () => {
                                     <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                         H- Safra Bond™ (Cleaner)
                                     </h3>
-                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color">PDF Download: Specs & Msds</p>
+                                    <p className="mb-8 text-base font-medium text-yellow-800 text-body-color dark:text-yellow-500">PDF Download: Specs & Msds</p>
                                     <div className="grid-container grid grid-cols-5 mb-10">
                                         <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
                                             <Image
@@ -407,7 +426,7 @@ const Spp = () => {
                                             etiam sit amet.
                                         </p>
                                     </div>
-{/**
+                                    {/**
                                     <div className="items-center justify-between sm:flex">
                                         <div className="mb-5">
                                             <h4 className="mb-3 text-sm font-medium text-body-color">
@@ -485,7 +504,7 @@ const Spp = () => {
 
                             <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
                                 <h3 className="tracking-wider border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
-                                    Related Links | 
+                                    Related Links |
                                 </h3>
                                 <div className="flex flex-wrap px-8 py-6 ">
                                     <TagButton text="Aliphatic & Aromatic Solvents" />
