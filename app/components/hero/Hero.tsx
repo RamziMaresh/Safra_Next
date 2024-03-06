@@ -10,20 +10,20 @@ const Hero = () => {
         xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]
         "
       >
-        <div>
+
+        <div className="container ">
+
           <Image src="/assets/about/background.jpeg"
             alt="" fill
-            className="opacity-30"
+            className="opacity-25"
           />
-        </div>
-        <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight tracking-wider">
+                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight tracking-wider ">
                   Solutions For Better Living
                 </h1>
-                <p className="tracking-wide	mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                <p className="bg-gray-100 p-2 rounded tracking-wide	mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                   Safra is a leading producer and distributor of Hydrocarbon solvents and Chemicals.
                   Our environmental friendly solvents comply with the highest international quality and
                   safety standards. Our fully integrated production, sales & distribution ...
