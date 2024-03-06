@@ -15,7 +15,7 @@ const Hero = () => {
 
           <Image src="/assets/about/background.jpeg"
             alt="" fill
-            className="opacity-25"
+            className="opacity-20"
           />
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">

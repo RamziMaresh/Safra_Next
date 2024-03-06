@@ -1,22 +1,15 @@
-
 import Link from "next/link";
 import RelatedPost from "../products/RelatedPost";
 import TagButton from "../products/TagButton";
 import Image from "next/image";
-import {
-    Collapse,
-    Dropdown,
-    Ripple,
-    Carousel,
-    initTWE
-} from 'tw-elements';
 
-initTWE({ Collapse, Dropdown, Ripple, Carousel });
+
 
 
 const Spp = () => {
     return (
         <>
+
             <section
                 id="refinary"
                 className="pb-[120px] pt-[180px] relative z-10 overflow-hidden  dark:bg-gray-dark"
@@ -126,8 +119,10 @@ const Spp = () => {
                                     </div>
 
 
-                                    
-                                           </div>
+
+                                    {/** */}
+                     
+                                </div>
 
 
                                 {/** */}
