@@ -46,7 +46,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        {/**
+      
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="450"
@@ -99,41 +99,10 @@ const Hero = () => {
               transform="rotate(133.319 191.659 302.659)"
               fill="url(#paint6_linear_25:217)"
             />
+            
             <defs>
-              <linearGradient
-                id="paint0_linear_25:217"
-                x1="-54.5003"
-                y1="-178"
-                x2="222"
-                y2="288"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="rgb(45 212 191)" />
-                <stop offset="1" stopColor="rgb(45 212 191)" stopOpacity="0" />
-              </linearGradient>
-              <radialGradient
-                id="paint1_radial_25:217"
-                cx="0"
-                cy="0"
-                r="1"
-                gradientUnits="userSpaceOnUse"
-                gradientTransform="translate(17.9997 182) rotate(90) scale(18)"
-              >
-                <stop offset="0.145833" stopColor="rgb(45 212 191)" stopOpacity="0" />
-                <stop offset="1" stopColor="rgb(45 212 191)" stopOpacity="0.08" />
-              </radialGradient>
 
-              <linearGradient
-                id="paint3_linear_25:217"
-                x1="226.775"
-                y1="-66.1548"
-                x2="292.157"
-                y2="351.421"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="rgb(45 212 191)" />
-                <stop offset="1" stopColor="rgb(45 212 191)" stopOpacity="0" />
-              </linearGradient>
+
               <linearGradient
                 id="paint4_linear_25:217"
                 x1="184.521"
@@ -170,7 +139,6 @@ const Hero = () => {
             </defs>
           </svg>
         </div>
-         */}
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="364"
