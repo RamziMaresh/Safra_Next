@@ -26,7 +26,7 @@ const Hero = () => {
                 <p className="rounded tracking-wide	mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                   Safra is a leading producer and distributor of Hydrocarbon solvents and Chemicals.
                   Our environmental friendly solvents comply with the highest international quality and
-                  safety standards. Our fully integrated production, sales & distribution ...
+                   ...
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
