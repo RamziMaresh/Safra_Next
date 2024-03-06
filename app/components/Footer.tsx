@@ -24,7 +24,7 @@ function Footer() {
                         <div className="mb-6">
                             <Image
                                 src=
-                                {"/assets/safralinesDark.png"}
+                                {"/assets/Footer/safralinesd.png"}
                                 width={300}
                                 height={300}
                                 alt="safra-img-l"
@@ -32,7 +32,7 @@ function Footer() {
                             />
 
                             <Image
-                                src={"/assets/safralinesDark.png"}
+                                src={"/assets/Footer/safralinesd.png"}
                                 alt="safra-img-d"
                                 width={300}
                                 height={300}

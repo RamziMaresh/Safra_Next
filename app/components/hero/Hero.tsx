@@ -13,7 +13,7 @@ const Hero = () => {
         <div>
           <Image src="/assets/about/background.jpeg"
             alt="" fill
-            className="opacity-30"
+            className="opacity-20"
           />
         </div>
         <div className="container">
