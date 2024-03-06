@@ -1,6 +1,6 @@
+import Image from "next/image";
 import React from "react";
 import { FaFacebook } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaMailBulk } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
@@ -14,16 +14,26 @@ function Footer() {
             <div className="dark:bg-gray-dark bg-teal-700 
             h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20"
             >
-                <div className="p-5 ">
+
+                <div className="p-5">
                     <ul>
                         <p className="text-white font-bold text-3xl pb-1 tracking-wider">
                             SAFRA <span className="text-white">Co. Ltd.</span>
                         </p>
-                        <p className="text-sm tracking-wider pb-6">Solutions For Better Living 1989</p>
+                        <p className="text-sm tracking-wider mb-4 text-white">Solutions For Better Living 1989</p>
+                        <div className="mb-6">
+                            <Image
+                                src=
+                                {"/assets/safralinesDark.png"}
+                                width={300}
+                                height={300}
+                                alt="safra-colors-image-light"
+                                className=""
+                            />
 
-                        <div className="flex gap-6 pb-5">
+                        </div>
+                        <div className="flex gap-6 pb-5 text-white">
                             <FaFacebook className="text-2xl cursor-pointer hover:text-teal-400" />
-                            <FaTwitter className="text-2xl cursor-pointer hover:text-teal-400" />
                             <FaLinkedin className="text-2xl cursor-pointer hover:text-teal-400" />
                             <FaMailBulk className="text-2xl cursor-pointer hover:text-teal-400" />
                         </div>

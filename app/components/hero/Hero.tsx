@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Hero = () => {
@@ -9,12 +10,18 @@ const Hero = () => {
         xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px] 
         "
       >
+        <div>
+          <Image src="/assets/about/background.jpeg"
+            alt="" fill
+            className="opacity-10 bg-teal-100 "
+          />
+        </div>
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight tracking-wider">
-                  Solutions For Better Living
+                  Solutions For Better Livingi
                 </h1>
                 <p className="tracking-wide	mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                   Safra is a leading producer and distributor of Hydrocarbon solvents and Chemicals.
