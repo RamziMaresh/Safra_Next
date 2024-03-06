@@ -7,7 +7,7 @@ const Hero = () => {
       <section
         id="home"
         className="relative z-10 overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] 
-        xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px] 
+        xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px] bg-white
         "
       >
 
@@ -15,7 +15,7 @@ const Hero = () => {
 
           <Image src="/assets/about/background.jpeg"
             alt="" fill
-            className="opacity-20"
+            className="opacity-25"
           />
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
@@ -25,8 +25,8 @@ const Hero = () => {
                 </h1>
                 <p className="rounded tracking-wide	mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                   Safra is a leading producer and distributor of Hydrocarbon solvents and Chemicals.
-                  Our environmental friendly solvents comply with the highest international quality and
-                   ...
+                  Our environmental friendly solvents comply with the highest 
+                  ...
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
@@ -46,7 +46,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      
+
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="450"
@@ -87,7 +87,7 @@ const Hero = () => {
               transform="rotate(133.319 191.659 302.659)"
               fill="url(#paint6_linear_25:217)"
             />
-            
+
             <defs>
 
               <radialGradient
