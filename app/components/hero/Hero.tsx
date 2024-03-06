@@ -55,12 +55,7 @@ const Hero = () => {
             fill="none"
           //xmlns="http://www.w3.org/2000/svg"
           >
-            <circle
-              cx="277"
-              cy="63"
-              r="225"
-              fill="url(#paint0_linear_25:217)"
-            />
+
             <circle
               cx="17.9997"
               cy="182"
@@ -68,13 +63,6 @@ const Hero = () => {
               fill="url(#paint1_radial_25:217)"
             />
 
-            <circle
-              cx="325.486"
-              cy="302.87"
-              r="180"
-              transform="rotate(-37.6852 325.486 302.87)"
-              fill="url(#paint3_linear_25:217)"
-            />
             <circle
               opacity="0.8"
               cx="184.521"
@@ -101,6 +89,18 @@ const Hero = () => {
             />
             
             <defs>
+
+              <radialGradient
+                id="paint1_radial_25:217"
+                cx="0"
+                cy="0"
+                r="1"
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(17.9997 182) rotate(90) scale(18)"
+              >
+                <stop offset="0.145833" stopColor="rgb(45 212 191)" stopOpacity="0" />
+                <stop offset="1" stopColor="rgb(45 212 191)" stopOpacity="0.08" />
+              </radialGradient>
 
 
               <linearGradient
