@@ -27,8 +27,16 @@ function Footer() {
                                 {"/assets/safralinesDark.png"}
                                 width={300}
                                 height={300}
-                                alt="safra-colors-image-light"
-                                className=""
+                                alt="safra-img-l"
+                                className="dark:hidden "
+                            />
+
+                            <Image
+                                src={"/assets/safralinesDark.png"}
+                                alt="safra-img-d"
+                                width={300}
+                                height={300}
+                                className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
                             />
 
                         </div>
@@ -38,7 +46,7 @@ function Footer() {
                             <FaMailBulk className="text-2xl cursor-pointer hover:text-teal-400" />
                         </div>
                     </ul>
-                </div>
+                </div >
                 <div className="p-5">
                     <ul>
                         <p className="text-gray-200 font-bold text-2xl pb-4">Product</p>
@@ -98,7 +106,7 @@ function Footer() {
 
                     </ul>
                 </div>
-            </div>
+            </div >
             <div className="flex flex-col justify-center items-center text-center p-5 dark:bg-teal-800">
                 <h1 className="tracking-wider">
                     © {new Date().getFullYear()} All rights reserved | Safra Co.Ltd.
