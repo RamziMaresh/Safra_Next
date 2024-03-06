@@ -7,7 +7,7 @@ const Hero = () => {
       <section
         id="home"
         className="relative z-10 overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] 
-        xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px] bg-white
+        xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px] 
         "
       >
 
@@ -15,7 +15,7 @@ const Hero = () => {
 
           <Image src="/assets/about/background.jpeg"
             alt="" fill
-            className="opacity-15"
+            className="opacity-25"
           />
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
