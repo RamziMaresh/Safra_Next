@@ -9,7 +9,7 @@ export default function Slider() {
 
   return (
     <div
-      className="overflow-hidden bg-gray-200 mb-8 rounded-lg"
+      className="overflow-hidden bg-gray-100 mb-8 rounded-lg"
       ref={emblaRef}>
       <div className="flex">
         {sliderData?.map((item) => {
