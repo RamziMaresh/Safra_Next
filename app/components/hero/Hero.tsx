@@ -16,17 +16,17 @@ const Hero = () => {
             {/**col one */}
             <div className="hidden lg:block">
               <Image src="/assets/about/background.jpeg"
-                width={400}
+                width={800}
                 height={100}
                 alt=""
-                className="rounded-md w-full "
+                className="rounded-md w-full"
               />
             </div>
 
             {/**col two */}
             <div className="-mx-4 flex flex-wrap ">
               <div className="w-full  px-4">
-                <div className="mx-auto max-w-[700px] text-center">
+                <div className="mx-auto max-w-[800px] text-center">
                   <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight tracking-wider ">
                     Solutions For Better Living
                   </h1>
