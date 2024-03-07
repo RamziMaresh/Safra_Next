@@ -12,39 +12,47 @@ const Hero = () => {
       >
 
         <div className="container">
-          <div className="opacity-20">
-            <Image src="/assets/about/background.jpeg"
-              alt="" fill
-              className=""
-            />
-          </div>
-          <div className="-mx-4 flex flex-wrap">
-            <div className="w-full  px-4">
-              <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight tracking-wider ">
-                  Solutions For Better Living
-                </h1>
-                <p className="rounded tracking-wide	mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Safra is a leading producer and distributor of Hydrocarbon solvents and Chemicals.
-                  Our environmental friendly solvents comply with the highest
-                  ...
-                </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="/pages/about"
-                    className="rounded-sm bg-gradient-to-r from-teal-600 to-teal-800 px-6 py-2 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 tracking-wider"
-                  >
-                    More About Safra
-                  </Link>
-                  <Link
-                    href="/"
-                    className="inline-block rounded-sm bg-gradient-to-r from-teal-600 to-teal-800 px-6 py-2 tracking-wider text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
-                  >
-                    Contact Us !
-                  </Link>
+          <div className="columns-2 gap-4 flex">
+            {/**col one */}
+            <div className="hidden lg:block">
+              <Image src="/assets/about/background.jpeg"
+                width={400}
+                height={100}
+                alt=""
+                className="rounded-md w-full "
+              />
+            </div>
+
+            {/**col two */}
+            <div className="-mx-4 flex flex-wrap ">
+              <div className="w-full  px-4">
+                <div className="mx-auto max-w-[700px] text-center">
+                  <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight tracking-wider ">
+                    Solutions For Better Living
+                  </h1>
+                  <p className="rounded tracking-wide	mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                    Safra is a leading producer and distributor of Hydrocarbon solvents and Chemicals.
+                    Our environmental friendly solvents comply with the highest
+                    ...
+                  </p>
+                  <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                    <Link
+                      href="/pages/about"
+                      className="rounded-sm bg-gradient-to-r from-teal-600 to-teal-800 px-6 py-2 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 tracking-wider"
+                    >
+                      More About Safra
+                    </Link>
+                    <Link
+                      href="/"
+                      className="inline-block rounded-sm bg-gradient-to-r from-teal-600 to-teal-800 px-6 py-2 tracking-wider text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                    >
+                      Contact Us !
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
 
