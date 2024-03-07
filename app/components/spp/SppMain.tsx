@@ -1,10 +1,10 @@
+"use client";
+
 import Link from "next/link";
 import RelatedPost from "../products/RelatedPost";
 import TagButton from "../products/TagButton";
 import Image from "next/image";
-
-//https://www.npmjs.com/package/@madzadev/image-slider
-
+import Slider from "../slider/slider";
 
 const Spp = () => {
     return (
@@ -121,7 +121,7 @@ const Spp = () => {
 
 
                                     {/** */}
-                     
+                                    <Slider />
                                 </div>
 
 

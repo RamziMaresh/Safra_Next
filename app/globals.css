@@ -6,7 +6,10 @@ body{
   font-family:'Times New Roman', Times, serif;
 }
 
-
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
 
 
 @layer utilities {
