@@ -15,10 +15,10 @@ const Hero = () => {
 
           <Image src="/assets/about/background.jpeg"
             alt="" fill
-            className="opacity-30"
+            className="opacity-20"
           />
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4">
+            <div className="w-full  px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight tracking-wider ">
                   Solutions For Better Living
