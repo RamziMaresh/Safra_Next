@@ -12,14 +12,14 @@ const Hero = () => {
       >
 
         <div className="container">
-          <div className="columns-2 gap-4 flex">
+          <div className="columns-2 gap-4 flex bg-gray-100 dark:bg-gray-dark" >
             {/**col one */}
             <div className="hidden lg:block">
               <Image src="/assets/about/background.jpeg"
-                width={800}
+                width={700}
                 height={100}
                 alt=""
-                className="rounded-md w-full"
+                className="w-full"
               />
             </div>
 
@@ -55,8 +55,8 @@ const Hero = () => {
 
           </div>
         </div>
-
-        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
+{/**z-[-1]  */}
+        <div className="absolute right-0 top-0 opacity-30 lg:opacity-100">
           <svg
             width="450"
             height="556"
