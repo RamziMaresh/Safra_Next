@@ -3,7 +3,7 @@ import RelatedPost from "../products/RelatedPost";
 import TagButton from "../products/TagButton";
 import Image from "next/image";
 
-
+//https://www.npmjs.com/package/@madzadev/image-slider
 
 
 const Spp = () => {
