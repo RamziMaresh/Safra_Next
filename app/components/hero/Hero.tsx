@@ -12,10 +12,10 @@ const Hero = () => {
       >
 
         <div className="container">
-          <div className="columns-2 gap-4 flex" >
+          <div className="columns-2 gap-4 flex rounded-lg">
             {/**col one */}
             <div className="hidden lg:block">
-              <Image src="/assets/about/background.jpeg"
+              <Image src="/assets/about/Mainhero.png"
                 width={700}
                 height={100}
                 alt=""
