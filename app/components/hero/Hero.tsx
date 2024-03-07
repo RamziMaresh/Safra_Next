@@ -12,7 +12,7 @@ const Hero = () => {
       >
 
         <div className="container">
-          <div className="columns-2 gap-4 flex bg-gray-100 dark:bg-gray-dark" >
+          <div className="columns-2 gap-4 flex" >
             {/**col one */}
             <div className="hidden lg:block">
               <Image src="/assets/about/background.jpeg"
@@ -26,7 +26,7 @@ const Hero = () => {
             {/**col two */}
             <div className="-mx-4 flex flex-wrap ">
               <div className="w-full  px-4">
-                <div className="mx-auto max-w-[700px] text-center">
+                <div className="mx-auto max-w-[800px] text-center">
                   <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight tracking-wider ">
                     Solutions For Better Living
                   </h1>
@@ -55,8 +55,8 @@ const Hero = () => {
 
           </div>
         </div>
-{/**z-[-1]  */}
-        <div className="absolute right-0 top-0 opacity-30 lg:opacity-100">
+
+        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="450"
             height="556"
