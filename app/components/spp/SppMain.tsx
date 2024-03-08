@@ -1,5 +1,4 @@
 "use client";
-
 import Link from "next/link";
 import RelatedPost from "../products/RelatedPost";
 import TagButton from "../products/TagButton";
@@ -9,7 +8,6 @@ import Slider from "../slider/slider";
 const Spp = () => {
     return (
         <>
-
             <section
                 id="refinary"
                 className="pb-[120px] pt-[180px] relative z-10 overflow-hidden  dark:bg-gray-dark"
