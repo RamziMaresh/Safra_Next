@@ -3,7 +3,7 @@ const sliderData = [
   {
     id: 1,
     title: "Serene Nature Scene with Sunlight Streaming Through Trees",
-    Image:'/assets/spp/slider/sppsliderimgtwo.png'
+    Image:'/assets/spp/slider/sppsliderone.png'
     
   },
   {
@@ -14,7 +14,12 @@ const sliderData = [
   {
     id: 3,
     title: "Lush Forest Scene with Rays of Sunlight Peeking Through",
-    Image:'/assets/spp/slider/sppProfile.png'
+    Image:'/assets/spp/slider/sppsliderimgtwo.png'
+  },
+  {
+    id: 4,
+    title: "Lush Forest Scene with Rays of Sunlight Peeking Through",
+    Image:'/assets/spp/slider/sppsliderfour.png'
   },
 
 ];

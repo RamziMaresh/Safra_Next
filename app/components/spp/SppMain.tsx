@@ -96,25 +96,7 @@ const Spp = () => {
                                             Contact SPP Department !
                                         </a>
                                     </div>
-
-                                    <div className="mb-8">
-                                        <Image
-                                            src=
-                                            {"/assets/safralines.png"}
-                                            width={500}
-                                            height={500}
-                                            alt="safra-colors-image-light"
-                                            className="dark:hidden "
-                                        />
-
-                                        <Image
-                                            src="/assets/safralinesdark.png"
-                                            alt="safra-colors-image-dark"
-                                            width={500}
-                                            height={500}
-                                            className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                                        />
-                                    </div>
+                                    {/** */}
 
                                     {/** */}
                                     <Slider />
@@ -140,6 +122,8 @@ const Spp = () => {
                                         To provide best and consistent quality products, up to date high-tech semi-automatic machines
                                         are utilized for production & filling of various products in operation.
                                     </p>
+
+                                    {/**
                                     <div className="mb-10 w-full overflow-hidden rounded-lg">
                                         <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                                             <Image
@@ -156,7 +140,7 @@ const Spp = () => {
                                             />
                                         </div>
                                     </div>
-
+ */}
                                     <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-gray-100 p-8 md:p-9 lg:p-8 xl:p-9">
                                         <p className="text-center text-base font-medium italic text-body-color">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -257,9 +241,11 @@ const Spp = () => {
 
                         </div>
                     </div>
-                    
+                    <h1 className="mb-10 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight tracking-wide">
+                        Safra Packaged Products (SPP) Are : 
+                    </h1>
                     {/**Products List */}
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid  gap-4 grid-cols-1">
 
                         <div className="bg-gray-50 rounded-md p-4">
                             <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
@@ -269,13 +255,14 @@ const Spp = () => {
                                 PDF Download: <Link target="_blank" href="/assets/PDF Files/Spp/Specs/Safra Pine.pdf">Specs</Link> &
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Pine.pdf"> Msds</Link>
                             </p>
-                            <div className="grid-container grid grid-cols-5 mb-10">
-                                <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
+                            <div className="grid-container grid grid-cols-5 mb-5 ">
+                                <div className="relative col-span-2  h-3/5 w-auto">
                                     <Image
                                         src="/assets/spp/pine.gif"
                                         alt="image"
-                                        fill
-                                        className="h-auto w-1/2 object-contain object-center p-6"
+                                        width={200}
+                                        height={300}
+                                        className="object-contain object-center p-2 flex "
                                     />
                                 </div>
                                 <div className="item1 col-span-3">
@@ -310,12 +297,13 @@ const Spp = () => {
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Pure.pdf"> Msds</Link>
                             </p>
                             <div className="grid-container grid grid-cols-5 mb-10">
-                                <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
+                                <div className="relative col-span-2  h-3/5 w-auto">
                                     <Image
                                         src="/assets/spp/pure.gif"
                                         alt="image"
-                                        fill
-                                        className="h-auto w-1/2 object-contain object-center p-6"
+                                        width={200}
+                                        height={300}
+                                        className="object-contain object-center p-2 flex "
                                     />
                                 </div>
                                 <div className="item1 col-span-3">
@@ -344,12 +332,13 @@ const Spp = () => {
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Cryl.pdf"> Msds</Link>
                             </p>
                             <div className="grid-container grid grid-cols-5 mb-10">
-                                <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
+                                <div className="relative col-span-2  h-3/5 w-auto">
                                     <Image
                                         src="/assets/spp/cryl.gif"
                                         alt="image"
-                                        fill
-                                        className="h-auto w-1/2 object-contain object-center p-6"
+                                        width={200}
+                                        height={300}
+                                        className="object-contain object-center p-2 flex "
                                     />
                                 </div>
                                 <div className="item1 col-span-3">
@@ -384,12 +373,13 @@ const Spp = () => {
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Prime.pdf"> Msds</Link>
                             </p>
                             <div className="grid-container grid grid-cols-5 mb-10">
-                                <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
+                                <div className="relative col-span-2  h-3/5 w-auto">
                                     <Image
                                         src="/assets/spp/prime.gif"
                                         alt="image"
-                                        fill
-                                        className="h-auto w-1/2 object-contain object-center p-6"
+                                        width={200}
+                                        height={300}
+                                        className="object-contain object-center p-2 flex "
                                     />
                                 </div>
                                 <div className="item1 col-span-3">
@@ -421,12 +411,12 @@ const Spp = () => {
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Pro.pdf"> Msds</Link>
                             </p>
                             <div className="grid-container grid grid-cols-5 mb-10">
-                                <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
+                                <div className="relative col-span-2  h-3/5 w-auto">
                                     <Image
                                         src="/assets/spp/prime.gif"
                                         alt="image"
-                                        fill
-                                        className="h-auto w-1/2 object-contain object-center p-6"
+                                        width={200}
+                                        height={300} className="object-contain object-center p-2 flex "
                                     />
                                 </div>
                                 <div className="item1 col-span-3">
@@ -462,12 +452,12 @@ const Spp = () => {
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Shine.pdf"> Msds</Link>
                             </p>
                             <div className="grid-container grid grid-cols-5 mb-10">
-                                <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
+                                <div className="relative col-span-2  h-3/5 w-auto">
                                     <Image
                                         src="/assets/spp/shine.gif"
                                         alt="image"
-                                        fill
-                                        className="h-auto w-1/2 object-contain object-center p-6"
+                                        width={200}
+                                        height={300} className="object-contain object-center p-2 flex "
                                     />
                                 </div>
                                 <div className="item1 col-span-3">
@@ -503,12 +493,12 @@ const Spp = () => {
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Bond.pdf"> Msds</Link>
                             </p>
                             <div className="grid-container grid grid-cols-5 mb-10">
-                                <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
+                                <div className="relative col-span-2  h-3/5 w-auto">
                                     <Image
                                         src="/assets/spp/bond.gif"
                                         alt="image"
-                                        fill
-                                        className="h-auto w-1/2 object-contain object-center p-6"
+                                        width={200}
+                                        height={300} className="object-contain object-center p-2 flex "
                                     />
                                 </div>
                                 <div className="item1 col-span-3">
@@ -545,12 +535,13 @@ const Spp = () => {
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Bond Cleaner.pdf"> Msds</Link>
                             </p>
                             <div className="grid-container grid grid-cols-5 mb-10">
-                                <div className="relative item2 col-span-2 w-2/3 bg-gradient-to-r from-teal-600 to-teal-800 rounded-md hidden lg:block">
+                                <div className="relative col-span-2  h-3/5 w-auto">
                                     <Image
                                         src="/assets/spp/bond-c.gif"
                                         alt="image"
-                                        fill
-                                        className="h-auto w-1/2 object-contain object-center p-6"
+                                        width={200}
+                                        height={300}
+                                        className="object-contain object-center p-2 flex "
                                     />
                                 </div>
                                 <div className="item1 col-span-3">
