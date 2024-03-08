@@ -245,7 +245,7 @@ const Spp = () => {
                         Safra Packaged Products (SPP) Are : 
                     </h1>
                     {/**Products List */}
-                    <div className="grid  gap-4 grid-cols-1">
+                    <div className="grid  gap-4 grid-cols-2">
 
                         <div className="bg-gray-50 rounded-md p-4">
                             <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
@@ -256,7 +256,7 @@ const Spp = () => {
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Pine.pdf"> Msds</Link>
                             </p>
                             <div className="grid-container grid grid-cols-5 mb-5 ">
-                                <div className="relative col-span-2  h-3/5 w-auto">
+                                <div className="relative col-span-2  h-3/5 w-3/5">
                                     <Image
                                         src="/assets/spp/pine.gif"
                                         alt="image"
@@ -296,8 +296,8 @@ const Spp = () => {
                                 PDF Download: <Link target="_blank" href="/assets/PDF Files/Spp/Specs/Safra Pure.pdf">Specs</Link> &
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Pure.pdf"> Msds</Link>
                             </p>
-                            <div className="grid-container grid grid-cols-5 mb-10">
-                                <div className="relative col-span-2  h-3/5 w-auto">
+                            <div className="grid-container grid grid-cols-5 mb-5">
+                                <div className="relative col-span-2  h-3/5 w-3/5">
                                     <Image
                                         src="/assets/spp/pure.gif"
                                         alt="image"
@@ -331,8 +331,8 @@ const Spp = () => {
                                 PDF Download: <Link target="_blank" href="/assets/PDF Files/Spp/Specs/Safra Cryl.pdf">Specs</Link> &
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Cryl.pdf"> Msds</Link>
                             </p>
-                            <div className="grid-container grid grid-cols-5 mb-10">
-                                <div className="relative col-span-2  h-3/5 w-auto">
+                            <div className="grid-container grid grid-cols-5 mb-5">
+                                <div className="relative col-span-2  h-3/5 w-3/5">
                                     <Image
                                         src="/assets/spp/cryl.gif"
                                         alt="image"
@@ -372,8 +372,8 @@ const Spp = () => {
                                 PDF Download: <Link target="_blank" href="/assets/PDF Files/Spp/Specs/Safra Prime.pdf">Specs</Link> &
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Prime.pdf"> Msds</Link>
                             </p>
-                            <div className="grid-container grid grid-cols-5 mb-10">
-                                <div className="relative col-span-2  h-3/5 w-auto">
+                            <div className="grid-container grid grid-cols-5 mb-5">
+                                <div className="relative col-span-2  h-3/5 w-3/5">
                                     <Image
                                         src="/assets/spp/prime.gif"
                                         alt="image"
@@ -410,8 +410,8 @@ const Spp = () => {
                                 PDF Download: <Link target="_blank" href="/assets/PDF Files/Spp/Specs/Safra Pro.pdf">Specs</Link> &
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Pro.pdf"> Msds</Link>
                             </p>
-                            <div className="grid-container grid grid-cols-5 mb-10">
-                                <div className="relative col-span-2  h-3/5 w-auto">
+                            <div className="grid-container grid grid-cols-5 mb-5">
+                                <div className="relative col-span-2  h-3/5 w-3/5">
                                     <Image
                                         src="/assets/spp/prime.gif"
                                         alt="image"
@@ -451,8 +451,8 @@ const Spp = () => {
                                 PDF Download: <Link target="_blank" href="/assets/PDF Files/Spp/Specs/Safra Shine.pdf">Specs</Link> &
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Shine.pdf"> Msds</Link>
                             </p>
-                            <div className="grid-container grid grid-cols-5 mb-10">
-                                <div className="relative col-span-2  h-3/5 w-auto">
+                            <div className="grid-container grid grid-cols-5 mb-5">
+                                <div className="relative col-span-2  h-3/5 w-3/5">
                                     <Image
                                         src="/assets/spp/shine.gif"
                                         alt="image"
@@ -492,8 +492,8 @@ const Spp = () => {
                                 PDF Download: <Link target="_blank" href="/assets/PDF Files/Spp/Specs/Safra Bond.pdf">Specs</Link> &
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Bond.pdf"> Msds</Link>
                             </p>
-                            <div className="grid-container grid grid-cols-5 mb-10">
-                                <div className="relative col-span-2  h-3/5 w-auto">
+                            <div className="grid-container grid grid-cols-5 mb-5">
+                                <div className="relative col-span-2  h-3/5 w-3/5">
                                     <Image
                                         src="/assets/spp/bond.gif"
                                         alt="image"
@@ -534,8 +534,8 @@ const Spp = () => {
                                 PDF Download: <Link target="_blank" href="/assets/PDF Files/Spp/Specs/Safra Bond Cleaner.pdf">Specs</Link> &
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Bond Cleaner.pdf"> Msds</Link>
                             </p>
-                            <div className="grid-container grid grid-cols-5 mb-10">
-                                <div className="relative col-span-2  h-3/5 w-auto">
+                            <div className="grid-container grid grid-cols-5 mb-5">
+                                <div className="relative col-span-2  h-3/5 w-3/5">
                                     <Image
                                         src="/assets/spp/bond-c.gif"
                                         alt="image"
