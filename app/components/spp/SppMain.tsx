@@ -242,7 +242,7 @@ const Spp = () => {
                         </div>
                     </div>
                     <h1 className="mb-10 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight tracking-wide">
-                        Safra Packaged Products (SPP) Are : 
+                        Safra Packaged Products (SPP) : 
                     </h1>
                     {/**Products List */}
                     <div className="grid  gap-4 grid-cols-2">
