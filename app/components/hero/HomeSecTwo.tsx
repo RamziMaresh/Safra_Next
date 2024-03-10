@@ -38,7 +38,7 @@ const HomeSecTwo = () => {
                                     className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                                 />
                                 <Image
-                                    src="/assets/about/about-image-dark.svg"
+                                    src="/assets/home/hometwodark.png"
                                     alt="about-image"
                                     fill
                                     className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
