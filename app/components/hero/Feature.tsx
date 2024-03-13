@@ -1,4 +1,5 @@
 'use client';
+
 import { useMediaQuery } from 'react-responsive';
 
 import Image from 'next/image';
@@ -15,9 +16,6 @@ import Img6 from './partners/016.png'
 import Img7 from './partners/017.png'
 import Img8 from './partners/018.png'
 
-
-import { useState } from 'react';
-
 const partners = [
     { image: Img1 },
     { image: Img2 },
@@ -29,7 +27,7 @@ const partners = [
     { image: Img8 },
 
 ]
-const Solutions = ({ data }) => {
+const Solutions = () => {
     const isMediumScreen = useMediaQuery({ query: `(max-width: 768px)` });
 
     const settings = {
@@ -38,6 +36,7 @@ const Solutions = ({ data }) => {
         slidesToShow: isMediumScreen ? 2 : 7,
         slidesToScroll: 1,
         autoplay: true,
+        
         speed: 2000,
         autoplaySpeed: 2000,
         cssEase: "linear",
@@ -49,7 +48,7 @@ const Solutions = ({ data }) => {
             <div className="px-24 pt-12 space-y-12 pb-12 text-center">
                 <h1 className="text-3xl font-black ">Safra Solutions For </h1>
             </div>
-            <Slider {...settings} autoplaySpeed>
+            <Slider {...settings} >
                 {
                     partners.map(partner => {
                         return (
