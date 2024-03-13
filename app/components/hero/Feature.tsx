@@ -43,7 +43,7 @@ const Solutions = () => {
     };
 
     return (
-        <div className="overflow-hidden pb-24 " id='partners'>
+        <div className="overflow-hidden pb-24 dark:bg-gray-dark" id='partners'>
             <div className="px-24 pt-12 space-y-12 pb-12 text-center">
                 <h2 className="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
                     Safra Solutions For
@@ -53,7 +53,7 @@ const Solutions = () => {
                 {
                     partners.map((partner) => {
                         return (
-                            <div key="" >
+                            <div key="" className=''>
                                 <Image src={partner.image} alt='' key="" />
                             </div>
                         )
