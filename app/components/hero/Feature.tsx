@@ -36,7 +36,6 @@ const Solutions = () => {
         slidesToShow: isMediumScreen ? 2 : 7,
         slidesToScroll: 1,
         autoplay: true,
-        
         speed: 2000,
         autoplaySpeed: 2000,
         cssEase: "linear",
@@ -46,14 +45,16 @@ const Solutions = () => {
     return (
         <div className="overflow-hidden pb-24 " id='partners'>
             <div className="px-24 pt-12 space-y-12 pb-12 text-center">
-                <h1 className="text-3xl font-black ">Safra Solutions For </h1>
+                <h2 className="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
+                    Safra Solutions For
+                </h2>
             </div>
             <Slider {...settings} >
                 {
                     partners.map((partner) => {
                         return (
-                            <div    >
-                                <Image src={partner.image} alt=''/>
+                            <div key="" >
+                                <Image src={partner.image} alt='' key="" />
                             </div>
                         )
                     })
