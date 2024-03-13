@@ -50,10 +50,10 @@ const Solutions = () => {
             </div>
             <Slider {...settings} >
                 {
-                    partners.map(partner => {
+                    partners.map((partner) => {
                         return (
                             <div    >
-                                <Image src={partner.image} alt='' />
+                                <Image src={partner.image} alt=''/>
                             </div>
                         )
                     })
