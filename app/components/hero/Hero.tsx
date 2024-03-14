@@ -7,16 +7,20 @@ const Hero = () => {
       <section
         id="home"
         className="
-        relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[140px] 2xl:pt-[210px]"
+        relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[100px] 2xl:pt-[110px]"
       >
-        <div className="container">
-          <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 relative" >
-              <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight tracking-wider">
+        <div
+          className=' w-full h-full bg-cover bg-no-repeat '
+          style={{ backgroundImage: "url('/assets/about/background.jpeg')", height: 500 }}
+        >
+          <div className='mask h-full flex items-center justify-center' style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
+            <div className=''>
+              {/** */}
+              <div className="mx-auto max-w-[800px] text-center ">
+                <h1 className="mb-5 text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight tracking-wider">
                   Solutions For Better Living
                 </h1>
-                <p className="tracking-wide	mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                <p className="tracking-wide	mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl text-white ">
                   Safra is a leading producer and distributor of Hydrocarbon solvents and Chemicals.
                   Our environmental friendly solvents comply with the highest international quality and
                   safety standards. Our fully integrated production, sales & distribution ...
@@ -36,9 +40,11 @@ const Hero = () => {
                   </Link>
                 </div>
               </div>
+              {/**End */}
             </div>
           </div>
         </div>
+
 
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
@@ -48,12 +54,7 @@ const Hero = () => {
             fill="none"
           //xmlns="http://www.w3.org/2000/svg"
           >
-            <circle
-              cx="277"
-              cy="63"
-              r="225"
-              fill="url(#paint0_linear_25:217)"
-            />
+
             <circle
               cx="17.9997"
               cy="182"
@@ -66,7 +67,7 @@ const Hero = () => {
               cy="302.87"
               r="180"
               transform="rotate(-37.6852 325.486 302.87)"
-              fill="url(#paint3_linear_25:217)"
+              fill="url()"
             />
             <circle
               opacity="0.8"
@@ -93,17 +94,7 @@ const Hero = () => {
               fill="url(#paint6_linear_25:217)"
             />
             <defs>
-              <linearGradient
-                id="paint0_linear_25:217"
-                x1="-54.5003"
-                y1="-178"
-                x2="222"
-                y2="288"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="rgb(45 212 191)" />
-                <stop offset="1" stopColor="rgb(45 212 191)" stopOpacity="0" />
-              </linearGradient>
+
               <radialGradient
                 id="paint1_radial_25:217"
                 cx="0"
@@ -266,7 +257,20 @@ const Hero = () => {
             </defs>
           </svg>
         </div>
-      </section>
+      </section >
+      {/** 
+      <div
+        className='text-center bg-cover bg-no-repeat bg-fixed '
+        style={{ backgroundImage: "url('/assets/about/background - Copy.jpeg')", height: 500 }}
+      >
+        <div className='mask h-full' style={{ backgroundColor: 'rgba(0, 0, 0, 0.4)' }}>
+          <div className='d-flex justify-content-center align-items-center h-100'>
+
+          </div>
+        </div>
+      </div>
+*/}
+
     </>
   );
 };
