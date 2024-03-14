@@ -50,7 +50,7 @@ const Solutions = () => {
         <div className="overflow-hidden pb-24 dark:bg-gray-dark" id='partners'>
 
             <div className="px-14 pt-12 space-y-12 pb-4 text-center">
-                <h2 className="text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
+                <h2 className="text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[35px]">
                     Safra Solutions For
                 </h2>
             </div>
@@ -59,8 +59,8 @@ const Solutions = () => {
                     <Image
                         src=
                         {"/assets/safralines.png"}
-                        width={500}
-                        height={500}
+                        width={400}
+                        height={400}
                         alt="safra-colors-image-light"
                         className="dark:hidden text-center flex "
                     />
@@ -68,8 +68,8 @@ const Solutions = () => {
                     <Image
                         src="/assets/safralinesdark.png"
                         alt="safra-colors-image-dark"
-                        width={500}
-                        height={500}
+                        width={400}
+                        height={400}
                         className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
                     />
                 </div>
