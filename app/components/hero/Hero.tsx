@@ -7,7 +7,7 @@ const Hero = () => {
       <section
         id="home"
         className="
-        relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[100px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[150px] 2xl:pt-[150px]"
+        relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[100px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[170px] 2xl:pt-[170px]"
       >
           <div className="container">
             <div className="">
