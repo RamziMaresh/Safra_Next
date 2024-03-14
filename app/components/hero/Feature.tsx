@@ -48,10 +48,28 @@ const Solutions = () => {
 
     return (
         <div className="overflow-hidden pb-24 dark:bg-gray-dark" id='partners'>
-            <div className="px-24 pt-12 space-y-12 pb-4 text-center">
-                <h2 className="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
+            <div className="px-14 pt-12 space-y-12 pb-12 text-center">
+                <h2 className="text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
                     Safra Solutions For
                 </h2>
+                <div className="flex justify-center items-center ">
+                    <Image
+                        src=
+                        {"/assets/safralines.png"}
+                        width={500}
+                        height={500}
+                        alt="safra-colors-image-light"
+                        className="dark:hidden text-center flex "
+                    />
+
+                    <Image
+                        src="/assets/safralinesdark.png"
+                        alt="safra-colors-image-dark"
+                        width={500}
+                        height={500}
+                        className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                    />
+                </div>
             </div>
 
             <Slider {...settings} >
@@ -65,6 +83,7 @@ const Solutions = () => {
                     })
                 }
             </Slider>
+
         </div>
     )
 }
