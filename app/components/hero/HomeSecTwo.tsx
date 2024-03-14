@@ -1,6 +1,7 @@
 import Image from "next/image";
 import SectionTitle from "../common/SectionTitle";
 import Slider from "../slider/slider";
+import SliderHome from "./homeslider/SliderHome";
 
 
 const HomeSecTwo = () => {
@@ -31,7 +32,7 @@ const HomeSecTwo = () => {
                         </div>
 
                         <div className="w-full px-4 lg:w-1/2">
-                        <Slider />
+                        <SliderHome />
 
                         </div>
 
