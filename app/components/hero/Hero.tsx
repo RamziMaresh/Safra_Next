@@ -108,17 +108,6 @@ const Hero = () => {
               </radialGradient>
 
               <linearGradient
-                id="paint3_linear_25:217"
-                x1="226.775"
-                y1="-66.1548"
-                x2="292.157"
-                y2="351.421"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="rgb(45 212 191)" />
-                <stop offset="1" stopColor="rgb(45 212 191)" stopOpacity="0" />
-              </linearGradient>
-              <linearGradient
                 id="paint4_linear_25:217"
                 x1="184.521"
                 y1="182.159"
