@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "../common/SectionTitle";
+import Slider from "../slider/slider";
 
 
 const HomeSecTwo = () => {
@@ -30,20 +31,8 @@ const HomeSecTwo = () => {
                         </div>
 
                         <div className="w-full px-4 lg:w-1/2">
-                            <div className="relative mx-auto aspect-[25/24] max-w-[400px] lg:mr-0">
-                                <Image
-                                    src="/assets/home/hometwo.png"
-                                    alt="about-image"
-                                    fill
-                                    className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                                />
-                                <Image
-                                    src="/assets/home/hometwodark.png"
-                                    alt="about-image"
-                                    fill
-                                    className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                                />
-                            </div>
+                        <Slider />
+
                         </div>
 
                     </div>
