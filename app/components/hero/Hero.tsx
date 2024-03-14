@@ -13,7 +13,7 @@ const Hero = () => {
           className=' w-full h-full bg-cover bg-no-repeat '
           style={{ backgroundImage: "url('/assets/about/background.jpeg')", height: 500 }}
         >
-          <div className='mask h-full flex items-center justify-center' style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
+          <div className='mask h-full flex items-center justify-center' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
             <div className=''>
               {/** */}
               <div className="mx-auto max-w-[800px] text-center ">
