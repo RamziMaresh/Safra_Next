@@ -51,7 +51,7 @@ const Solutions = () => {
 
             <div className="px-14 pt-12 space-y-12 pb-4 text-center">
                 <h2 className="text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[35px]">
-                    Safra Solutions For
+                    Safra Solutions 
                 </h2>
             </div>
             
