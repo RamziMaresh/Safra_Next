@@ -15,6 +15,8 @@ import Img5 from './partners/015.png'
 import Img6 from './partners/016.png'
 import Img7 from './partners/017.png'
 import Img8 from './partners/018.png'
+import Img9 from './partners/019.png'
+
 
 const partners = [
     { image: Img1 },
@@ -25,6 +27,8 @@ const partners = [
     { image: Img6 },
     { image: Img7 },
     { image: Img8 },
+    { image: Img9 },
+
 
 ]
 const Solutions = () => {
