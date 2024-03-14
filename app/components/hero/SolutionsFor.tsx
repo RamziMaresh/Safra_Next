@@ -48,12 +48,13 @@ const Solutions = () => {
 
     return (
         <div className="overflow-hidden pb-24 dark:bg-gray-dark" id='partners'>
+
             <div className="px-14 pt-12 space-y-12 pb-4 text-center">
                 <h2 className="text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
                     Safra Solutions For
                 </h2>
-
             </div>
+            
             <div className="flex justify-center items-center mb-12 px-14 ">
                     <Image
                         src=
@@ -76,7 +77,7 @@ const Solutions = () => {
                 {
                     partners.map((partner) => {
                         return (
-                            <div key="" className=''>
+                            <div key="" className='p-1'>
                                 <Image src={partner.image} alt='' key="" />
                             </div>
                         )
