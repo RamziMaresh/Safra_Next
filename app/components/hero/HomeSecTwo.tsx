@@ -17,6 +17,34 @@ const HomeSecTwo = () => {
                         <div className="w-full px-6 lg:w-1/2">
                             <SectionTitle
                                 title="Who We Are !"
+
+                                paragraph=""
+                                paragraphTwo=""
+                                mb="20px"
+                            />
+
+                            <div className="mb-4">
+                                <Image
+                                    src=
+                                    {"/assets/safralines.png"}
+                                    width={400}
+                                    height={400}
+                                    alt="safra-colors-image-light"
+                                    className="dark:hidden "
+                                />
+
+                                <Image
+                                    src="/assets/safralinesdark.png"
+                                    alt="safra-colors-image-dark"
+                                    width={400}
+                                    height={400}
+                                    className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                                />
+                            </div>
+
+                            <SectionTitle
+                                title=""
+
                                 paragraph="Safra is the biggest company in the Middle East producing 
                                 Aliphatic and Aromatic solvents, serving industries such as Paints, 
                                 Adhesives, Insecticides & Pesticides, Thinner, Ink, printing, Tannery, 
@@ -32,7 +60,7 @@ const HomeSecTwo = () => {
                         </div>
 
                         <div className="w-full px-4 lg:w-1/2">
-                        <SliderHome />
+                            <SliderHome />
 
                         </div>
 

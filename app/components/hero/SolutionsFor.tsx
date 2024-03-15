@@ -16,6 +16,7 @@ import Img6 from './partners/016.png'
 import Img7 from './partners/017.png'
 import Img8 from './partners/018.png'
 import Img9 from './partners/019.png'
+import Features from './Features';
 
 
 const partners = [
@@ -49,30 +50,17 @@ const Solutions = () => {
     return (
         <div className="overflow-hidden pb-24 dark:bg-gray-dark" id='partners'>
 
-            <div className="px-14 pt-12 space-y-12 pb-4 text-center">
-                <h2 className="text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[35px]">
-                    Safra Solutions 
+            <div className="px-14 pt-12 space-y-12 pb-4 text-center ">
+                <h2 className="text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[35px] tracking-wide uppercase">
+                    Solutions For Better living
                 </h2>
-            </div>
-            
-            <div className="flex justify-center items-center mb-12 px-14 ">
-                    <Image
-                        src=
-                        {"/assets/safralines.png"}
-                        width={400}
-                        height={400}
-                        alt="safra-colors-image-light"
-                        className="dark:hidden text-center flex "
-                    />
 
-                    <Image
-                        src="/assets/safralinesdark.png"
-                        alt="safra-colors-image-dark"
-                        width={400}
-                        height={400}
-                        className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                    />
-                </div>
+                <p className="mb-10 capitalize text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                                        Our product portfolio has been identified as one of our core competencies, giving us a competitive edge in the local, regional and international markets.
+                                    </p>
+            </div>
+            <Features />
+        
             <Slider {...settings} >
                 {
                     partners.map((partner) => {
