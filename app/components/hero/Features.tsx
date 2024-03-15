@@ -13,7 +13,7 @@ const features = [
     },
     {
         icon: <HiDeviceMobile />,
-        name: 'Marketing & Customer Relationship Managment',
+        name: 'Marketing Relationship Managment',
         desc: 'The relationships developed with our customers have contributed greatly to our current success; the preservation of such solid relationships is the key to our future grouth.'
     },
     {
@@ -30,17 +30,17 @@ const Features = () => {
             <div className="py-12 space-y-12">
                 <div className='flex flex-wrap m-auto w-full justify-center items-center '>
                     {
-                        features.map(feature => {
+                        features.map(feature =>  {
                             return (
-                                <div >
+                                <div key="">
                                     <div className='flex flex-col cursor-grab justify-center items-center mb-8 space-y-4 hover:bg-[rgba(0,0,0,.015)] group rounded-3xl duration-200 transition p-6'>
-                                        <div key="" className="text-5xl text-teal-600 bg-[rgba(0,0,0,.015)] rounded-full p-4 group-hover:bg-[rgba(0,0,0,.0)] group-hover:animate-spin">
+                                        <div  className="text-5xl text-teal-600 bg-[rgba(0,0,0,.015)] rounded-full p-4 group-hover:bg-[rgba(0,0,0,.0)] group-hover:animate-spin">
                                             {feature.icon}
                                         </div>
-                                        <h1 key="" className='font-black text-teal-700 uppercase md:w-64'>
+                                        <h1  className='font-black text-teal-700 uppercase md:w-64'>
                                             {feature.name}
                                         </h1>
-                                        <p key="" className='md:w-80  text-sm pb-4'>
+                                        <p  className='md:w-80  text-sm pb-4'>
                                             {feature.desc}
                                         </p>
                                     </div>
