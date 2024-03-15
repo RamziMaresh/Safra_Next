@@ -9,11 +9,11 @@ const Hero = () => {
         className="
         relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[110px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[100px] 2xl:pt-[110px]"
       >
-        <div
-          className=' w-full h-full bg-cover bg-no-repeat '
+        <div 
+          className=' w-full h-full bg-cover bg-no-repeat'
           style={{ backgroundImage: "url('/assets/about/background.jpeg')", height: 500 }}
         >
-          <div className='mask h-full flex items-center justify-center' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
+          <div className='mask h-full flex items-center justify-center' style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
             <div className=''>
               {/** */}
               <div className="mx-auto max-w-[800px] text-center ">
