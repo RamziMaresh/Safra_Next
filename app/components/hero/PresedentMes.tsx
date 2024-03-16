@@ -7,7 +7,7 @@ const HomeSecThree = () => {
     return (
         <section
             id="homeTwo"
-            className="relative z-10 overflow-hidden lg:pt-[50px] dark:bg-gray-dark ">
+            className="relative z-10 overflow-hidden lg:pt-[50px] dark:bg-gray-dark pt-8">
 
             <div className="container">
                 <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-12">

@@ -27,7 +27,7 @@ const HomeSecTwo = () => {
                                 <Image
                                     src=
                                     {"/assets/safralines.png"}
-                                    width={400}
+                                    width={350}
                                     height={400}
                                     alt="safra-colors-image-light"
                                     className="dark:hidden "
@@ -36,9 +36,9 @@ const HomeSecTwo = () => {
                                 <Image
                                     src="/assets/safralinesdark.png"
                                     alt="safra-colors-image-dark"
-                                    width={400}
+                                    width={350}
                                     height={400}
-                                    className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                                    className="hidden  dark:block "
                                 />
                             </div>
 
