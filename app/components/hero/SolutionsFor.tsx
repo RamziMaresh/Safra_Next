@@ -49,18 +49,16 @@ const Solutions = () => {
 
     return (
         <div className="overflow-hidden pb-24 dark:bg-gray-dark " id='partners'>
-
-            <div className="px-14 pt-12 space-y-12 pb-4 text-center bg-gray-50  dark:bg-gray-dark">
-                <h2 className="text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[35px] tracking-wide capitalize">
-                    Total Quality Managment
-                </h2>
-            </div>
             <Features />
             <div className="px-14 pt-12 mb-12  pb-4 text-center">
-                <h2 className="text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[35px] tracking-wide capitalize">
-                    Safra Solution 
+                <h2 className="text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[35px] tracking-wide capitalize mb-8">
+                    Solutions For Better Living
                 </h2>
+                <p className="mb-2  text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                Our product portfolio has been identified as one of our core competencies, giving us a competitive edge in the local, regional and international markets.
+            </p>
             </div>
+
             <Slider {...settings} >
                 {
                     partners.map((partner) => {
