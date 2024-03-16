@@ -53,7 +53,7 @@ const Header = () => {
             <div className="w-1/2	max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
-                className={`flex header-logo block w-full ${sticky ? "py-5 lg:py-2" : "py-4"
+                className={`flex header-logo block w-full ${sticky ? "py-5 lg:py-2" : "py-6"
                   } `}
               >
                 <Image
