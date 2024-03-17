@@ -53,13 +53,13 @@ const Header = () => {
             <div className="w-1/2	max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
-                className={`flex header-logo block w-full ${sticky ? "py-5 lg:py-2" : "py-6"
+                className={`flex header-logo block w-full ${sticky ? "py-5 lg:py-2" : "py-4"
                   } `}
               >
                 <Image
                   src="/assets/logoOnlyB.png"
                   alt="logo"
-                  width={60}
+                  width={50}
                   height={30}
                   className="dark:hidden"
                 >
@@ -71,7 +71,7 @@ const Header = () => {
                   height={30}
                   className="hidden dark:block"
                 />
-                <h1 className="text-gray-900 px-1 mt-8 tracking-wider font-medium	dark:text-white">Safra </h1>
+                <h1 className="text-gray-700 px-1 mt-8 tracking-wider font-bold	dark:text-white">Safra </h1>
 
               </Link>
 

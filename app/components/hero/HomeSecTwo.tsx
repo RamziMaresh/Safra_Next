@@ -10,6 +10,37 @@ const HomeSecTwo = () => {
         <section
             id="homeTwo"
             className="relative z-10 overflow-hidden lg:pt-[50px] dark:bg-gray-dark ">
+            <div>
+                <span className="absolute right-0 top-0 z-[-1]">
+                    <svg
+                        width="628"
+                        height="258"
+                        viewBox="0 0 628 258"
+                        fill="none"
+
+                    >
+                        <path
+                            opacity="0.2"
+                            d="M669.125 257.002L345.875 31.9983L524.571 -15.8832L669.125 257.002Z"
+                            fill="url(#paint0_linear_0:1)"
+                        />
+
+                        <defs>
+                            <linearGradient
+                                id="paint0_linear_0:1"
+                                x1="644"
+                                y1="221"
+                                x2="429.946"
+                                y2="37.0429"
+                                gradientUnits="userSpaceOnUse"
+                            >
+                                <stop stopColor="rgb(45 212 191)" />
+                                <stop offset="1" stopColor="rgb(94 234 212)" stopOpacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </span>
+            </div>
 
             <div className="container">
                 <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-12">
