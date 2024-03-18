@@ -64,14 +64,7 @@ const Features = () => {
                         transform="rotate(-30 356 290)"
                         stroke="url(#paint5_linear_25:217)"
                     />
-                    <circle
-                        opacity="0.8"
-                        cx="191.659"
-                        cy="302.659"
-                        r="133.362"
-                        transform="rotate(133.319 191.659 302.659)"
-                        fill="url(#paint6_linear_25:217)"
-                    />
+
                     <defs>
 
                         <linearGradient
@@ -96,17 +89,7 @@ const Features = () => {
                             <stop stopColor="rgb(20 184 166)" />
                             <stop offset="1" stopColor="white" stopOpacity="0" />
                         </linearGradient>
-                        <linearGradient
-                            id="paint6_linear_25:217"
-                            x1="118.524"
-                            y1="29.2497"
-                            x2="166.965"
-                            y2="338.63"
-                            gradientUnits="userSpaceOnUse"
-                        >
-                            <stop stopColor="rgb(45 212 191)" />
-                            <stop offset="1" stopColor="rgb(153 246 228)" stopOpacity="0" />
-                        </linearGradient>
+
                     </defs>
                 </svg>
             </div>
