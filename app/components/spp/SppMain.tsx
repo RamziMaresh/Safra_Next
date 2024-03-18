@@ -82,44 +82,31 @@ const Spp = () => {
                                 <div className="flex flex-wrap items-center justify-between">
                                     <div className="flex flex-wrap items-center">
                                         <div className="mb-2 flex items-center">
-                                            <p className="mr-5 dark:text-yellow-500 flex items-center text-base italic font-medium text-body-color tracking-wide text-yellow-700 dark:text-white">
+                                            <p className="mr-5 dark:text-yellow-500 flex items-center text-base italic font-medium text-body-color tracking-wide text-yellow-800 dark:text-white">
                                                 Add More Quality Into Your Life
                                             </p>
                                         </div>
                                     </div>
-
-                                    <div className="mb-2">
-                                        <a
-                                            href="#0"
-                                            className="tracking-wide inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-teal-500 to-teal-800 px-4 py-1 text-sm text-white"
-                                        >
-                                            Contact SPP Department !
-                                        </a>
-                                    </div>
-                                    {/** */}
-
-                                    {/** */}
-                                    <div className="mb-8">
-                                        <Image
-                                            src=
-                                            {"/assets/safralines.png"}
-                                            width={500}
-                                            height={500}
-                                            alt="safra-colors-image-light"
-                                            className="dark:hidden "
-                                        />
-
-                                        <Image
-                                            src="/assets/safralinesdark.png"
-                                            alt="safra-colors-image-dark"
-                                            width={500}
-                                            height={500}
-                                            className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                                        />
-                                    </div>
-                                    
-                                    <Slider />
                                 </div>
+                                <div className="mb-8">
+                                    <Image
+                                        src=
+                                        {"/assets/safralines.png"}
+                                        width={600}
+                                        height={500}
+                                        alt="safra-colors-image-light"
+                                        className="dark:hidden "
+                                    />
+
+                                    <Image
+                                        src="/assets/safralinesdark.png"
+                                        alt="safra-colors-image-dark"
+                                        width={600}
+                                        height={500}
+                                        className=" hidden dark:block "
+                                    />
+                                </div>
+                                <Slider />
 
 
                                 {/** */}
@@ -261,7 +248,7 @@ const Spp = () => {
                         </div>
                     </div>
                     <h1 className="mb-10 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight tracking-wide">
-                        Safra Packaged Products (SPP) : 
+                        Safra Packaged Products (SPP) :
                     </h1>
                     {/**Products List */}
                     <div className="grid  gap-4 grid-cols-2">
