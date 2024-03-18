@@ -106,7 +106,16 @@ const Spp = () => {
                                         className=" hidden dark:block "
                                     />
                                 </div>
-                                <Slider />
+                                <div className="mb-10 w-full overflow-hidden rounded">
+                                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                                        <Image
+                                            src="/assets/spp/mainspp.png"
+                                            alt="image"
+                                            fill
+                                            className="object-cover object-center"
+                                        />
+                                    </div>
+                                </div>
 
 
                                 {/** */}
@@ -251,9 +260,9 @@ const Spp = () => {
                         Safra Packaged Products (SPP) :
                     </h1>
                     {/**Products List */}
-                    <div className="grid  gap-4 grid-cols-2">
+                    <div className="grid  gap-4 grid-cols-1">
 
-                        <div className="bg-gray-50 dark:bg-gray-dark rounded-md p-4">
+                        <div className="bg-slate-50 dark:bg-gray-dark rounded-md p-4">
                             <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                 1- Safra Pine™ (Normal Paint Thinner)
                             </h3>
@@ -261,40 +270,29 @@ const Spp = () => {
                                 PDF Download: <Link target="_blank" href="/assets/PDF Files/Spp/Specs/Safra Pine.pdf">Specs</Link> &
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Pine.pdf"> Msds</Link>
                             </p>
-                            <div className="grid-container grid grid-cols-5 mb-5 ">
-                                <div className="relative col-span-2  h-3/5 w-3/5">
-                                    <Image
-                                        src="/assets/spp/pine.gif"
-                                        alt="image"
-                                        width={200}
-                                        height={300}
-                                        className="object-contain object-center p-2 flex "
-                                    />
-                                </div>
-                                <div className="item1 col-span-3">
-                                    <ul className="list-inside list-disc text-body-color">
-                                        <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Minimizes health hazards caused by vapors with irritating smell.
-                                        </li>
-                                        <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Improves paint properties not obtained with conventional thinners such as gloss, flow, durability etc.
-                                        </li>
-                                        <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Reduces ventilation requirements unlike when ordinary paint thinners are used.
-                                        </li>
-                                        <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Completely lead free. Therefore, safe without danger of blood cancer, asthma & chest disease.
-                                        </li>
-                                        <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Aesthetically very much acceptable compared to other available products.
-                                        </li>
-                                    </ul>
-                                </div>
+                            <div className="item1 col-span-3">
+                                <ul className="list-inside list-disc text-body-color">
+                                    <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        Minimizes health hazards caused by vapors with irritating smell.
+                                    </li>
+                                    <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        Improves paint properties not obtained with conventional thinners such as gloss, flow, durability etc.
+                                    </li>
+                                    <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        Reduces ventilation requirements unlike when ordinary paint thinners are used.
+                                    </li>
+                                    <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        Completely lead free. Therefore, safe without danger of blood cancer, asthma & chest disease.
+                                    </li>
+                                    <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        Aesthetically very much acceptable compared to other available products.
+                                    </li>
+                                </ul>
                             </div>
                         </div>
 
                         {/**2 */}
-                        <div className="bg-gray-50 dark:bg-gray-dark rounded-md p-4">
+                        <div className="bg-slate-50 dark:bg-gray-dark rounded-md p-4">
                             <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                 2- Safra Pure™ (Odorless Paint Thinner)
                             </h3>
@@ -302,34 +300,23 @@ const Spp = () => {
                                 PDF Download: <Link target="_blank" href="/assets/PDF Files/Spp/Specs/Safra Pure.pdf">Specs</Link> &
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Pure.pdf"> Msds</Link>
                             </p>
-                            <div className="grid-container grid grid-cols-5 mb-5">
-                                <div className="relative col-span-2  h-3/5 w-3/5">
-                                    <Image
-                                        src="/assets/spp/pure.gif"
-                                        alt="image"
-                                        width={200}
-                                        height={300}
-                                        className="object-contain object-center p-2 flex "
-                                    />
-                                </div>
-                                <div className="item1 col-span-3">
-                                    <ul className="list-inside list-disc text-body-color">
-                                        <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Minimizes health hazards caused by vapors with irritating smell/odor.
-                                        </li>
-                                        <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Improves paint properties not obtained with other thinners or Kerosene, such as gloss, flow, durability etc.
-                                        </li>
-                                        <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Reduces ventilation requirements to minimum unlike when ordinary paint thinners or Kerosene are used.
-                                        </li>
-                                    </ul>
-                                </div>
+                            <div className="item1 col-span-3">
+                                <ul className="list-inside list-disc text-body-color">
+                                    <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        Minimizes health hazards caused by vapors with irritating smell/odor.
+                                    </li>
+                                    <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        Improves paint properties not obtained with other thinners or Kerosene, such as gloss, flow, durability etc.
+                                    </li>
+                                    <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        Reduces ventilation requirements to minimum unlike when ordinary paint thinners or Kerosene are used.
+                                    </li>
+                                </ul>
                             </div>
                         </div>
 
                         {/**3 */}
-                        <div className="bg-gray-50 dark:bg-gray-dark rounded-md p-4">
+                        <div className="bg-slate-50 dark:bg-gray-dark rounded-md p-4">
                             <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                 3- Safra Cryl™ (Lacquer Thinner)
                             </h3>
@@ -337,40 +324,29 @@ const Spp = () => {
                                 PDF Download: <Link target="_blank" href="/assets/PDF Files/Spp/Specs/Safra Cryl.pdf">Specs</Link> &
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Cryl.pdf"> Msds</Link>
                             </p>
-                            <div className="grid-container grid grid-cols-5 mb-5">
-                                <div className="relative col-span-2  h-3/5 w-3/5">
-                                    <Image
-                                        src="/assets/spp/cryl.gif"
-                                        alt="image"
-                                        width={200}
-                                        height={300}
-                                        className="object-contain object-center p-2 flex "
-                                    />
-                                </div>
-                                <div className="item1 col-span-3">
-                                    <ul className="list-inside list-disc text-body-color">
-                                        <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Quickly reduces the consistency of the lacquers to the required degree.
-                                        </li>
-                                        <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Improves film smoothness of the lacquers when applied either by spray or dipping.
-                                        </li>
-                                        <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Film of lacquer dries without blushing, pin holing and other surface defects.
-                                        </li>
-                                        <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Due to splitting capabilities effectively cleans all metallic surfaces by dissolving adhered oil, grease, wax, etc.
-                                        </li>
-                                        <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Helps drying lacquers quicker than when they are dissolved in conventional paint thinner.
-                                        </li>
-                                    </ul>
-                                </div>
+                            <div className="item1 col-span-3">
+                                <ul className="list-inside list-disc text-body-color">
+                                    <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        Quickly reduces the consistency of the lacquers to the required degree.
+                                    </li>
+                                    <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        Improves film smoothness of the lacquers when applied either by spray or dipping.
+                                    </li>
+                                    <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        Film of lacquer dries without blushing, pin holing and other surface defects.
+                                    </li>
+                                    <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        Due to splitting capabilities effectively cleans all metallic surfaces by dissolving adhered oil, grease, wax, etc.
+                                    </li>
+                                    <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        Helps drying lacquers quicker than when they are dissolved in conventional paint thinner.
+                                    </li>
+                                </ul>
                             </div>
                         </div>
 
                         {/**4 */}
-                        <div className="bg-gray-50 dark:bg-gray-dark rounded-md p-4">
+                        <div className="bg-slate-50 dark:bg-gray-dark rounded-md p-4">
                             <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                 4- Safra Prime™ (Acrylic Thinner)
                             </h3>
@@ -378,37 +354,26 @@ const Spp = () => {
                                 PDF Download: <Link target="_blank" href="/assets/PDF Files/Spp/Specs/Safra Prime.pdf">Specs</Link> &
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Prime.pdf"> Msds</Link>
                             </p>
-                            <div className="grid-container grid grid-cols-5 mb-5">
-                                <div className="relative col-span-2  h-3/5 w-3/5">
-                                    <Image
-                                        src="/assets/spp/prime.gif"
-                                        alt="image"
-                                        width={200}
-                                        height={300}
-                                        className="object-contain object-center p-2 flex "
-                                    />
-                                </div>
-                                <div className="item1 col-span-3">
-                                    <ul className="list-inside list-disc text-body-color">
-                                        <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Quickly reduces the consistency of the automotive lacquers to the required degree.
-                                        </li>
-                                        <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Improves film smoothness of the automotive lacquers when applied either by spray or dipping thus extending excellent finish.
-                                        </li>
-                                        <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            Film of automotive lacquer dries without blushing, resin blush, pin holing and other surface defects.
-                                        </li>
-                                        <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                            No [orange peel] is developed after the evaporation of Safra Prime™, and therefore increases the tensile strength of the film along with its gloss.
-                                        </li>
-                                    </ul>
-                                </div>
+                            <div className="item1 col-span-3">
+                                <ul className="list-inside list-disc text-body-color">
+                                    <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        Quickly reduces the consistency of the automotive lacquers to the required degree.
+                                    </li>
+                                    <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        Improves film smoothness of the automotive lacquers when applied either by spray or dipping thus extending excellent finish.
+                                    </li>
+                                    <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        Film of automotive lacquer dries without blushing, resin blush, pin holing and other surface defects.
+                                    </li>
+                                    <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        No [orange peel] is developed after the evaporation of Safra Prime™, and therefore increases the tensile strength of the film along with its gloss.
+                                    </li>
+                                </ul>
                             </div>
                         </div>
 
                         {/**5 */}
-                        <div className="bg-gray-50 dark:bg-gray-dark rounded-md p-4">
+                        <div className="bg-slate-50 dark:bg-gray-dark rounded-md p-4">
                             <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                 5- Safra Pro™ (Slow Dryness)
                             </h3>
@@ -416,15 +381,6 @@ const Spp = () => {
                                 PDF Download: <Link target="_blank" href="/assets/PDF Files/Spp/Specs/Safra Pro.pdf">Specs</Link> &
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Pro.pdf"> Msds</Link>
                             </p>
-                            <div className="grid-container grid grid-cols-5 mb-5">
-                                <div className="relative col-span-2  h-3/5 w-3/5">
-                                    <Image
-                                        src="/assets/spp/prime.gif"
-                                        alt="image"
-                                        width={200}
-                                        height={300} className="object-contain object-center p-2 flex "
-                                    />
-                                </div>
                                 <div className="item1 col-span-3">
                                     <ul className="list-inside list-disc text-body-color">
                                         <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
@@ -445,11 +401,9 @@ const Spp = () => {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-
 
                         {/**6 */}
-                        <div className="bg-gray-50 dark:bg-gray-dark rounded-md p-4">
+                        <div className="bg-slate-50 dark:bg-gray-dark rounded-md p-4">
                             <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                 6- Safra Shine™
                             </h3>
@@ -457,15 +411,7 @@ const Spp = () => {
                                 PDF Download: <Link target="_blank" href="/assets/PDF Files/Spp/Specs/Safra Shine.pdf">Specs</Link> &
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Shine.pdf"> Msds</Link>
                             </p>
-                            <div className="grid-container grid grid-cols-5 mb-5">
-                                <div className="relative col-span-2  h-3/5 w-3/5">
-                                    <Image
-                                        src="/assets/spp/shine.gif"
-                                        alt="image"
-                                        width={200}
-                                        height={300} className="object-contain object-center p-2 flex "
-                                    />
-                                </div>
+
                                 <div className="item1 col-span-3">
                                     <ul className="list-inside list-disc text-body-color">
                                         <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
@@ -486,11 +432,10 @@ const Spp = () => {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
 
 
                         {/**7 */}
-                        <div className="bg-gray-50 dark:bg-gray-dark rounded-md p-4">
+                        <div className="bg-slate-50 dark:bg-gray-dark rounded-md p-4">
                             <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                 7- Safra Bond™ (Cement)
                             </h3>
@@ -498,15 +443,7 @@ const Spp = () => {
                                 PDF Download: <Link target="_blank" href="/assets/PDF Files/Spp/Specs/Safra Bond.pdf">Specs</Link> &
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Bond.pdf"> Msds</Link>
                             </p>
-                            <div className="grid-container grid grid-cols-5 mb-5">
-                                <div className="relative col-span-2  h-3/5 w-3/5">
-                                    <Image
-                                        src="/assets/spp/bond.gif"
-                                        alt="image"
-                                        width={200}
-                                        height={300} className="object-contain object-center p-2 flex "
-                                    />
-                                </div>
+
                                 <div className="item1 col-span-3">
                                     <ul className="list-inside list-disc text-body-color">
                                         <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
@@ -527,11 +464,10 @@ const Spp = () => {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
 
 
                         {/**8 */}
-                        <div className="bg-gray-50 dark:bg-gray-dark rounded-md p-4">
+                        <div className="bg-slate-50 dark:bg-gray-dark rounded-md p-4">
 
                             <h3 className="font-xl mb-2 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                                 8- Safra Bond™ (Cleaner)
@@ -540,16 +476,7 @@ const Spp = () => {
                                 PDF Download: <Link target="_blank" href="/assets/PDF Files/Spp/Specs/Safra Bond Cleaner.pdf">Specs</Link> &
                                 <Link target="_blank" href="/assets/PDF Files/Spp/Msds/Safra Bond Cleaner.pdf"> Msds</Link>
                             </p>
-                            <div className="grid-container grid grid-cols-5 mb-5">
-                                <div className="relative col-span-2  h-3/5 w-3/5">
-                                    <Image
-                                        src="/assets/spp/bond-c.gif"
-                                        alt="image"
-                                        width={200}
-                                        height={300}
-                                        className="object-contain object-center p-2 flex "
-                                    />
-                                </div>
+
                                 <div className="item1 col-span-3">
                                     <ul className="list-inside list-disc text-body-color">
                                         <li className="mb-1 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
@@ -568,7 +495,6 @@ const Spp = () => {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
 
                         {/**End closing */}
                     </div>
