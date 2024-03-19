@@ -7,9 +7,7 @@ export default function Home() {
     <>
 
       <Hero />
-      <HomeSecTwo />
-      <HomeSecThree />
-      <Solutions />
+
     </>
   )
 }

@@ -11,7 +11,7 @@ function Footer() {
 
     return (
         <>
-            <div className="dark:bg-gray-dark bg-teal-700 
+            <div className="dark:bg-gray-dark bg-gradient-to-r from-teal-600 to-teal-700
             h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20"
             >
 

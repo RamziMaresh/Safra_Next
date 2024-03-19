@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import ThemeToggler from "./ThemeToggler";
 import MenuData from "../../components/header/menuData";
 //
 import { FaGlobe } from "react-icons/fa6";
@@ -167,14 +166,13 @@ const Header = () => {
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
                   href="/"
-                  className="hidden px-2 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
+                  className=" px-2 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
                 >
                   <FaGlobe />
                 </Link>
+                <p className="hidden lg:block">| AR</p>
+                
 
-                <div>
-                  <ThemeToggler />
-                </div>
               </div>
 
             </div>

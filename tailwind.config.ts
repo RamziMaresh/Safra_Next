@@ -11,6 +11,7 @@ const config: Config = {
   ],
   darkMode:'class',
   theme: {
+    
     container: {
       center: true,
       padding: "1rem",
@@ -56,7 +57,7 @@ const config: Config = {
         gray: {
           ...colors.gray,
           dark: "rgb(15 118 110)",
-          light: "red",
+          light: "white",
         },
       },
 

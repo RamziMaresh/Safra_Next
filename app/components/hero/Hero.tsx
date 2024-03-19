@@ -7,13 +7,13 @@ const Hero = () => {
       <section
         id="home"
         className="
-        relative z-10 overflow-hidden bg-white pb-16 pt-[80px] dark:bg-gray-dark md:pb-[80px] md:pt-[80px] xl:pb-[80px] xl:pt-[80px] 2xl:pb-[80px] 2xl:pt-[80px]"
+        relative z-10 overflow-hidden bg-white pb-0 pt-[80px] dark:bg-gray-dark md:pb-[0px] md:pt-[80px] xl:pb-[0px] xl:pt-[80px] 2xl:pb-[0px] 2xl:pt-[80px]"
       >
         <div 
           className=' w-full h-full bg-cover bg-no-repeat'
-          style={{ backgroundImage: "url('/assets/about/background.jpeg')", height: 500 }}
+          style={{ backgroundImage: "url('/assets/about/background.jpeg')", height: 700 }}
         >
-          <div className='mask h-full flex items-center justify-center dark:bg-gray-dark' style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
+          <div className='mask h-full flex items-center justify-center dark:bg-gray-dark' style={{ backgroundColor: 'rgba(0, 0, 0, 0.4)' }}>
             <div className=''>
               {/** */}
               <div className="mx-auto max-w-[800px] text-center ">
@@ -28,13 +28,13 @@ const Hero = () => {
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/pages/about"
-                    className="rounded-sm bg-gradient-to-r from-teal-500 to-teal-800 px-6 py-2 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 tracking-wider"
+                    className="rounded-sm bg-gradient-to-r from-teal-600 to-teal-800 px-6 py-2 text-base text-white duration-300 ease-in-out hover:bg-primary/80 tracking-wider"
                   >
-                    More About Safra
+                    Read About Safra
                   </Link>
                   <Link
                     href="/"
-                    className="inline-block rounded-sm bg-gradient-to-r from-teal-600 to-teal-900 px-6 py-2 tracking-wider text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                    className="inline-block rounded-sm bg-gradient-to-r from-teal-600 to-teal-900 px-6 py-2 tracking-wider text-base  text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
                     Contact Us !
                   </Link>
@@ -46,7 +46,7 @@ const Hero = () => {
         </div>
 
 
-
+{/**
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="364"
@@ -150,6 +150,7 @@ const Hero = () => {
             </defs>
           </svg>
         </div>
+         */}
       </section >
       {/** 
       <div
