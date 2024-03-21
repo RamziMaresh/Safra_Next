@@ -11,7 +11,7 @@ const Hero = () => {
       >
         <div 
           className=' w-full h-full bg-cover bg-no-repeat'
-          style={{ backgroundImage: "url('/assets/about/background.jpeg')", height: 600 }}
+          style={{ backgroundImage: "url('/assets/about/background.jpeg')", height: 550 }}
         >
           <div className='mask h-full flex items-center justify-center dark:bg-gray-dark' style={{ backgroundColor: 'rgba(0, 0, 0, 0.4)' }}>
               {/** */}

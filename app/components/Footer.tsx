@@ -15,12 +15,12 @@ function Footer() {
             h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20"
             >
 
-                <div className="">
+                <div className="p-5">
                     <ul>
-                        <p className="text-gray-200 font-bold text-3xl pb-1 tracking-wider">
-                            SAFRA <span className="text-gray-200 ">Co. Ltd.</span>
+                        <p className="text-white font-bold text-3xl pb-1 tracking-wider">
+                            SAFRA <span className="text-white ">Co. Ltd.</span>
                         </p>
-                        <p className="text-sm tracking-wider mb-4 text-white">Solutions For Better Living Science 1989</p>
+                        <p className="text-sm tracking-wider mb-4 text-gray-200 ">Solutions For Better Living Science 1989</p>
                         <div className="mb-6">
                             <Image
                                 src=
