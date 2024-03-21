@@ -5,9 +5,9 @@ import HomeSecThree from "./components/hero/PresedentMes";
 export default function Home() {
   return (
     <>
-
       <Hero />
-
+      <HomeSecTwo />
+      <HomeSecThree />
     </>
   )
 }

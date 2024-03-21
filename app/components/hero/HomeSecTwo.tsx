@@ -12,11 +12,11 @@ const HomeSecTwo = () => {
             className="relative z-10 overflow-hidden lg:pt-[50px] dark:bg-gray-dark ">
 
             <div className="container">
-                <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-12">
+                <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-1">
                     <div className="-mx-4 flex flex-wrap items-center">
                         <div className="w-full px-6 lg:w-1/2">
                             <SectionTitle
-                                title="Who We Are !"
+                                title="Safra Co. Ltd."
 
                                 paragraph=""
                                 paragraphTwo=""

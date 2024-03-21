@@ -10,27 +10,8 @@ const MenuData: Menu[] = [
   {
     id: 2,
     title: "About",
+    path: "/pages/about",
     newTab: false,
-    submenu: [
-      {
-        id: 51,
-        title: " - Safra Profile",
-        path: "/pages/about",
-        newTab: false,
-      },
-      {
-        id: 52,
-        title: " - Safra Solutions For: ",
-        path: "/pages/about/solutionsFor",
-        newTab: false,
-      },
-      {
-        id: 52,
-        title: " - Safra History",
-        path: "/pages/about/history",
-        newTab: false,
-      },
-    ]
   },
 
   {

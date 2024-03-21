@@ -11,96 +11,85 @@ function Footer() {
 
     return (
         <>
-            <div className="dark:bg-gray-dark bg-gradient-to-r from-teal-600 to-teal-700
+            <div className="bg-gradient-to-r from-teal-600 to-teal-700
             h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20"
             >
 
-                <div className="p-5">
+                <div className="">
                     <ul>
-                        <p className="text-white font-bold text-3xl pb-1 tracking-wider">
-                            SAFRA <span className="text-white">Co. Ltd.</span>
+                        <p className="text-gray-200 font-bold text-3xl pb-1 tracking-wider">
+                            SAFRA <span className="text-gray-200 ">Co. Ltd.</span>
                         </p>
-                        <p className="text-sm tracking-wider mb-4 text-white">Solutions For Better Living 1989</p>
+                        <p className="text-sm tracking-wider mb-4 text-white">Solutions For Better Living Science 1989</p>
                         <div className="mb-6">
                             <Image
                                 src=
                                 {"/assets/Footer/safralinesd.png"}
-                                width={300}
-                                height={300}
+                                width={100}
+                                height={100}
                                 alt="safra-img-l"
-                                className="dark:hidden "
+                                className=""
                             />
-
-                            <Image
-                                src={"/assets/Footer/safralinesd.png"}
-                                alt="safra-img-d"
-                                width={300}
-                                height={300}
-                                className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                            />
-
                         </div>
                         <div className="flex gap-6 pb-5 text-white">
-                            <FaFacebook className="text-2xl cursor-pointer hover:text-teal-400" />
-                            <FaLinkedin className="text-2xl cursor-pointer hover:text-teal-400" />
-                            <FaMailBulk className="text-2xl cursor-pointer hover:text-teal-400" />
+                            <FaFacebook className="text-2xl cursor-pointer hover:text-yellow-400" />
+                            <FaLinkedin className="text-2xl cursor-pointer hover:text-yellow-400" />
+                            <FaMailBulk className="text-2xl cursor-pointer hover:text-yellow-400" />
                         </div>
                     </ul>
                 </div >
                 <div className="p-5">
                     <ul>
-                        <p className="text-gray-200 font-bold text-2xl pb-4">Product</p>
-                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
-                            Stocks
+                        <p className="text-white font-bold text-2xl pb-4">Product</p>
+                        <li className="text-md pb-1 hover:text-yellow-400 cursor-pointer text-gray-200">
+                            Safra Packaged Products
                         </li>
-                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
-                            Futures & Options
+                        <li className="text-md pb-1 hover:text-yellow-400 cursor-pointer text-gray-200">
+                            Aliphatic Solvents
                         </li>
-                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
-                            Mutual Funds
+                        <li className="text-md pb-1 hover:text-yellow-400 cursor-pointer text-gray-200">
+                            Aromatic Solvents
                         </li>
-                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
-                            Fixed deposits
-                        </li>
+
                     </ul>
                 </div>
                 <div className="p-5">
                     <ul>
-                        <p className="text-gray-200 font-bold text-2xl pb-4">Company</p>
-                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
+                        <p className="text-white font-bold text-2xl pb-4">Company</p>
+                        <li className="text-md pb-1 hover:text-yellow-400 cursor-pointer text-gray-200">
                             About
                         </li>
-                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
+                        <li className="text-md pb-1 hover:text-yellow-400 cursor-pointer text-gray-200">
                             Products
                         </li>
-                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
-                            History
-                        </li>
-                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
+                        <li className="text-md pb-1 hover:text-yellow-400 cursor-pointer text-gray-200">
                             Careers
                         </li>
-                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
+                        <li className="text-md pb-1 hover:text-yellow-400 cursor-pointer text-gray-200">
                             News & Media
+                        </li>
+                        <li className="text-md pb-1 hover:text-yellow-400 cursor-pointer text-gray-200">
+                            Contact Us
                         </li>
                     </ul>
                 </div>
                 <div className="p-5">
                     <ul>
-                        <p className="text-gray-200 font-bold text-2xl pb-4">Support</p>
-                        <li className="text-md pb-2 hover:text-gray-400 cursor-pointer">
+                        <p className="text-white font-bold text-2xl pb-4">Support</p>
+                        <li className="text-md pb-2 text-gray-200">
                             Contact us
                         </li>
-                        <li className="flex text-md pb-2 hover:text-gray-400 cursor-pointer">
+                        <li className="flex text-md pb-2 text-gray-200">
                             <FaLocationDot /> &nbsp;  Location :
 
                         </li>
-                        <li className="flex text-md pb-2  hover:text-gray-400 cursor-pointer">
+                        <li className="flex text-md pb-2  text-gray-200">
                             <FaPhone className=" " /> &nbsp; +12 XXXX XXX
                         </li>
-                        <li className="flex text-md pb-2 hover:text-gray-400 cursor-pointer">
+                        <li className="flex text-md pb-2  text-gray-200">
                             <FaPhone className=" " /> &nbsp; +12 XXXX XXX
                         </li>
-                        <li className=" flex text-md pb-2 hover:text-gray-400 cursor-pointer">
+                        <li className=" flex text-md pb-2  text-gray-200">
                             <FaPhone className=" " /> &nbsp; +12 XXXX XXX
                         </li>
 

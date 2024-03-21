@@ -58,19 +58,10 @@ const Header = () => {
                 <Image
                   src="/assets/logoOnlyB.png"
                   alt="logo"
-                  width={50}
-                  height={30}
-                  className="dark:hidden"
-                >
-                </Image>
-                <Image
-                  src="/assets/logoOnlyB.png"
-                  alt="logo"
-                  width={60}
-                  height={30}
-                  className="hidden dark:block"
+                  width={150}
+                  height={100}
+                  className="h"
                 />
-                <h1 className="text-gray-700 px-1 mt-8 tracking-wider font-bold	dark:text-white">Safra </h1>
 
               </Link>
 
