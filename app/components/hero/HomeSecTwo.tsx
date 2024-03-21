@@ -45,15 +45,11 @@ const HomeSecTwo = () => {
                             <SectionTitle
                                 title=""
 
-                                paragraph="Safra is the biggest company in the Middle East producing 
-                                Aliphatic and Aromatic solvents, serving industries such as Paints, 
-                                Adhesives, Insecticides & Pesticides, Thinner, Ink, printing, Tannery, 
-                                Resins, Industrial Cleaning and Maintenance, Dry Cleaning, Spot Removing,
-                                Wood Protection and varnishes, Construction Chemicals, 
-                                Oil Fields Chemicals, Bitumen Based Products, etc. Safra has got privilege 
-                                of producing odorless (aromatic free) solvents for various applications especially 
-                                oil-drilling, aerosol insecticide, 
-                                agricultural pesticide, industrial cleaning and maintenance."
+                                paragraph="SAFRA is a manufacturer and distributor of hydrocarbon solvents having a
+                                refinery located at Yanbu Industrial City on the west coast of Saudi Arabia, and corporate office at Jeddah. 
+                                The company serves industries of paints,dhesives, insecticides & pesticides, thinner, alkyd resins, industrial
+                                cleaning, maintenance solvents, dry cleaning, spot removing, wood protection, varnishes, construction chemicals, 
+                                oil field chemicals, and Bitumen based products."
                                 paragraphTwo=""
                                 mb="44px"
                             />

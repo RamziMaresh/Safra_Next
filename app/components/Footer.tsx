@@ -20,12 +20,12 @@ function Footer() {
                         <p className="text-white font-bold text-3xl pb-1 tracking-wider">
                             SAFRA <span className="text-white ">Co. Ltd.</span>
                         </p>
-                        <p className="text-sm tracking-wider mb-4 text-gray-200 ">Solutions For Better Living Science 1989</p>
+                        <p className="text-sm tracking-wider mb-4 text-gray-200 ">Solutions For Better Living.</p>
                         <div className="mb-6">
                             <Image
                                 src=
                                 {"/assets/Footer/safralinesd.png"}
-                                width={100}
+                                width={80}
                                 height={100}
                                 alt="safra-img-l"
                                 className=""

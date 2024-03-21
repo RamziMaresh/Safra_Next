@@ -7,42 +7,43 @@ const Hero = () => {
       <section
         id="home"
         className="
-        relative z-10 overflow-hidden bg-white pb-0 pt-[80px] dark:bg-gray-dark md:pb-[0px] md:pt-[80px] xl:pb-[0px] xl:pt-[80px] 2xl:pb-[0px] 2xl:pt-[80px]"
+        relative z-10 overflow-hidden bg-white pb-10 pt-[80px]  md:pb-[20px] md:pt-[80px] xl:pb-[0px] xl:pt-[80px] 2xl:pb-[0px] 2xl:pt-[80px]"
       >
-        <div 
+        <div
           className=' w-full h-full bg-cover bg-no-repeat'
-          style={{ backgroundImage: "url('/assets/about/background.jpeg')", height: 550 }}
+          style={{ backgroundImage: "url('/assets/about/background.jpeg')", height: 600 }}
         >
-          <div className='mask h-full flex items-center justify-center dark:bg-gray-dark' style={{ backgroundColor: 'rgba(0, 0, 0, 0.4)' }}>
-              {/** */}
-              <div className="mx-auto max-w-[800px] text-center ">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight tracking-wider">
-                  Solutions For Better Living
-                </h1>
-                <p className="tracking-wide	mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl text-white">
-                  Safra Company Limited Science 1990
-                </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="/pages/about"
-                    className="rounded-sm bg-gradient-to-r from-teal-600 to-teal-800 px-6 py-2 text-base text-white duration-300 ease-in-out hover:bg-primary/80 tracking-wider"
-                  >
-                    Read About Safra
-                  </Link>
-                  <Link
-                    href="/"
-                    className="inline-block rounded-sm bg-gradient-to-r from-teal-600 to-teal-900 px-6 py-2 tracking-wider text-base  text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
-                  >
-                    Contact Us !
-                  </Link>
-                </div>
+
+          <div className='mask h-full flex items-center justify-center ' style={{ backgroundColor: 'rgba(0, 0, 0, 0.4)' }}>
+            {/** */}
+            <div className="mx-auto max-w-[800px] text-center ">
+              <h1 className="mb-5 text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight tracking-wider">
+                Solutions For Better Living
+              </h1>
+              <p className="tracking-wide	mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl text-white">
+                Safra Company Limited 
+              </p>
+              <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <Link
+                  href="/pages/about"
+                  className="rounded-sm bg-gradient-to-r from-teal-600 to-teal-800 px-6 py-2 text-base text-white duration-300 ease-in-out hover:bg-primary/80 tracking-wider"
+                >
+                  Read About Safra
+                </Link>
+                <Link
+                  href="/"
+                  className="inline-block rounded-sm bg-gradient-to-r from-teal-600 to-teal-900 px-6 py-2 tracking-wider text-base  text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                >
+                  Contact Us !
+                </Link>
               </div>
-              {/**End */}
             </div>
+            {/**End */}
           </div>
+        </div>
 
 
-{/**
+        {/**
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="364"
