@@ -7,11 +7,11 @@ const Hero = () => {
       <section
         id="home"
         className="
-        relative z-10 overflow-hidden bg-white pb-10 pt-[80px]  md:pb-[20px] md:pt-[80px] xl:pb-[0px] xl:pt-[80px] 2xl:pb-[0px] 2xl:pt-[80px]"
+        relative z-10 overflow-hidden bg-white pb-10 pt-[80px] md:pb-[20px] md:pt-[80px] xl:pb-[0px] xl:pt-[80px] 2xl:pb-[0px] 2xl:pt-[80px]"
       >
         <div
           className=' w-full h-full bg-cover bg-no-repeat'
-          style={{ backgroundImage: "url('/assets/about/background.jpeg')", height: 600 }}
+          style={{ backgroundImage: "url('/assets/about/background.jpeg')", height: 550 }}
         >
 
           <div className='mask h-full flex items-center justify-center ' style={{ backgroundColor: 'rgba(0, 0, 0, 0.4)' }}>

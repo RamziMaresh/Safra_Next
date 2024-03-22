@@ -37,29 +37,7 @@ const config: Config = {
       // => @media (min-width: 1400px) { ... }
     },
     extend: {
-      colors: {
-        current: "currentColor",
-        transparent: "transparent",
-        white: "#FFFFFF",
-        black: "#121723",
-        dark: "#1D2430",
-        primary: "rgb(15 118 110)",
-        /*yellow: "#FBB040",
-        "bg-color-dark": "#171C28",
-        "body-color": {
-          DEFAULT: "#788293",
-          dark: "#959CB1",
-        },*/
-        stroke: {
-          stroke: "#E3E8EF",
-          dark: "#353943",
-        },
-        gray: {
-          ...colors.gray,
-          dark: "rgb(15 118 110)",
-          light: "white",
-        },
-      },
+
 
       boxShadow: {
         signUp: "0px 5px 10px rgba(4, 10, 34, 0.2)",
