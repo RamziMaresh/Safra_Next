@@ -25,7 +25,7 @@ const Slideshow = () => {
         <Slide arrows={false}>
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
-              <div className="bg-cover bg-no-repeat w-full h-full bg-custom-image h-[65vh]" style={{'backgroundImage': `url(${slideImage.url})`}}>
+              <div className="bg-cover bg-no-repeat w-full h-full bg-custom-image " style={{'backgroundImage': `url(${slideImage.url})`, height : 500}}>
               <div className='mask h-full flex items-center justify-center ' style={{ backgroundColor: 'rgba(0, 0, 0, 0.4)' }}>
                 <h1 className='b-5 text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight tracking-wider'>{slideImage.caption}</h1>
             </div>
