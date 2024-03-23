@@ -10,7 +10,7 @@ const slideImages = [
     caption: 'Solutions For Better Living'
   },
   {
-    url: '/assets/about/background.jpeg',
+    url: '/assets/about/slidertwo.png',
     caption: ''
   },
   {
