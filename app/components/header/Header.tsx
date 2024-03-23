@@ -44,12 +44,12 @@ const Header = () => {
       <header
         className={`header left-0 top-0 z-40 flex w-full items-center ${sticky
           ? "fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
-          : " bg-transparent"
+          : " bg-transparent "
           }`}
       >
         <div className="container">
-          <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-1/2	max-w-full px-4 xl:mr-12">
+          <div className="relative -mx-4 flex items-center justify-between ">
+            <div className="w-1/2	max-w-full px-4 xl:mr-12 ">
               <Link
                 href="/"
                 className={`flex header-logo block w-full ${sticky ? "py-5 lg:py-2" : "py-4"
@@ -69,13 +69,13 @@ const Header = () => {
 
 
             {/**Phone nav Section */}
-            <div className="flex w-full items-center justify-between px-4">
+            <div className="flex w-full items-center justify-between px-4 ">
               <div>
                 <button
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
                   aria-label="Mobile Menu"
-                  className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
+                  className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden "
                 >
                   <span
                     className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300  ${navbarOpen ? " top-[7px] rotate-45" : " "
@@ -93,7 +93,7 @@ const Header = () => {
 
                 <nav
                   id="navbarCollapse"
-                  className={`navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 duration-300 lg:visible lg:static lg:w-auto 
+                  className={`navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white text-black px-6 py-4 duration-300 lg:visible lg:static lg:w-auto 
                   lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${navbarOpen
                     ? "visibility top-full opacity-100"
                     : "invisible top-[120%] opacity-0"
@@ -134,7 +134,7 @@ const Header = () => {
                             </p>
 
                             <div
-                              className={`submenu relative left-0 top-full rounded-sm bg-white transition-[top] duration-300 group-hover:opacity-100 lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full ${openIndex === index ? "block" : "hidden"
+                              className={`submenu relative left-0 top-full rounded-sm bg-white text-black transition-[top] duration-300 group-hover:opacity-100 lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full ${openIndex === index ? "block" : "hidden"
                                 }`}
                             >
                               {menuItem.submenu.map((submenuItem: any, index: any) => (
