@@ -22,7 +22,7 @@ const slideImages = [
 const Slideshow = () => {
     return (
       <div className="slide-container mb-6">
-        <Slide arrows={false}>
+        <Slide arrows={false} canSwipe={true} infinite={true} >
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
               <div className="bg-cover bg-no-repeat w-full h-full bg-custom-image " style={{'backgroundImage': `url(${slideImage.url})`, height : 500}}>
