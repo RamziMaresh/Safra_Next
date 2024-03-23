@@ -1,17 +1,20 @@
+
+
 'use client';
-import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
+
+import Slider from "@madzadev/image-slider";
+import "@madzadev/image-slider/dist/index.css";
 
 
 
-const slideImages = [
+const Images = [
   {
     url: '/assets/about/background.jpeg',
     caption: 'Solutions For Better Living 1',
     desc: '',
   },
   {
-    url: '/assets/about/slidertwo.png',
+    url: '/assets/about/background.jpg',
     caption: 'Solutions For Better Living 2',
     desc: '',
   },
@@ -22,31 +25,29 @@ const slideImages = [
   },
 ];
 
+
 const Slideshow = () => {
   return (
     <section
-      className="mb-10"
-    >
-      <Slide arrows={false} canSwipe={true} infinite={true} duration={3000}  >
-        {slideImages.map((slideImage, index) => (
-          <div key={index}>
-            <div className="bg-cover bg-no-repeat w-full h-full" style={{ 'backgroundImage': `url(${slideImage.url})`, height: '600px' }}>
-              <div className='mask h-full flex items-center justify-center ' style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
-                <h1 className='b-5 text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight tracking-wider flex '>
-                  {slideImage.caption}
-                </h1>
+      id="home"
+      className="
+    ">
+      <div className=" w-full h-full bg-cover bg-no-repea">
+        <Slider
+          loop={true}
+          autoPlay={true}
+          autoPlayInterval={3000} // in milliseconds
+          showArrowControls={false}
+          showDotControls={true}
+          
+          
+        imageList={Images} height={500} width='100%'
+        />
 
-                <p className='white-space: pre-line'>
-                  {slideImage.desc}
-                </p>
-                
-              </div>
-
-            </div>
+          <div className='mask h-full flex items-center justify-center ' style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
           </div>
 
-        ))}
-      </Slide>
+      </div>
     </section>
   )
 }
