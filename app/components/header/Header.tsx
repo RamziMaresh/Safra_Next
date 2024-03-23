@@ -160,9 +160,9 @@ const Header = () => {
                   href="/"
                   className=" px-2 py-3 text-base font-medium hover:opacity-70  md:block"
                 >
-                  <FaGlobe />
+                  <FaGlobe className="text-black"/>
                 </Link>
-                <p className="hidden lg:block">| AR</p>
+                <p className="hidden lg:block text-black">| AR</p>
                 
 
               </div>
