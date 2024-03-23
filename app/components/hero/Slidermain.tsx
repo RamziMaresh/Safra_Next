@@ -37,7 +37,7 @@ const Slideshow = () => {
       >
         {slideImages.map((slideImage, index) => (
           <div key={index}>
-            <div className="bg-cover bg-no-repeat" style={{ 'backgroundImage': `url(${slideImage.url})`, height: '75vh', width:'100%'}}>
+            <div className="bg-cover bg-no-repeat" style={{ 'backgroundImage': `url(${slideImage.url})`, height: '70vh', width:'100%'}}>
 
               {/**The shadow */}
               <div className='mask h-full flex items-center justify-center' style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
