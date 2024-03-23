@@ -1,7 +1,5 @@
 'use client';
-import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
-
+import Slider from 'react-slick';
 
 
 const slideImages = [
@@ -27,12 +25,14 @@ const Slideshow = () => {
     <section
       className="mb-10"
     >
-      <Slide 
+      <Slider 
+      autoplay={true}
+      swipeToSlide={true}
       arrows={false} 
-      canSwipe={true} 
       infinite={true} 
-      duration={3000}  
-      transitionDuration={2000}
+      useTransform={true}
+      autoplaySpeed={3000}
+      dots={true}
       
       >
         {slideImages.map((slideImage, index) => (
@@ -40,8 +40,8 @@ const Slideshow = () => {
             <div className="bg-cover bg-no-repeat" style={{ 'backgroundImage': `url(${slideImage.url})`, height: '70vh', width:'100%'}}>
 
               {/**The shadow */}
-              <div className='mask h-full flex items-center justify-center' style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
-                <h1 className='b-5 text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight tracking-wider flex '>
+              <div className='mask h-full flex items-center justify-center' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
+                <h1 className='text-2xl font-bold leading-tight text-white  sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight tracking-wider '>
                   {slideImage.caption}
                 </h1>
 
@@ -50,12 +50,12 @@ const Slideshow = () => {
                 </p>
 
               </div>
-
+          
             </div>
           </div>
 
         ))}
-      </Slide>
+      </Slider>
     </section>
   )
 }
