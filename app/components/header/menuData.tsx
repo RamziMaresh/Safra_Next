@@ -13,36 +13,22 @@ const MenuData: Menu[] = [
     path: "/pages/about",
     newTab: false,
   },
-
   {
-    id: 4,
-    title: "Refinary",
-    path: "",
-    newTab: false,
-    submenu: [
-      {
-        id: 71,
-        title: " - Refinary Profile",
-        path: "/pages/refinary",
-        newTab: false,
-      },
-      {
-        id: 72,
-        title: " - Refinary Products",
-        path: "/pages/refinary/reProducts",
-        newTab: false,
-      },
-    ]
-  },
-  {
-    id: 6,
-    title: "SPP Products",
+    id: 3,
+    title: "Products",
     path: "/pages/products/spp",
     newTab: false,
   },
   {
-    id: 3,
-    title: "Contact",
+    id: 4,
+    title: "News & Media",
+    path: "/pages/refinary",
+    newTab: false,
+  },
+
+  {
+    id: 5,
+    title: "Contact Us",
     path: "/pages/contact",
     newTab: false,
   },

@@ -10,7 +10,7 @@ const HomeSecTwo = () => {
             className="relative z-10 overflow-hidden lg:pt-[20px]">
 
             <div className="container">
-                <div className="border-b border-body-color/[.15] pb-16 md:pb-20 lg:pb-1">
+                <div className="border-b border-body-color/[.15] pb-2 md:pb-20 lg:pb-2">
 
                     <div className="-mx-4 flex flex-wrap items-center">
                         <div className="w-full px-6 lg:w-3/4 mb-10">
@@ -35,7 +35,6 @@ const HomeSecTwo = () => {
                             </p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
