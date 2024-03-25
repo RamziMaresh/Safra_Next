@@ -31,7 +31,7 @@ const Features = () => {
                         </div>
                         <h1 className="text-darken mb-3 text-xl font-medium lg:px-14 ">Mission</h1>
                         <p className="px-4 text-gray-500">
-                            We believe in continuously renovating and upgrading our equipment and tools to guarantee uninterrupted production levels and the efficient distribution of our products across the globe.
+                        To be a world class hydrocarbon key player, maximizing stakeholders’ benefits, cultivating sustainability, creating value and d nurturing localization.
                         </p>
                     </div>
 
@@ -42,7 +42,7 @@ const Features = () => {
                         </div>
                         <h1 className="text-darken mb-3 text-xl font-medium lg:px-14 ">Quality</h1>
                         <p className="px-4 text-gray-500">
-                            Quality consistency is vital for us as we know there are no shortcuts when it comes to providing customers with consistent and reliable, quality products.
+                        To be a world class hydrocarbon key player, maximizing stakeholders’ benefits, cultivating sustainability, creating value and d nurturing localization.
                         </p>
                     </div>
 
