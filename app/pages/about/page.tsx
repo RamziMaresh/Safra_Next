@@ -1,9 +1,11 @@
-import AboutSectionThree from "@/app/components/about/AboutSectionThree";
-import AboutSectionOne from "../../components/about/AboutSectionOne";
-import AboutSectionTwo from "../../components/about/AboutSectionTwo";
-import AboutSectionFour from "../../components/about/AboutSectionFour";
+import AboutSectionThree from "@/app/components/about/abPresidentMess";
+import AboutMess from "../../components/about/aboutMessage";
+import AbuPhilosophy from "../../components/about/abPhilosophy";
+import AbFeatures from "@/app/components/about/aboutFeature";
 
 import { Metadata } from "next";
+import Solutions from "@/app/components/about/SolutionsFor";
+import AbBoard from "@/app/components/about/abBoard";
 
 export const metadata: Metadata = {
   title: "About Us ! | Safra Co. Ltd.",
@@ -14,11 +16,12 @@ export const metadata: Metadata = {
 const AboutPage = () => {
   return (
     <>
-      <AboutSectionOne />
-      <AboutSectionTwo />
+      <AboutMess />
+      <AbBoard />
       <AboutSectionThree />
-      <AboutSectionFour />
-
+      <AbuPhilosophy />
+      <AbFeatures />
+      <Solutions />
     </>
   );
 };

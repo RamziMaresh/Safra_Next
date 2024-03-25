@@ -18,7 +18,7 @@ function Footer() {
                 <div className="p-5">
                     <ul>
                         <p className="text-white font-bold text-3xl pb-1 tracking-wider">
-                            SAFRA <span className="text-white ">Co. Ltd.</span>
+                            Safra <span className="text-white ">Co. Ltd.</span>
                         </p>
                         <p className="text-sm tracking-wider mb-4 text-gray-200 ">Solutions For Better Living.</p>
                         <div className="mb-6">

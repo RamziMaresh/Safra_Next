@@ -1,5 +1,5 @@
 'use client';
-import Slider from 'react-slick';
+import Slider from "./slider/slider";
 
 
 const slideImages = [
@@ -20,7 +20,7 @@ const slideImages = [
   },
 ];
 
-const Slideshow = () => {
+const Slidemain = () => {
   return (
     <section
       className="mb-10"
@@ -59,4 +59,4 @@ const Slideshow = () => {
     </section>
   )
 }
-export default Slideshow
+export default Slidemain

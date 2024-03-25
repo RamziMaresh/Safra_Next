@@ -1,16 +1,16 @@
-import Solutions from "./components/hero/SolutionsFor";
-import Slideshow from "./components/hero/Slidermain";
-
+import Slider from "./components/hero/slider/slider";
 import HomeSecTwo from "./components/hero/HomeSecTwo";
-import HomeSecThree from "./components/hero/PresedentMes";
 import Features from "./components/hero/Features";
+import History from "./components/hero/history";
+
 export default function Home() {
   return (
     <>
-      <Slideshow />
+      <Slider />
       <HomeSecTwo />
       <Features />
-      </>
+      <History />
+    </>
   )
 }
 

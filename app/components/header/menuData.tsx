@@ -22,7 +22,7 @@ const MenuData: Menu[] = [
   {
     id: 4,
     title: "News & Media",
-    path: "/pages/refinary",
+    path: "/pages/news",
     newTab: false,
   },
 

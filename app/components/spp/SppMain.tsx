@@ -3,7 +3,7 @@ import Link from "next/link";
 import RelatedPost from "../products/RelatedPost";
 import TagButton from "../products/TagButton";
 import Image from "next/image";
-import Slider from "../slider/slider";
+import Slider from "../hero/slider/slider";
 
 const Spp = () => {
     return (
