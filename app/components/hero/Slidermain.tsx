@@ -1,5 +1,5 @@
 'use client';
-import Slider from "./slider/slider";
+import Slider from "react-slick";
 
 
 const slideImages = [
