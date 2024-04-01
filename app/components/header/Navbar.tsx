@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 import MenuData from "../../components/header/menuData";
 import { FaGlobe } from "react-icons/fa6";
 
-export default function Navbar(props) {
+export default function Navbar(props:any) {
   // Navbar toggle
   // const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
