@@ -6,6 +6,7 @@ import Footer from "./components/Footer"
 //
 import { Providers } from './providers';
 import ScrollToTop from "./components/scrollToTop/Stt";
+import Navbar from "./components/header/Navbar";
 
 export const metadata: Metadata = {
   title: "Safra | Solutions For Better Living",
@@ -21,7 +22,7 @@ export default function RootLayout({
     <html suppressHydrationWarning lang="en" >
       <body >
         <Providers>
-          <Header />
+          <Navbar transparent />
           {children}
           <Footer />
           <ScrollToTop />

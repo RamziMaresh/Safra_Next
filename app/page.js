@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <>
       <Slider />
-      <HomeSecTwo />
       <Features />
       <History />
     </>
